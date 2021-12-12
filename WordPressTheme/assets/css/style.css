@@ -314,250 +314,258 @@ input[type="checkbox"]:disabled + span::before {
 
 /* placeholder */
 
-* {
-	box-sizing: border-box;
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
 
 body {
-	color: #333;
-	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3","游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic","メイリオ", "Meiryo", "verdana", sans-serif;
-	font-size: 16px;
-	line-height: 2;
-	min-width: 1140px;
+	line-height: 1;
 }
 
-a {
-	display: inline-block;
-	text-decoration: none;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
 
-a:hover {
-	opacity: 0.7;
-}
-
-li {
+nav ul {
 	list-style: none;
 }
 
-img {
-	vertical-align: bottom;
-	width: 100%;
+blockquote,
+q {
+	quotes: none;
 }
 
-.sp-br {
-	display: none;
-}
-
-.container {
-	margin: 0 auto;
-	padding: 50px 10px;
-	width: 1140px;
-}
-
-.sentence {
-	margin: 0 auto;
-	max-width: 800px;
-}
-
-#fascia,
-#voice,
-#suitable,
-#profile-thought,
-#select,
-#treatment {
-	margin-top: -95px;
-	padding-top: 95px;
-}
-
-.sec-title {
-	color: #3D71B8;
-	font-size: 36px;
-	margin-bottom: 50px;
-	padding-bottom: 20px;
-	position: relative;
-	text-align: center;
-}
-
-.sec-title,
-.pc-menu,
-.sp-menu {
-	font-family: "ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","游明朝","YuMincho","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝", 'Noto Serif JP', serif;
-}
-
-.sec-title:before {
-	background: red;
-	bottom: 0px;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
-	height: 3px;
-	left: calc(50% - 200px);
-	opacity: 0.8;
-	position: absolute;
-	width: 400px;
+	content: none;
 }
 
-.red {
-	color: red;
+a {
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* change colours to suit your needs */
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
 	font-weight: bold;
 }
 
-.yellow {
-	color: yellow;
-	font-weight: bold;
+del {
+	text-decoration: line-through;
 }
 
-.marker-blue {
-	background: linear-gradient(transparent 60%, blue 0%);
-	padding-bottom: 2px;
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
 }
 
-.marker-yellow {
-	background: linear-gradient(transparent 60%, yellow 0%);
-	padding-bottom: 2px;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.size-big {
-	font-size: 20px;
-	font-weight: bold;
-	padding: 10px 0;
+/* change border colour to suit your needs */
+
+hr {
+	border: 0;
+	border-top: 1px solid #cccccc;
+	display: block;
+	height: 1px;
+	margin: 1em 0;
+	padding: 0;
 }
 
-.title-big {
-	font-size: 46px;
-	font-weight: bold;
-	padding: 10px 0;
+input,
+select {
+	vertical-align: middle;
 }
 
-header {
-	background: #fff;
-	box-shadow: 0px 1px rgba(195, 195, 195, 0.2);
-	left: 0;
+.apply-block {
+	background-color: #01588E;
+	color: #FFF;
+	padding-bottom: 60px;
+	padding-top: 45px;
+}
+
+.apply-block .apply-block-inner {
 	margin: 0 auto;
-	position: fixed;
-	right: 0;
-	top: 0%;
-	z-index: 6;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 
-.l-header .header-top {
-	align-items: center;
+.apply-block .apply-block-inner p {
+	font-size: 1rem;
+}
+
+.apply-block .apply-block-inner p span.bigger {
+	font-size: 1.25em;
+}
+
+.apply-block .apply-block-inner .free-dial {
+	border-bottom: 1px solid #FFF;
 	display: flex;
-	height: 65px;
+	margin-bottom: 20px;
+}
+
+.apply-block .apply-block-inner .free-dial .left {
+	border-right: 1px solid #FFF;
+	padding-bottom: 16px;
+	padding-right: 16px;
+}
+
+.apply-block .apply-block-inner .free-dial .left p.bigger {
+	font-size: 1.125em;
+	line-height: 1.4375em;
+}
+
+.apply-block .apply-block-inner .free-dial .left p.smaller {
+	font-size: 0.8125em;
+}
+
+.apply-block .apply-block-inner .free-dial .right {
+	padding-bottom: 16px;
+	padding-left: 60px;
+}
+
+.apply-block .apply-block-inner .free-dial .right p.bigger {
+	font-size: 2.25em;
+	margin-bottom: 10px;
+}
+
+.questionnaire {
+	background-color: #56AEDD;
+	color: #FFF;
+}
+
+.questionnaire h3 {
+	font-size: 2.25rem;
+}
+
+.questionnaire .customer-answer {
+	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-	padding: 0 10px;
-	width: 1140px;
+	width: 1000px;
 }
 
-.l-header .header-top .header-top__left .left__logo img {
-	height: 48px;
-}
-
-.l-header .header-top .header-top__right {
-	display: flex;
-}
-
-.l-header .header-top .header-top__right .right__tel {
-	line-height: 23px;
-	margin-right: 50px;
-}
-
-.l-header .header-top .header-top__right .right__tel .right__tel__btn {
-	display: flex;
-}
-
-.l-header .header-top .header-top__right .right__tel .right__tel__btn .fa-phone-square-alt {
-	color: #36A3D5;
-	font-size: 50px;
-	margin-right: 10px;
-}
-
-.l-header .header-top .header-top__right .right__tel .right__tel__btn .right__tel__time {
-	color: #333;
-	font-size: 12px;
+.questionnaire .customer-answer .voice {
+	background-color: #FFF;
+	color: #56AEDD;
+	font-size: 1.5rem;
 	font-weight: bold;
-}
-
-.l-header .header-top .header-top__right .right__tel .right__tel__btn .right__tel__number {
-	color: #36A3D5;
-	font-size: 25px;
-	font-weight: bold;
-}
-
-.l-header .header-top .header-top__right .right__mail__btn {
-	background: orange;
-	border-radius: 4px;
-	box-shadow: 2px 2px rgba(195, 195, 195, 0.2);
-	color: #fff;
-	display: inline-block;
-	font-size: 16px;
-	font-weight: bold;
-	margin-top: 3px;
-	padding: 7px 15px;
-}
-
-.l-header .pc-menu {
-	align-items: center;
-	height: 30px;
-	margin: 0 auto;
-	width: 1140px;
-}
-
-.l-header .pc-menu .pc-menu__list {
-	display: flex;
-}
-
-.l-header .pc-menu .pc-menu__list .pc-menu__list__item {
-	border-left: solid 1px #c3c3c3;
-	display: inline-block;
-	font-size: 14px;
-	text-align: center;
-	width: calc(100% / 7);
-}
-
-.l-header .pc-menu .pc-menu__list .pc-menu__list__item a {
-	color: #3D71B8;
-}
-
-.l-header .pc-menu .pc-menu__list .pc-menu__list__item:last-child {
-	border-right: solid 1px #c3c3c3;
-}
-
-.l-header .sp-menu,
-.l-header .sp-menu-btn {
-	display: none;
-}
-
-.lp-top .lp-top__cp {
-	margin-top: 95px;
-	width: 100%;
-}
-
-.lp-top .lp-top__sp {
-	display: none;
-}
-
-@media screen and (max-width: 599px) {
-
-.l-header .header-top {
-	box-shadow: 0px 1px rgba(195, 195, 195, 0.2);
-	height: 60px;
-	padding: 10px;
-	width: 100%;
-}
-
-.l-header .header-top .header-top__right {
-	display: none;
-}
-
-.lp-top .lp-top__cp {
-	display: none;
-}
-
-.lp-top .lp-top__sp {
-	display: block;
-	margin-top: 60px;
-	width: 100%;
-}
-
+	padding-top: 48px;
+	width: 300px;
 }
 

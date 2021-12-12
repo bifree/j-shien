@@ -33,9 +33,63 @@
 				</div>
 			</div>
 
-			<div class="apply-block">
-				<p>設立３カ月以内の法人様限定<span>面倒な手続きを税理士にお任せ！</span></p>
+			<?php get_template_part('template/apply-block');?>
+
+			<div class="reason">
+				<p>REASON</p>
+				<h2>「会社設立後のお助け隊」が
+					<br>選ばれる理由</h2>
+				<div class="reason-block">
+					<div class="reason-box">
+						<p>顧問契約の強制や しつこい営業一切なし</p>
+					</div>
+					<div class="reason-box">
+						<p>経験豊富なお助け隊スタッフに無料で相談！</p>
+					</div>
+					<div class="reason-box">
+						<p>新設法人を応援する 税理士を厳選</p>
+					</div>
+					<div class="reason-box">
+						<p>顧問契約の事前見積！ 税理士の料金相場も分かる</p>
+					</div>
+					<div class="reason-box">
+						<p>税理士におまかせで 設立後の手続きが完了！</p>
+					</div>
+					<div class="reason-box-last">
+						<img src="" alt="">
+					</div>
+				</div>
 			</div>
+
+			<div class="questionnaire">
+				<h3>利用して良かったと96.7％の方が回答</h3>
+				<div class="customer-answer">
+					<div class="voice">
+						<p>設立後の手続きを税理士にまかせて、創業時の疑問と手間を解消できた！</p>
+					</div>
+					<div class="voice">
+						<p>創業時にやっておくべき、節税や資金繰り対策をしっかりできた！</p>
+					</div>
+					<div class="voice">
+						<p>本業に集中できて、スムーズに事業を開始できた！</p>
+					</div>
+				</div>
+				<p>お客様アンケート<span>（2020年度アンケート調査）</span></p>
+				<div class="result">
+					<div class="left"></div>
+					<div class="center"></div>
+					<div class="right"></div>
+				</div>
+				<div class="gray-btn">
+					<a href="">選ばれる理由の詳細はこちら</a>
+				</div>
+			</div>
+			<div class="comparing">
+				<h3>会社設立後の届出書類の提出方法比較</h3>
+			</div>
+
+			<?php get_template_part('template/customer-voice');?>
+
 		</div>
 	</main>
 

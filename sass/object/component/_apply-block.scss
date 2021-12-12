@@ -1,0 +1,41 @@
+.apply-block {
+	padding-top: 45px;
+	padding-bottom: 60px;
+	background-color: #01588E;
+	color: #FFF;
+	.apply-block-inner {
+		width: fit-content;
+		margin: 0 auto;
+		p {
+			font-size: 1rem;
+			span.bigger {
+				font-size: 1.25em;
+			}
+		}
+		.free-dial {
+			border-bottom: 1px solid #FFF;
+			display: flex;
+			margin-bottom: 20px;
+			.left {
+				border-right: 1px solid #FFF;
+				padding-right: 16px;
+				padding-bottom: 16px;
+				p.bigger {
+					font-size: 1.125em;
+					line-height: 1.4375em;
+				}
+				p.smaller {
+					font-size: 0.8125em;
+				}
+			}
+			.right {
+				padding-left: 60px;
+				padding-bottom: 16px;
+				p.bigger {
+					font-size: 2.25em;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.questionnaire {
+	background-color: #56AEDD;
+	color: #FFF;
+	h3 {
+		font-size: 2.25rem;
+	}
+	.customer-answer {
+		display: flex;
+		width: 1000px;
+		margin: 0 auto;
+		justify-content: space-between;
+		.voice {
+			background-color: #FFF;
+			color: #56AEDD;
+			font-size: 1.5rem;
+			font-weight: bold;
+			width: 300px;
+			padding-top: 48px;
+		}
+	}
+}
