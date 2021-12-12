@@ -1,0 +1,60 @@
+.l-header {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	.logo {
+		width: 20%;
+		img {
+			width: 100%;
+		}
+	}
+	.header-menu {
+		width: 520px;
+		nav {
+			ul {
+				display: flex;
+				justify-content: space-between;
+				li {
+					height: 80px;
+					a {
+						line-height: 80px;
+						font-size: 0.8125rem;
+						text-decoration: none;
+						color: #333;
+					}
+				}
+			}
+		}
+	}
+	.header-contact {
+		display: flex;
+		.tel {
+			p {
+				span {
+					color: #01588E;
+					font-weight: bold;
+					font-size: 20px;
+				}
+			}
+			p.smaller {
+				font-size: 11px;
+			}
+		}
+		.apply-form {
+			width: 170px;
+			p.smaller {
+				margin: 0 auto;
+				width: 130px;
+				font-size: 12px;
+				color: #FFF;
+				background-color: #000;
+				border-radius: 9px;
+			}
+			.bigger {
+				font-size: 20px;
+			}
+			background-color: #FADD62;
+		}
+	}
+}

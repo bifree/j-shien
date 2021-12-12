@@ -27,10 +27,10 @@
 			<div class="header-contact">
 				<div class="tel">
 					<p><span>0120-955-761</span></p>
-					<p>受付時間：10:00〜16:30(平日)</p>
+					<p class="smaller">受付時間：10:00〜16:30(平日)</p>
 				</div>
 				<div class="apply-form">
-					<p>電子申請キャンペーン</p>
+					<p class="smaller">電子申請キャンペーン</p>
 					<p class="bigger">お申込み</p>
 				</div>
 			</div>
