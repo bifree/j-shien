@@ -11,6 +11,7 @@
 			&copy; 2010-2021 日本企業支援センター株式会社
 		</div>
 	</div>
+	<?php wp_footer();?>
 </footer>
 </body>
 </html>

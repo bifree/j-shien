@@ -1,0 +1,455 @@
+
+.flow{
+    //ご利用の流れ
+    @include mobile{
+        @media screen and (max-width: $tab){
+            
+        }
+        @media screen and (max-width: $sp){
+            
+        }
+    }
+    .section-flow{
+        .inner{
+            max-width: 890px;
+            margin: auto;
+            padding: 0 32px;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    padding: 0 16px;
+                }
+                @media screen and (max-width: $sp){
+                    
+                }
+            }
+        }
+        .flow-title-box{
+            margin-top: 100px;
+            margin-bottom: 80px;
+            text-align: center;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    
+                }
+                @media screen and (max-width: $sp){
+                    margin-top: 60px;
+                    margin-bottom: 40px;
+                }
+            }
+            .flow-title{
+                position: relative;
+                color: #6D7E8C;
+                font-size: 20px;
+                margin-bottom: 50px;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                    }
+                    @media screen and (max-width: $sp){
+                        margin-bottom: 20px;
+                        font-size: 16px;
+                    }
+                }
+                &::after{
+                    position: absolute;
+                    content: "";
+                    width: 0.1px;
+                    height: 20px;
+                    background-color: #6D7E8C;
+                    transform: translate(-50% ,100%);
+                    bottom: -15px;
+                    left: 50%;
+                }
+            }
+            .flow-title__sub{
+                font-size: 42px;
+                color: #035AA6;
+                line-height: 1.714285em;
+                font-weight: bold;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        font-size: 32px;
+                    }
+                    @media screen and (max-width: $sp){
+                        font-size: 24px;
+                    }
+                }
+            }
+            .flow-free{
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                background-color: #FADD62;
+                border-radius:50%;
+                text-align: center;
+                line-height: 100px;
+                color: #01588E;
+                font-size: 19px;
+                font-weight: bold;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        font-size: 16px;
+                    }
+                    @media screen and (max-width: $sp){
+                        
+                    }
+                }
+            }
+        }
+        .step{
+            margin-bottom: 100px;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    
+                }
+                @media screen and (max-width: $sp){
+                    margin-bottom: 60px;
+                }
+            }
+            &-item{
+                width: 100%;
+                align-items: flex-start;
+                &:not(:last-child){
+                    margin-bottom: 71px;
+                }
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        
+                    }
+                    @media screen and (max-width: $sp){
+                        display: block;
+                        &:not(:last-child){
+                            margin-bottom: 50px;
+                        }
+                    }
+                }
+                &__illust{
+                    width: 37.7%;
+                    margin-right: 30px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            
+                        }
+                        @media screen and (max-width: $sp){
+                            width: 100%;
+                        }
+                    }
+                    &-step{
+                        position: relative;
+                        color: #01588E;
+                        font-size: 20px;
+                        width: 100%;
+                        border-bottom: 3px solid #56AEDD;
+                        font-weight: bold;
+                        line-height: 2.75em;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                font-size: 18px;
+                            }
+                            @media screen and (max-width: $sp){
+                                
+                            }
+                        }
+                        span{
+                            font-size: 55px;
+                            @include mobile{
+                                @media screen and (max-width: $tab){
+                                    font-size: 42px;
+                                }
+                                @media screen and (max-width: $sp){
+                                    font-size: 32px;
+                                }
+                            }
+                        }
+                        &::after{
+                            position: absolute;
+                            content: "";
+                            width: 50px;
+                            height: 3px;
+                            background-color: #56AEDD;
+                            transform: rotate(45deg);
+                            right: -6px;
+                            bottom: 15px;
+                        }
+                    }
+                    &-icon{
+                        text-align: center;
+                        margin-top: 36px;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                
+                            }
+                            @media screen and (max-width: $sp){
+                                margin-top: 24px;
+                            }
+                        }
+                    }
+                }
+                &__text{
+                    width: calc((100% - 30px ) * .6511627);
+                    background-color: #EDF9FF;
+                    padding: 40px 30px 27px 30px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            
+                        }
+                        @media screen and (max-width: $sp){
+                            width: 100%;
+                            box-sizing: border-box;
+                            margin-top: 20px;
+                            padding: 20px 16px;
+                        }
+                    }
+                    &-title{
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-bottom: 28px;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                
+                            }
+                            @media screen and (max-width: $sp){
+                                
+                            }
+                        }
+                    }
+                    &-txt{
+                        font-size: 16px;
+                        line-height: 1.75;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                
+                            }
+                            @media screen and (max-width: $sp){
+                                font-size: 14px;
+                            }
+                        }
+                        span{
+                            font-weight: bold;
+                        }
+                        &__sub{
+                            margin-top: 18px;
+                            padding: 15px 30px;
+                            background-color: #fff;
+                            line-height: 1.75em;
+                            @include mobile{
+                                @media screen and (max-width: $tab){
+                                    
+                                }
+                                @media screen and (max-width: $sp){
+                                    padding: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .flow-alert{
+            line-height: 1.75em;
+            margin-bottom: 18px;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    
+                }
+                @media screen and (max-width: $sp){
+                    font-size: 14px;
+                    
+                }
+            }
+        }
+        .flow-document{
+            border: 1px solid #707070;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    
+                }
+                @media screen and (max-width: $sp){
+                    display: block;
+                }
+            }
+            &__title{
+                position: relative;
+                width: 34.8837%;
+                font-weight: bold;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        
+                    }
+                    @media screen and (max-width: $sp){
+                        width: 100%;
+                    }
+                }
+                &::after{
+                    position: absolute;
+                    content: "";
+                    width: 1px;
+                    height: 55px;
+                    background-color: #707070;
+                    transform: translate(100%, -50%);
+                    top: 50%;
+                    right: 0px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            
+                        }
+                        @media screen and (max-width: $sp){
+                            width: 80%;
+                            height: 1px;
+                            transform: translate(-50%, -50%);
+                            top: 100%;
+                            left: 50%;
+                        }
+                    }
+                }
+            }
+            &__lists{
+                width: 65.11627%;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        
+                    }
+                    @media screen and (max-width: $sp){
+                        width: 100%;
+                    }
+                }
+            }
+            &__title,
+            &__lists{
+                padding: 18px 30px;
+                font-size: 16px;
+                line-height: 1.75em;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        
+                    }
+                    @media screen and (max-width: $sp){
+                        padding: 15px;
+                        box-sizing: border-box;
+                    }
+                }
+            }
+        }
+    }
+    .conform{
+        background-color: #F5F5F5;
+        padding-top: 70px;
+        padding-bottom: 60px;
+        @include mobile{
+            @media screen and (max-width: $tab){
+                
+            }
+            @media screen and (max-width: $sp){
+                padding-top: 40px;
+                padding-bottom: 25px;
+
+            }
+        }
+        .inner{
+            max-width: 620px;
+            margin: auto;
+            padding: 0 32px;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    
+                }
+                @media screen and (max-width: $sp){
+                    padding: 0 16px;
+                }
+            }
+        }
+        &-title{
+            font-size: 36px;
+            align-items: center;
+            margin-bottom: 57px;
+            span{
+                margin-right: 15px;
+            }
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    
+                }
+                @media screen and (max-width: $sp){
+                    font-size: 18px;
+                    margin-bottom: 25px;
+                    span{
+                        margin-right: 10px;
+                        width: 50px;
+                        img{
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        &-alert{
+            line-height: 1.75em;
+            margin-bottom: 47px;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    
+                }
+                @media screen and (max-width: $sp){
+                    margin-bottom: 25px;
+                }
+            }
+            a{
+                color: #56AEDD;
+                transition: all .3s;
+                &:hover{
+                    opacity: $opacity;
+                    text-decoration: none;
+                }
+            }
+        }
+        &-lists{
+            list-style: none;
+            &__item{
+                padding: 30px 0 ;
+                border: 1px solid #707070;
+                background-color: #fff;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        
+                    }
+                    @media screen and (max-width: $sp){
+                        padding: 15px 0;
+                    }
+                }
+                &:not(:last-child){
+                    margin-bottom: 40px;
+                }
+                &__title{
+                    padding: 0 40px 0 30px;
+                    border-left: 10px solid #01588E;
+                    font-size: 24px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            
+                        }
+                        @media screen and (max-width: $sp){
+                            font-size: 18px;
+                            padding: 0 26px 0 16px;
+                        }
+                    }
+                }
+                &__text{
+                    padding: 0 40px;
+                    margin-top: 30px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            
+                        }
+                        @media screen and (max-width: $sp){
+                            margin-top: 15px;
+                            padding: 0 26px;
+                        }
+                    }
+                }
+                &__title,
+                &__text{
+                    line-height: 1.75em;
+                }
+            }
+        }
+    }
+}

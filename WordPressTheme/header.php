@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
+	<?php wp_head();?>
 	<title>会社設立後のお助け隊｜日本企業支援センター</title>
 </head>
 <body>

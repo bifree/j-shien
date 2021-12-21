@@ -3,8 +3,12 @@
 // ---
 
 $sp: 599px;
+$tab: 768px;
 
 @mixin mobile {
+	@media screen and (max-width: $tab){
+		@content;
+	}
 	@media screen and (max-width: $sp){
 		@content;
 	}
