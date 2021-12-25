@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <main>
+    <main class="reason">
         <div class="page-info">
             <div class="_inner">
                 <p class="pan-kuzu"><span>ホーム</span> ＞ <span>電子申請キャンペーン</span></p>
@@ -7,7 +7,7 @@
                     <li class="page-lists__item">
                         <a href="/campaign_manga">会社設立後のお助け隊とは</a>
                     </li>
-                    <li class="page-lists__item">
+                    <li class="page-lists__item current-page">
                         <a href="/campaign_flow current-page">選ばれる理由</a>
                     </li>
                     <li class="page-lists__item">
@@ -22,8 +22,8 @@
         <section class="">
             <div class="inner">
                 <div class="title-box">
-                    <h2>REASON</h2>
-                    <h3>「会社設立後のお助け隊」が<br>選ばれる理由</h3>
+                    <h2 class="reason-title">REASON</h2>
+                    <h3 class="blue-text">「会社設立後のお助け隊」が<br>選ばれる理由</h3>
                 </div>
 
                 <div class="reasons">
@@ -54,24 +54,36 @@
                 <div class="reasons__voice">
                     <h3>利用して良かったと96.7％の方が回答</h3>
                     <div class="reasons__voice--inner voice">
-                        <div class="reasons__voice--inner--left"></div>
-                        <div class="reasons__voice--inner--right"></div>
+                        <div class="reasons__voice--inner--left">
+                            <p>設立後の手続きを税理士にまかせて、創業時の疑問と手間を解消できた！</p>
+                        </div>
+                        <div class="reasons__voice--inner--right">
+                            <p>お客様は、電子申請後の届出書類の控えを税理士から受け取るだけで設立後の手続きは完了です。 会社を設立したら何から手を付けるべきか、そのような創業時の疑問も税理士との面談で解消できます。</p>
+                        </div>
                     </div>
                     <div class="reasons__voice--inner voice">
-                        <div class="reasons__voice--inner--left"></div>
-                        <div class="reasons__voice--inner--right"></div>
+                        <div class="reasons__voice--inner--left">
+                            <p>創業時にやっておくべき、節税や資金繰り対策をしっかりできた！</p>
+                        </div>
+                        <div class="reasons__voice--inner--right">
+                            <p>税務手続きを軽視すると、決算申告のときに納税額を見てびっくりすることになります。あとで、やっておけば良かったとならないように、税理士が丁寧にご説明いたします。しっかり税理士と相談しながら手続きを済ませましょう。</p>
+                        </div>
                     </div>
                     <div class="reasons__voice--inner voice">
-                        <div class="reasons__voice--inner--left"></div>
-                        <div class="reasons__voice--inner--right"></div>
+                        <div class="reasons__voice--inner--left">
+                            <p>本業に集中できて、スムーズに事業を開始できた！</p>
+                        </div>
+                        <div class="reasons__voice--inner--right">
+                            <p>売上に直結しない経理や決算申告業務を税理士に任せることで、間接業務の心配や不安を頭から切り離して、本業に集中することができます。経営者が本業に集中できれば、自然と売上は上がります。</p>
+                        </div>
                     </div>
 
                     <div class="reasons__voice--graph">
                         <div class="one">
-                            <img src="" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/reason-gr1.png" alt="">
                         </div>
                         <div class="one">
-                            <img src="" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/reason-gr2.png" alt="">
                         </div>
                         <div class="one">
                             <h4>相談内容のランキング<span>（複数回答）</span></h4>
@@ -81,6 +93,9 @@
                             <p>節税、決算対策等の税務相談</p>
                             <p>創業融資・助成金等の資金調達</p>
                         </div>
+                    </div>
+                    <div class="btn">
+                        ご利用いただいたお客様の声はこちら
                     </div>
                 </div>
             </div>
