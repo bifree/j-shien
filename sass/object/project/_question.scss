@@ -1,0 +1,39 @@
+.question{
+  img{
+    max-width:100%;
+  }
+
+  .com-fv{
+    ._page-title{
+      ._image{
+        width:94px;
+        margin-right:22px;
+      }
+    }
+  }
+
+  .question__content{
+    .question__top{
+      text-align:center;
+      margin:93px 0 77px;
+      line-height:1.75;
+    }
+
+    .question__items{
+      max-width:750px;
+      margin:0 auto;
+      .question__a{
+        height: 0;
+        opacity: 0;
+        transition: .5s;
+        visibility: hidden;
+      }
+      .question__check:checked + .question__q + .question__a{
+        height:300px;
+        opacity: 1;
+        padding: 10px;
+        visibility: visible;
+      }
+    }
+  }
+}

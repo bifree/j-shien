@@ -1357,6 +1357,40 @@ select {
 	line-height: 42px;
 }
 
+.question img {
+	max-width: 100%;
+}
+
+.question .com-fv ._page-title ._image {
+	margin-right: 22px;
+	width: 94px;
+}
+
+.question .question__content .question__top {
+	line-height: 1.75;
+	margin: 93px 0 77px;
+	text-align: center;
+}
+
+.question .question__content .question__items {
+	margin: 0 auto;
+	max-width: 750px;
+}
+
+.question .question__content .question__items .question__a {
+	height: 0;
+	opacity: 0;
+	transition: .5s;
+	visibility: hidden;
+}
+
+.question .question__content .question__items .question__check:checked + .question__q + .question__a {
+	height: 300px;
+	opacity: 1;
+	padding: 10px;
+	visibility: visible;
+}
+
 .reason p {
 	font-size: 16px;
 	line-height: 28px;
