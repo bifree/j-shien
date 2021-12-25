@@ -1,0 +1,31 @@
+.paper {
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .blue-text {
+        font-size: 42px;
+        line-height: 72px;
+        text-align: center;
+        color: #035aa6;
+        font-weight: bold;
+    }
+    &-middle {
+        padding: 100px;
+        h2 {
+            margin-bottom: 60px;
+        }
+        .cautions {
+            width: fit-content;
+            margin: 0 auto;
+            background-color: #EDF9FF;
+            padding: 40px 140px;
+            h3 {
+                text-align: center;
+            }
+            p {
+                width: 650px;
+            }
+        }
+    }
+}

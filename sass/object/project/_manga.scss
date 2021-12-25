@@ -145,61 +145,6 @@
 }
 
 
-.campaign{
-    .comments{
-        .inner{
-            max-width: 740px;
-            margin: auto;
-            margin-bottom: 20px;
-            padding: 0 32px;
-            @include mobile{
-                @media screen and (max-width: $tab){
-                    padding: 0 16px;
-                }
-                @media screen and (max-width: $sp){
-                    
-                }
-            }
-            .comments-title{
-                width: 100%;
-                clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
-                background-color: #56AEDD;
-                text-align: center;
-                color: #fff;
-                line-height: 40px;
-            }
-            .comments-text{
-                font-size: 28px;
-                line-height: 2.85714em;
-                color: #333;
-                text-align: center;
-                @include mobile{
-                    @media screen and (max-width: $tab){
-                        font-size: 20px;
-                    }
-                    @media screen and (max-width: $sp){
-                        font-size: 16px;
-                    }
-                }
-                span{
-                    font-size: 55px;
-                    font-weight: bold;
-                    @include mobile{
-                        @media screen and (max-width: $tab){
-                            font-size: 42px
-                        }
-                        @media screen and (max-width: $sp){
-                            font-size: 24px;
-                        }
-                    }
-                }
-            }
-        }
-        
-    }
-}
-
-
 .manga{
     //manga
     .illust{

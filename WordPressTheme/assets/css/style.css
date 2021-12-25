@@ -687,6 +687,35 @@ select {
 	margin-bottom: 10px;
 }
 
+.comments .inner {
+	margin: auto;
+	margin-bottom: 20px;
+	max-width: 740px;
+	padding: 0 32px;
+}
+
+.comments .inner .comments-title {
+	-webkit-clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+	background-color: #56AEDD;
+	clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+}
+
+.comments .inner .comments-text {
+	color: #333;
+	font-size: 28px;
+	line-height: 2.85714em;
+	text-align: center;
+}
+
+.comments .inner .comments-text span {
+	font-size: 55px;
+	font-weight: bold;
+}
+
 .page-lists {
 	border-bottom: 1px solid #707070;
 	margin-top: 90px;
@@ -1229,35 +1258,6 @@ select {
 	display: none;
 }
 
-.campaign .comments .inner {
-	margin: auto;
-	margin-bottom: 20px;
-	max-width: 740px;
-	padding: 0 32px;
-}
-
-.campaign .comments .inner .comments-title {
-	-webkit-clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
-	background-color: #56AEDD;
-	clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
-	color: #fff;
-	line-height: 40px;
-	text-align: center;
-	width: 100%;
-}
-
-.campaign .comments .inner .comments-text {
-	color: #333;
-	font-size: 28px;
-	line-height: 2.85714em;
-	text-align: center;
-}
-
-.campaign .comments .inner .comments-text span {
-	font-size: 55px;
-	font-weight: bold;
-}
-
 .manga .illust .illust-inner {
 	box-sizing: border-box;
 	margin: 92px auto 60px auto;
@@ -1279,6 +1279,44 @@ select {
 
 .manga .illust figure img {
 	width: 100%;
+}
+
+.paper p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.paper .blue-text {
+	color: #035aa6;
+	font-size: 42px;
+	font-weight: bold;
+	line-height: 72px;
+	text-align: center;
+}
+
+.paper-middle {
+	padding: 100px;
+}
+
+.paper-middle h2 {
+	margin-bottom: 60px;
+}
+
+.paper-middle .cautions {
+	background-color: #EDF9FF;
+	margin: 0 auto;
+	padding: 40px 140px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.paper-middle .cautions h3 {
+	text-align: center;
+}
+
+.paper-middle .cautions p {
+	width: 650px;
 }
 
 .reason p {
@@ -1388,6 +1426,18 @@ select {
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
 
+.comments .inner {
+	padding: 0 16px;
+}
+
+.comments .inner .comments-text {
+	font-size: 20px;
+}
+
+.comments .inner .comments-text span {
+	font-size: 42px;
+}
+
 .page-lists {
 	margin-top: 60px;
 }
@@ -1438,18 +1488,6 @@ select {
 
 .page-info .page-lists {
 	margin-top: 60px;
-}
-
-.campaign .comments .inner {
-	padding: 0 16px;
-}
-
-.campaign .comments .inner .comments-text {
-	font-size: 20px;
-}
-
-.campaign .comments .inner .comments-text span {
-	font-size: 42px;
 }
 
 .manga .illust .illust-inner {
@@ -1465,6 +1503,14 @@ select {
 
 @media screen and (max-width: 768px) and (max-width: 599px) {
 
+.comments .inner .comments-text {
+	font-size: 16px;
+}
+
+.comments .inner .comments-text span {
+	font-size: 24px;
+}
+
 .page-lists {
 	margin-top: 30px;
 }
@@ -1625,14 +1671,6 @@ select {
 	display: none;
 }
 
-.campaign .comments .inner .comments-text {
-	font-size: 16px;
-}
-
-.campaign .comments .inner .comments-text span {
-	font-size: 24px;
-}
-
 .manga .illust .illust-title {
 	font-size: 24px;
 }
@@ -1640,6 +1678,18 @@ select {
 }
 
 @media screen and (max-width: 599px) and (max-width: 768px) {
+
+.comments .inner {
+	padding: 0 16px;
+}
+
+.comments .inner .comments-text {
+	font-size: 20px;
+}
+
+.comments .inner .comments-text span {
+	font-size: 42px;
+}
 
 .page-lists {
 	margin-top: 60px;
@@ -1693,18 +1743,6 @@ select {
 	margin-top: 60px;
 }
 
-.campaign .comments .inner {
-	padding: 0 16px;
-}
-
-.campaign .comments .inner .comments-text {
-	font-size: 20px;
-}
-
-.campaign .comments .inner .comments-text span {
-	font-size: 42px;
-}
-
 .manga .illust .illust-inner {
 	margin-top: 40px;
 	padding: 16px;
@@ -1717,6 +1755,14 @@ select {
 }
 
 @media screen and (max-width: 599px) and (max-width: 599px) {
+
+.comments .inner .comments-text {
+	font-size: 16px;
+}
+
+.comments .inner .comments-text span {
+	font-size: 24px;
+}
 
 .page-lists {
 	margin-top: 30px;
@@ -1876,14 +1922,6 @@ select {
 
 .page-info .page-lists .page-lists__item a::after {
 	display: none;
-}
-
-.campaign .comments .inner .comments-text {
-	font-size: 16px;
-}
-
-.campaign .comments .inner .comments-text span {
-	font-size: 24px;
 }
 
 .manga .illust .illust-title {
