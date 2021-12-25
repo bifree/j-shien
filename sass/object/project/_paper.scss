@@ -15,6 +15,9 @@
         h2 {
             margin-bottom: 60px;
         }
+        h4 {
+            text-align: center;
+        }
         .cautions {
             width: fit-content;
             margin: 0 auto;
@@ -26,6 +29,32 @@
             p {
                 width: 650px;
             }
+        }
+        .two-cols {
+            display: flex;
+            margin-bottom: 113px;
+            justify-content: center;
+            .left, .right {
+                background-color: #F5F5F5;
+                h3 {
+                    color: #035aa6;
+                    font-weight: bold;
+                }
+            }
+            .left {
+                width: 276px;
+                box-sizing: border-box;
+                margin-right: 80px;
+            }
+            .right {
+                width: 362px;
+                box-sizing: border-box;
+            }
+        }
+        .bold {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 42px;
         }
     }
 }
