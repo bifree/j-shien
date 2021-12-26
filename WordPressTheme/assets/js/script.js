@@ -82,39 +82,14 @@ $(function () {
 
 
 // ハンバーガーメニュー
-{
-  const open=document.getElementById('open');
-  const overlay=document.querySelector('.sp-menu');
-  const close=document.getElementById('close');
-  const header=document.querySelector('.header-top');
-  const menu=document.querySelector('.sp-menu__list');
- 
-
-  open.addEventListener('click',()=>{
-    overlay.classList.add('show');
-    open.classList.add('hide');
-    close.classList.remove('hide');
-  });
-
-
-  close.addEventListener('click',()=>{
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
-    close.classList.add('hide');
-  });
-
+$(function() {
+	$('.navbtn').click(function() {
+		$(this).toggleClass('active');
   
-  header.addEventListener('click',()=>{
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
-    close.classList.add('hide');
+		if ($(this).hasClass('active')) {
+			$('.header_container__nav').addClass('active');
+		} else {
+			$('.header_container__nav').removeClass('active');
+		}
+	});
   });
-  
-  menu.addEventListener('click',()=>{
-    overlay.classList.remove('show');
-    open.classList.remove('hide');
-    close.classList.add('hide');
-  });
-}
-
-

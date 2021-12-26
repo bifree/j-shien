@@ -1,5 +1,5 @@
-<div class="customer-voice">
-	<p>VOICE</p>
+<div class="top-customer-voice">
+	<p class="title">VOICE</p>
 	<h3>お客様の声</h3>
 	<div class="wrapper">
 		<div class="voice-box">
@@ -12,5 +12,8 @@
 				
 			</div>
 		</div>
+	</div>
+	<div class="btn">
+		<a href="">会社設立後の届出書類の詳細はこちら</a>
 	</div>
 </div>
