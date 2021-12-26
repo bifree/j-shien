@@ -1776,6 +1776,33 @@ select {
 	width: 100%;
 }
 
+.page__menu ._inner {
+	display: flex;
+	justify-content: center;
+}
+
+.page__menu ._inner a {
+	border: 2px solid #6D7E8C;
+	border-radius: 20px;
+	color: #6D7E8C;
+	font-weight: 600;
+	margin: 40px 20px 0;
+	padding: 12px 30px;
+}
+
+.page__menu ._inner a:hover {
+	background: #6D7E8C;
+	color: #fff;
+}
+
+.blue-text {
+	color: #035aa6;
+	font-size: 42px;
+	font-weight: bold;
+	margin: 100px 0 60px;
+	text-align: center;
+}
+
 .paper {
 	color: #333;
 }
@@ -1799,33 +1826,6 @@ select {
 .paper .com-fv ._page-title ._image {
 	margin-right: 38px;
 	width: 46px;
-}
-
-.paper .paper__menu ._inner {
-	display: flex;
-	justify-content: center;
-}
-
-.paper .paper__menu ._inner a {
-	border: 2px solid #6D7E8C;
-	border-radius: 20px;
-	color: #6D7E8C;
-	font-weight: 600;
-	margin: 40px 20px 0;
-	padding: 12px 30px;
-}
-
-.paper .paper__menu ._inner a:hover {
-	background: #6D7E8C;
-	color: #fff;
-}
-
-.paper .blue-text {
-	color: #035aa6;
-	font-size: 42px;
-	font-weight: bold;
-	margin: 100px 0 60px;
-	text-align: center;
 }
 
 .paper .precautions {
@@ -2416,6 +2416,26 @@ select {
 	margin: 50px auto 0;
 	text-align: center;
 	width: 390px;
+}
+
+.tax-accountant {
+	color: #333;
+}
+
+.tax-accountant * {
+	box-sizing: border-box;
+}
+
+.tax-accountant img {
+	max-width: 100%;
+}
+
+.tax-accountant a {
+	text-decoration: none;
+}
+
+.tax-accountant li {
+	list-style: none;
 }
 
 .thanks p {

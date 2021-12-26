@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <div class="paper__menu">
+        <div class="page__menu">
             <div class="_inner">
                 <a href="#paper__document">会社設立後の届出書類</a>
                 <a href="#paper__method">届出書類の提出方法</a>
