@@ -1326,7 +1326,7 @@ select {
 	text-align: center;
 }
 
-.paper-middle .cautions {
+.paper-middle .paper__method1__caution {
 	background-color: #EDF9FF;
 	margin: 0 auto;
 	padding: 40px 140px;
@@ -1335,11 +1335,11 @@ select {
 	width: fit-content;
 }
 
-.paper-middle .cautions h3 {
+.paper-middle .paper__method1__caution h4 {
 	text-align: center;
 }
 
-.paper-middle .cautions p {
+.paper-middle .paper__method1__caution p {
 	width: 650px;
 }
 
@@ -1397,7 +1397,7 @@ select {
 }
 
 .question .question__content .question__items {
-	margin: 0 auto;
+	margin: 0 auto 60px;
 	max-width: 750px;
 }
 
@@ -1437,7 +1437,7 @@ select {
 .question .question__content .question__items .question__item .question__a {
 	height: 0;
 	opacity: 0;
-	padding: 0 68px 40px 82px;
+	padding: 0 68px 0px 82px;
 	transition: .2s;
 	visibility: hidden;
 }
