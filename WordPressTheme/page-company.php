@@ -22,10 +22,10 @@
                             【本社】
                             <br> 〒170-0005
                             <br> 東京都豊島区南大塚3-43-12 
-                            <br> 高原ビル5階 
+                            <br class="sp_display_none"> 高原ビル5階 
                             <br><br> 【郡山オフィス】
                             <br> 〒963-8004 
-                            <br> 福島県郡山市中町9-9
+                            <br class="sp_display_none"> 福島県郡山市中町9-9
                         </td>
                     </tr>
                     <tr>

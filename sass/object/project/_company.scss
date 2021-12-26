@@ -5,30 +5,98 @@
             img{
                 width: 48px;
                 height: auto;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        width: 40px;
+                    }
+                    @media screen and (max-width: $sp){
+                        width: 30px;
+                    }
+                }
             }
         }
     }
     .page-info{
         margin-bottom: 97px;
+        @include mobile{
+            @media screen and (max-width: $tab){
+                margin-bottom: 60px;
+            }
+            @media screen and (max-width: $sp){
+                
+            }
+        }
     }
     .company-inner{
         max-width: 800px;
         padding: 0 32px;
         margin: auto;
         box-sizing: content-box;
+        @include mobile{
+            @media screen and (max-width: $tab){
+                padding: 0 16px;
+            }
+            @media screen and (max-width: $sp){
+                
+            }
+        }
     }
     .info{
         margin-bottom: 80px;
+        @include mobile{
+            @media screen and (max-width: $tab){
+                margin-bottom: 40px;
+            }
+            @media screen and (max-width: $sp){
+                
+            }
+        }
         .info-wrap{
             justify-content: space-between;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    display: block;
+                }
+                @media screen and (max-width: $sp){
+                    
+                }
+            }
             .info__company{
                 width: 50%;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        width: 100%;
+                        margin-bottom: 16px;
+                    }
+                    @media screen and (max-width: $sp){
+                        
+                    }
+                }
                 table{
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            tbody{
+                                width: 100%;
+                                
+                            }
+                        }
+                        @media screen and (max-width: $sp){
+                            
+                        }
+                    }
                     tr{
                         width: 100%;
                         &:not(:last-child){
                             td{
                                 padding-bottom: 30px;
+                                @include mobile{
+                                    @media screen and (max-width: $tab){
+                                        padding-bottom: 12px;
+                                    }
+                                    @media screen and (max-width: $sp){
+                                        
+                                    }
+                                }
                             }
                         }
                         &:last-child{
@@ -44,7 +112,14 @@
                         td{
                             font-size: 14px;
                             line-height: 1.75em;	
-                            
+                            @include mobile{
+                                @media screen and (max-width: $tab){
+                                    
+                                }
+                                @media screen and (max-width: $sp){
+                                    font-size: 12px;
+                                }
+                            }
                             &:first-child{
                                 text-align: right;
                                 border-right: 1px solid #707070;
@@ -52,10 +127,28 @@
                                 font-weight: bold;
                                 width: 80px ;
                                 box-sizing: content-box;
+                                @include mobile{
+                                    @media screen and (max-width: $tab){
+                                        width: 30%;
+                                    }
+                                    @media screen and (max-width: $sp){
+                                        width: 25%;
+                                    }
+                                }
                             }
                             &:last-child{
                                 padding-left: 20px;
-                                
+                                @include mobile{
+                                    @media screen and (max-width: $tab){
+                                        width: 70%;
+                                        .sp_display_none{
+                                            display: none;
+                                        }
+                                    }
+                                    @media screen and (max-width: $sp){
+                                        
+                                    }
+                                }
                                 
                             }
                         }
@@ -65,9 +158,19 @@
             .info__map{
                 width: 50%;
                 position: relative;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        width: 100%;
+                        position: inherit;
+                    }
+                    @media screen and (max-width: $sp){
+                        
+                    }
+                }
                 iframe{
                     width: 100%;
                     height: 300px;
+                    
                 }
                 .info__map-privacy{
                     position: absolute;
@@ -76,13 +179,42 @@
                     left: 100%;
                     text-align: center;
                     width: 208px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            position: inherit;
+                            margin-left: auto;
+                            transform: translate(0, 0);
+                            
+                        }
+                        @media screen and (max-width: $sp){
+                            
+                        }
+                    }
                     img{
                         width: 75px;
                         height: 75px;
                         margin-bottom: 22px;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                width: 50px;
+                                height: 50px;
+                                margin-bottom: 16px;
+                            }
+                            @media screen and (max-width: $sp){
+                                
+                            }
+                        }
                     }
                     p{
                         font-size: 14px;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                font: 12px;
+                            }
+                            @media screen and (max-width: $sp){
+                                
+                            }
+                        }
                     }
                 }
             }
@@ -90,20 +222,64 @@
     }
     .site{
         margin-bottom: 80px;
+        @include mobile{
+            @media screen and (max-width: $tab){
+                margin-bottom: 40px;
+            }
+            @media screen and (max-width: $sp){
+                
+            }
+        }
         .company-inner{
             padding: 45px 90px;
             background-color: #F5F5F5;
             box-sizing: border-box;
+            @include mobile{
+                @media screen and (max-width: $tab){
+                    padding: 24px 42px;
+                    text-align: center;
+                }
+                @media screen and (max-width: $sp){
+                    
+                }
+            }
             .site-title{
                 text-align: center;
                 font-size: 18px;
                 margin-bottom: 60px;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        font-size: 16px;
+                        margin-bottom: 30px;
+                    }
+                    @media screen and (max-width: $sp){
+                        
+                    }
+                }
             }
             .site-inner{
                 justify-content: space-between;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        display: block;
+                    }
+                    @media screen and (max-width: $sp){
+                        
+                    }
+                }
                 .site__text-wrap{
                     width: calc(65% - 20px);
                     margin-right: 20px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            width: 100%;
+                            margin-right: 0;
+                            margin-bottom: 16px;
+                        }
+                        @media screen and (max-width: $sp){
+                            
+                        }
+                    }
                     .site__text{
                         font-size: 14px;
                         line-height: 1.75em;
@@ -119,6 +295,15 @@
                 }
                 .site__img{
                     width: 35%;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            width: 50%;
+                            margin: auto;
+                        }
+                        @media screen and (max-width: $sp){
+                            width: 70%;
+                        }
+                    }
                     img{
                         width: 100%;
                     }
@@ -128,28 +313,78 @@
     }
     .media{
         margin-bottom: 80px;
+        @include mobile{
+            @media screen and (max-width: $tab){
+                margin-bottom: 40px;
+            }
+            @media screen and (max-width: $sp){
+                
+            }
+        }
         .company-inner{
             .media-title{
                 font-size: 18px;
                 font-weight: bold;
                 margin-bottom: 50px;
                 text-align: center;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        font-size: 16px;
+                        margin-bottom: 30px;
+                    }
+                    @media screen and (max-width: $sp){
+                        
+                    }
+                }
+                
             }
             .media-lists{
                 flex-wrap: wrap;
                 justify-content: space-between;
                 margin-bottom: -72px;
+                @include mobile{
+                    @media screen and (max-width: $tab){
+                        margin-bottom: -24px;
+                    }
+                    @media screen and (max-width: $sp){
+                    }
+                }
                 .media-lists__item{
                     list-style: none;
                     width: 42.8571429%;
                     text-align: center;
                     margin-bottom: 72px;
+                    @include mobile{
+                        @media screen and (max-width: $tab){
+                            width: 45%;
+                            margin-bottom: 24px;
+                        }
+                        @media screen and (max-width: $sp){
+                            
+                        }
+                    }
                     img{
                         width: 100%;
                         height: 85px;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                height: 70px;
+                            }
+                            @media screen and (max-width: $sp){
+                                height: 60px;
+                            }
+                        }
                     }
                     p{
                         font-size: 14px;
+                        @include mobile{
+                            @media screen and (max-width: $tab){
+                                font-size: 12px;
+                            }
+                            @media screen and (max-width: $sp){
+                                
+                            }
+                        }
                     }
                 }
             }
