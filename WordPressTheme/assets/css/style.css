@@ -598,6 +598,8 @@ select {
 }
 
 .appeal {
+	background-image: url(../img/bg01.png);
+	background-size: cover;
 	padding-bottom: 120px;
 	padding-top: 120px;
 }
