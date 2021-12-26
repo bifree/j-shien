@@ -96,22 +96,10 @@
     </div>
   </div>
 
-  <div class="appeal">
-		<h1>「会社設立後のお助け隊」は、<br>新規設立法人のスムーズな事業開始と成長を<br>応援いたします！</h1>
-		<p>会社設立後の届出書類電子申請キャンペーンは、<br> 新設法人と税理士のご縁づくりを目的とした<br><span class="bold">税理士のお試しキャンペーン</span>です。 
-		<p>税理士のサービスを無料でご利用いただくことで、<br> 新設法人のお客様に税理士の必要性を知っていただきたい。 <br>そんな想いから生まれたキャンペーンです。</p>
-		<p><span class="bold">顧問契約の強制やしつこい営業は一切ありません。</span></p> 
-		<p>創業時の経営者の疑問や手間を少しでも解消することができれば、<br> 私たちはうれしいです。 <br>あなたのご利用を心から楽しみにしております。</p>
+  <?php get_template_part('template/appeal');?>
 
-		<div class="caution">
-		  <p>日本企業支援センターは、Pマーク取得企業です。お客様の個人情報を守ります。</p>
-		  <a href="">プライバシーポリシー</a>
-		  <p>日本企業支援センターは、反社会的勢力との関係を一切持ちません。</p>
-			<a href="">反社会的勢力に対する基本方針</a>
-		</div>
+  <?php get_template_part('template/apply-block');?>
 
-    <?php get_template_part('template/bottom-comment');?>
-	</div>
 </main>
 
 <?php get_footer(); ?>

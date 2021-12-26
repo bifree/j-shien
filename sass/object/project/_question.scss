@@ -22,7 +22,7 @@
 
     .question__items{
       max-width:750px;
-      margin:0 auto;
+      margin:0 auto 60px;
       .question__item{
         .question__q{
           display:block;
@@ -57,7 +57,7 @@
           height: 0;
           opacity: 0;
           transition: .2s;
-          padding:0 68px 40px 82px;
+          padding:0 68px 0px 82px;
           visibility: hidden;
         }
         .question__check:checked + .question__q + .question__a{
