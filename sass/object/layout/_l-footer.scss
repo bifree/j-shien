@@ -18,6 +18,9 @@
 					font-size: 13px;
 					color: #333;
 				}
+				&:last-child {
+					border-right: none;
+				}
 			}
 		}
 	}

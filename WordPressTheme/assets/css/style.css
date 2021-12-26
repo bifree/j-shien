@@ -522,6 +522,10 @@ select {
 	text-decoration: none;
 }
 
+.l-footer .footer-menu ul li:last-child {
+	border-right: none;
+}
+
 .l-footer .copyright {
 	font-size: 13px;
 	text-align: center;
