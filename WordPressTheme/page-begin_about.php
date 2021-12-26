@@ -76,6 +76,7 @@
                 <p class="center">新設法人を応援する税理士がこれらを無料で提供します。</p>
                 <h3 class="bottom-h">ぜひ電子申請キャンペーンをお試しいただき、 <br>顧問税理士をご検討ください</h3>
             </div>
+            <?php get_template_part('template/apply-block');?>
     </section>
 </main>
 

@@ -615,23 +615,12 @@ select {
 .appeal p {
 	font-size: 1rem;
 	line-height: 2rem;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
 .appeal p .bold {
 	font-weight: bold;
-}
-
-.appeal .caution {
-	border: #707070 1px solid;
-	box-sizing: border-box;
-	margin: 0 auto;
-	padding: 30px 50px;
-	width: 740px;
-}
-
-.appeal .caution p {
-	text-align: initial;
 }
 
 .appeal h2,
@@ -665,10 +654,13 @@ select {
 	border-bottom: 1px solid #FFF;
 	display: flex;
 	margin-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .apply-block .apply-block-inner .free-dial .left {
+	align-items: center;
 	border-right: 1px solid #FFF;
+	display: flex;
 	padding-bottom: 16px;
 	padding-right: 16px;
 }
@@ -690,6 +682,29 @@ select {
 .apply-block .apply-block-inner .free-dial .right p.bigger {
 	font-size: 2.25em;
 	margin-bottom: 10px;
+}
+
+.caution {
+	border: #707070 1px solid;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 28px;
+	margin: 0 auto 110px;
+	padding: 30px 50px;
+	width: 740px;
+}
+
+.caution .second-p {
+	margin-top: 40px;
+}
+
+.caution p {
+	text-align: initial;
+}
+
+.caution a {
+	color: #56AEDD;
+	text-decoration: none;
 }
 
 .comments .inner {
@@ -1487,6 +1502,60 @@ select {
 	margin: 0 auto;
 	text-align: center;
 	width: 59%;
+}
+
+.reason .inner .reasons {
+	margin: 100px auto 0;
+	width: 900px;
+}
+
+.reason .inner .reasons__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.reason .inner .reasons__wrapper .reason__wrapper--item {
+	border: 2px solid #01588E;
+	box-shadow: 10px 10px 5px #FADD62;
+	box-sizing: border-box;
+	height: 483px;
+	margin-bottom: 123px;
+	position: relative;
+	width: 400px;
+}
+
+.reason .inner .reasons__wrapper .reason__wrapper--item h4 {
+	font-size: 24px;
+	line-height: 42px;
+	margin-bottom: 30px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.reason .inner .reasons__wrapper .reason__wrapper--item p {
+	margin: 0 auto;
+	text-align: justify;
+	width: 80%;
+}
+
+.reason .inner .reasons__wrapper .reason__wrapper--item .item-num {
+	left: 40%;
+	position: absolute;
+	top: -47px;
+}
+
+.reason .inner .reasons__wrapper .reason__wrapper--item .item-num h3 {
+	background-color: #FFF;
+	color: #01588E;
+	font-size: 50px;
+	line-height: 78px;
+	padding: 10px;
+}
+
+.reason .inner .reasons__wrapper .img {
+	border: none !important;
+	box-shadow: none;
 }
 
 .reason .inner .reasons__voice {

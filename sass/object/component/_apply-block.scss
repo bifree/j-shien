@@ -16,10 +16,13 @@
 			border-bottom: 1px solid #FFF;
 			display: flex;
 			margin-bottom: 20px;
+			padding-bottom: 10px;
 			.left {
 				border-right: 1px solid #FFF;
 				padding-right: 16px;
 				padding-bottom: 16px;
+				display: flex;
+				align-items: center;
 				p.bigger {
 					font-size: 1.125em;
 					line-height: 1.4375em;

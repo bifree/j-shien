@@ -1,0 +1,19 @@
+.caution {
+    width: 740px;
+    box-sizing: border-box;
+    border: #707070 1px solid;
+    margin: 0 auto 110px;
+    padding: 30px 50px;
+    font-size: 16px;
+    line-height: 28px;
+    .second-p {
+        margin-top: 40px;
+    }
+    p {
+        text-align: initial;
+    }
+    a {
+        color: #56AEDD;
+        text-decoration: none;
+    }
+}
