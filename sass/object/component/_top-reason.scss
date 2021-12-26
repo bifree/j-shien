@@ -40,9 +40,13 @@
         margin-right: auto;
         margin-left: auto;
         flex-wrap: wrap;
+        @media screen and (max-width: 1080px) {
+            width: 95%;
+            margin: 0 auto;
+        }
         .reason-box {
             border: 2px solid #01588E;
-            width: 400px;
+            width: calc((95% - 30px) / 2);
             box-sizing: border-box;
             height: 190px;
             box-sizing: border-box;

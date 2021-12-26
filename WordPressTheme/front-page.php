@@ -89,18 +89,27 @@
 						<p>本業に集中できて、スムーズに事業を開始できた！</p>
 					</div>
 				</div>
-				<p>お客様アンケート<span>（2020年度アンケート調査）</span></p>
+				<p class="text-center">お客様アンケート<span class="text-right">（2020年度アンケート調査）</span></p>
 				<div class="result">
 					<div class="left"></div>
 					<div class="center"></div>
 					<div class="right"></div>
 				</div>
-				<div class="gray-btn">
+				<div class="btn">
 					<a href="">選ばれる理由の詳細はこちら</a>
 				</div>
 			</div>
 			<div class="comparing">
 				<h3>会社設立後の届出書類の提出方法比較</h3>
+			</div>
+
+			<div class="top-graph">
+				<div class="inner">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/graph001.png" alt="">
+				</div>
+				<div class="btn">
+					<a href="">会社設立後の届出書類の詳細はこちら</a>
+				</div>
 			</div>
 
 			<?php get_template_part('template/customer-voice');?>
