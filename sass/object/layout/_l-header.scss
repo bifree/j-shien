@@ -5,6 +5,9 @@
 	justify-content: space-between;
 	.logo {
 		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		img {
 			width: 100%;
 		}

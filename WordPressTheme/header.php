@@ -12,7 +12,9 @@
 	<header>
 		<div class="l-header">
 			<div class="logo">
-				<img src="" alt="">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="">
+				</a>
 			</div>
 			<div class="header-menu">
 				<nav>

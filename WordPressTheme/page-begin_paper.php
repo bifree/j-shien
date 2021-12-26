@@ -11,16 +11,16 @@
                 <p class="pan-kuzu"><span>ホーム</span> ＞ <span>電子申請キャンペーン</span></p>
                 <ul class="page-lists _flex">
                     <li class="page-lists__item">
-                        <a href="/campaign_manga">会社設立後のお助け隊とは</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">会社設立後のお助け隊とは</a>
                     </li>
                     <li class="page-lists__item">
-                        <a href="/campaign_about">選ばれる理由</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_reason' ) ); ?>">選ばれる理由</a>
                     </li>
                     <li class="page-lists__item current-page">
-                        <a href="/campaign_about">会社設立後の届出書類</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類</a>
                     </li>
                     <li class="page-lists__item">
-                        <a href="/campaign_about">税理士とは</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">税理士とは</a>
                     </li>
                 </ul>
             </div>
