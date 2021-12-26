@@ -2,7 +2,7 @@
     <main class="paper">
         <!-- ページタイトル -->
         <div class="com-fv">
-            <h1 class="_page-title _flex"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/manga-file.svg" alt=""></span>はじめての方へ</h1>
+            <h1 class="_page-title _flex"><span class="_image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/begin__mv.png" alt=""></span>はじめての方へ</h1>
         </div>
 
             <!-- パンクず -->
@@ -29,8 +29,9 @@
         <div class="paper__menu">
             <div class="_inner">
                 <a href="#paper__document">会社設立後の届出書類</a>
-                <a href="#paper__method">届出書類の提出方法<a>
+                <a href="#paper__method">届出書類の提出方法</a>
             </div>
+        </div>
 
         <div class="paper__document" id="paper__document">
             <div class="_inner">
@@ -38,7 +39,7 @@
                     会社設立後の届出書類
                 </h2>
                 <p class="papper__document__top">法人登記が完了後、法務局から初めての「登記簿謄本」を受領したら、税務署、税務事務所、市区町村役場に届出が必要です。「この届出を忘れてしまうと税務上の特典が受けられない」「事業開始後の手続が煩雑になってしまう」といった事業を営む上で、経営者のデメリットとなることがございます。 登記簿謄本を受領したら早めに届出をすることをお勧めします。</p>
-                <p>各種届出書には添付書類が必要となる届出書もあります。<br>
+                <p class="papper__document__top">各種届出書には添付書類が必要となる届出書もあります。<br>
                 また、都道府県・市区町村等への届出が各役所によって様式や提出期限が違う場合もございます。必ず管轄のお役所にお問い合わせの上、ご提出ください。これ以外の書類も提出が必要となる場合もありますので、必ず税理士などの専門家にお問い合わせください。</p>
                 <table class="papper__document__table">
                     <tr>
@@ -53,7 +54,6 @@
                         ・本店登記所轄都道府県税務事務所<br>
                         ・本店登記所轄市町村役場<br>
                         ※東京都23区は除く</td>
-                    </td>
                     </tr>
                     <tr>
                         <td>青色申告承認申請書</td>
