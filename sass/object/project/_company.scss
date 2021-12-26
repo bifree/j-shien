@@ -1,0 +1,158 @@
+.company{
+    .com-fv{
+        ._page-title{
+            
+            img{
+                width: 48px;
+                height: auto;
+            }
+        }
+    }
+    .page-info{
+        margin-bottom: 97px;
+    }
+    .company-inner{
+        max-width: 800px;
+        padding: 0 32px;
+        margin: auto;
+        box-sizing: content-box;
+    }
+    .info{
+        margin-bottom: 80px;
+        .info-wrap{
+            justify-content: space-between;
+            .info__company{
+                width: 50%;
+                table{
+                    tr{
+                        width: 100%;
+                        &:not(:last-child){
+                            td{
+                                padding-bottom: 30px;
+                            }
+                        }
+                        &:last-child{
+                            td{
+                                &:last-child{
+                                    span{
+                                        display: inline-block;
+                                        
+                                    };
+                                }
+                            }
+                        }
+                        td{
+                            font-size: 14px;
+                            line-height: 1.75em;	
+                            
+                            &:first-child{
+                                text-align: right;
+                                border-right: 1px solid #707070;
+                                padding-right: 20px;
+                                font-weight: bold;
+                                width: 80px ;
+                                box-sizing: content-box;
+                            }
+                            &:last-child{
+                                padding-left: 20px;
+                                
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .info__map{
+                width: 50%;
+                position: relative;
+                iframe{
+                    width: 100%;
+                    height: 300px;
+                }
+                .info__map-privacy{
+                    position: absolute;
+                    transform: translate(-100%, -100%);
+                    top: 100%;
+                    left: 100%;
+                    text-align: center;
+                    width: 208px;
+                    img{
+                        width: 75px;
+                        height: 75px;
+                        margin-bottom: 22px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .site{
+        margin-bottom: 80px;
+        .company-inner{
+            padding: 45px 90px;
+            background-color: #F5F5F5;
+            box-sizing: border-box;
+            .site-title{
+                text-align: center;
+                font-size: 18px;
+                margin-bottom: 60px;
+            }
+            .site-inner{
+                justify-content: space-between;
+                .site__text-wrap{
+                    width: calc(65% - 20px);
+                    margin-right: 20px;
+                    .site__text{
+                        font-size: 14px;
+                        line-height: 1.75em;
+                        a{
+                            color: #56AEDD;
+                            text-decoration: none;
+                            transition: all .3s;
+                            &:hover{
+                                opacity: $opacity;
+                            }
+                        }
+                    }
+                }
+                .site__img{
+                    width: 35%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .media{
+        margin-bottom: 80px;
+        .company-inner{
+            .media-title{
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+            .media-lists{
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: -72px;
+                .media-lists__item{
+                    list-style: none;
+                    width: 42.8571429%;
+                    text-align: center;
+                    margin-bottom: 72px;
+                    img{
+                        width: 100%;
+                        height: 85px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
