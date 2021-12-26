@@ -7,13 +7,13 @@
 				<br>設立後の手続きが完了</h2>
 				<h3>新設法人と税理士をつなぐ業界唯一のマッチングサービス</h3>
 				<p class="blue-bold">顧問契約強制なし</p>
-				<p>「会社設立後のお助け隊」は累計2万社以上の新設法人の税理士マッチング実績があり、対応する税理士も新設法人専門の税理士です。</p>
-				<p>電子申請キャンペーンは新設法人と税理士のご縁づくりを目的としており、新設法人を応援する税理士がこれらを無料で提供します。</p>
+				<p class="top-text">「会社設立後のお助け隊」は累計2万社以上の新設法人の税理士マッチング実績があり、対応する税理士も新設法人専門の税理士です。</p>
+				<p class="top-text">電子申請キャンペーンは新設法人と税理士のご縁づくりを目的としており、新設法人を応援する税理士がこれらを無料で提供します。</p>
 				<div class="price-block">
 					<p>● 会社設立後の届出書類を電子申請（通常20,000円相当）</p>
 					<p>● 創業時の経理や税務、資金調達、節税などの相談（通常1時間5,000円相当）</p>
 				</div>
-				<p>会社設立後の届出書類とは税務署や税務事務所、役所に提出する以下の書類をいいます。</p>
+				<p class="top-text">会社設立後の届出書類とは税務署や税務事務所、役所に提出する以下の書類をいいます。</p>
 				<p class="bg-gray">法人設立届出書、青色申告承認申請書、給与支払事務所等の開設届出書、源泉所得税の納期の特例に関する申請書</p>
 				<div class="btn"><a href="">会社設立後の届出書類の詳細はこちら</a></div>
 			</div>
@@ -35,25 +35,40 @@
 
 			<?php get_template_part('template/apply-block');?>
 
-			<div class="reason">
-				<p>REASON</p>
+			<div class="top-reason">
+				<p class="title">REASON</p>
 				<h2>「会社設立後のお助け隊」が
 					<br>選ばれる理由</h2>
 				<div class="reason-block">
 					<div class="reason-box">
-						<p>顧問契約の強制や しつこい営業一切なし</p>
+					<div class="item-num">
+                                <h3>01</h3>
+                            </div>
+						<p>顧問契約の強制や<br>しつこい営業一切なし</p>
 					</div>
 					<div class="reason-box">
-						<p>経験豊富なお助け隊スタッフに無料で相談！</p>
+					<div class="item-num">
+                                <h3>02</h3>
+                            </div>
+						<p>経験豊富なお助け隊スタッフ<br>に無料で相談！</p>
 					</div>
 					<div class="reason-box">
-						<p>新設法人を応援する 税理士を厳選</p>
+					<div class="item-num">
+                                <h3>03</h3>
+                            </div>
+						<p>新設法人を応援する<br>税理士を厳選</p>
 					</div>
 					<div class="reason-box">
-						<p>顧問契約の事前見積！ 税理士の料金相場も分かる</p>
+					<div class="item-num">
+                                <h3>04</h3>
+                            </div>
+						<p>顧問契約の事前見積！<br>税理士の料金相場も分かる</p>
 					</div>
 					<div class="reason-box">
-						<p>税理士におまかせで 設立後の手続きが完了！</p>
+					<div class="item-num">
+                                <h3>05</h3>
+                            </div>
+						<p>税理士におまかせで<br>設立後の手続きが完了！</p>
 					</div>
 					<div class="reason-box-last">
 						<img src="" alt="">

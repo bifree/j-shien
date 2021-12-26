@@ -14,6 +14,9 @@
 	}
 	.header-menu {
 		width: 520px;
+		@media screen and (max-width: 1080px) {
+			display: none;
+		}
 		nav {
 			ul {
 				display: flex;
@@ -30,32 +33,118 @@
 			}
 		}
 	}
-	.header-contact {
+	.navbtn {
+		position: relative;
+		z-index: 10;
+		justify-content: center;
 		display: flex;
-		.tel {
-			p {
-				span {
-					color: #01588E;
-					font-weight: bold;
-					font-size: 20px;
+		right: 0;
+		width: 50px;
+		height: 80px;
+		box-sizing: border-box;
+		border: none;
+		cursor: pointer;
+		i {
+			display: block;
+			width: 30px;
+			height: 3px;
+			background-color: #333;
+			position: absolute;
+			transition: transform 0.5s, opacity 0.5s;
+			&:nth-child(1) {
+				top: 25px;
+			}
+			&:nth-child(2){
+				top: -10px;
+				bottom: 0;
+				margin: auto;
+			}
+			&:nth-child(3){
+				bottom: 35px;
+			}
+		}
+		.navbtn_txt_menu {
+			position: absolute;
+			color: #333;
+			font-size: 10px;
+			bottom: 5px;
+		}
+		.navbtn_txt_close {
+			font-size: 10px;
+			color: transparent;
+			display: none;
+		}
+		&.active {
+			position: fixed;
+			.navbtn_txt_close {
+				position: absolute;
+				color: #0c2e5a;
+				font-size: 10px;
+				bottom: 5px;
+				display: block;
+			}
+			.navbtn_txt_menu {
+				display: none;
+			}
+			i {
+				background-color: #0c2e5a;
+				&:nth-child(1) {
+					transform: translateY(9px) rotate(-45deg);
+				}
+				&:nth-child(2) {
+					opacity: 0;
+				}
+				&:nth-child(3) {
+					transform: translateY(-8px) rotate(45deg);
 				}
 			}
-			p.smaller {
-				font-size: 11px;
+		}
+	}
+	.header-contact {
+		display: flex;
+		@media screen and (max-width: 1080px) {
+			display: none;
+		}
+		.tel {
+			display: flex;
+			align-items: center;
+			text-align: center;
+			margin-right: 20px;
+			.inner {
+				p {
+					span {
+						color: #01588E;
+						font-weight: bold;
+						font-size: 20px;
+					}
+					margin-bottom: 10px;
+				}
+				p.smaller {
+					margin-bottom: 0 !important;
+					font-size: 11px;
+				}
 			}
 		}
 		.apply-form {
 			width: 170px;
-			p.smaller {
-				margin: 0 auto;
-				width: 130px;
-				font-size: 12px;
-				color: #FFF;
-				background-color: #000;
-				border-radius: 9px;
-			}
-			.bigger {
-				font-size: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.inner {
+				p.smaller {
+					margin: 0 auto;
+					width: 130px;
+					font-size: 12px;
+					text-align: center;
+					padding-top: 2px;
+					padding-bottom: 2px;
+					color: #FFF;
+					background-color: #000;
+					border-radius: 9px;
+				}
+				.bigger {
+					font-size: 20px;
+				}
 			}
 			background-color: #FADD62;
 		}

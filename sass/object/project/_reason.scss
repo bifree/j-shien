@@ -104,6 +104,7 @@
                 width: 800px;
                 box-sizing: border-box;
                 border-radius: 5px;
+                position: relative;
                 margin: 0 auto 60px;
                 &--left {
                     margin-right: 65px;
@@ -117,6 +118,19 @@
                 }
                 &--right {
                     width: 300px;
+                }
+                ::before {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    z-index: 1;
+                    border-style: solid;
+                    border-color: #FFF transparent;
+                    border-width: 40px 20px 0 0;
+                    bottom: -30px;
+                    transform: rotate(25deg);
+                    left: 35%;
+                    margin-left: -10px;
                 }
             }
             &--graph {
