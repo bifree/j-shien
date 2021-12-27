@@ -1668,7 +1668,7 @@ select {
 }
 
 .com-fv {
-	background-image: url(../img/com-fv-bg.png);
+	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg.jpg");
 	background-position: center;
 	background-size: cover;
 	height: 200px;
