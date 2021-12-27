@@ -1422,6 +1422,10 @@ select {
 	font-size: 14px;
 }
 
+.flow .section-flow {
+	padding-bottom: 80px;
+}
+
 .flow .section-flow .inner {
 	margin: auto;
 	max-width: 890px;
@@ -2550,6 +2554,7 @@ select {
 
 .flow .section-flow .inner {
 	padding: 0 16px;
+	padding-bottom: 25px;
 }
 
 .flow .section-flow .flow-title-box .flow-title__sub {
@@ -2673,6 +2678,10 @@ select {
 
 .company .media .company-inner .media-lists .media-lists__item img {
 	height: 60px;
+}
+
+.flow .section-flow .inner {
+	padding-bottom: 20px;
 }
 
 .flow .section-flow .flow-title-box {
@@ -2970,6 +2979,7 @@ select {
 
 .flow .section-flow .inner {
 	padding: 0 16px;
+	padding-bottom: 25px;
 }
 
 .flow .section-flow .flow-title-box .flow-title__sub {
@@ -3093,6 +3103,10 @@ select {
 
 .company .media .company-inner .media-lists .media-lists__item img {
 	height: 60px;
+}
+
+.flow .section-flow .inner {
+	padding-bottom: 20px;
 }
 
 .flow .section-flow .flow-title-box {
