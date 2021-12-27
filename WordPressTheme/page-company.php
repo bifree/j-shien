@@ -66,7 +66,7 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.3901477730487!2d139.72687091283484!3d35.728646245785484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d74513d66d5%3A0x1cb6c15c5f6ddd5!2z44CSMTcwLTAwMDUg5p2x5Lqs6YO96LGK5bO25Yy65Y2X5aSn5aGa77yT5LiB55uu77yU77yT4oiS77yR77ySIOmrmOWOn-ODk-ODqyA16ZqO!5e0!3m2!1sja!2sjp!4v1640495329172!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="info__map-privacy">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company-pmark.png" alt="">
+                    <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/company-pmark.png" alt="">
                     <p>プライバシーマーク取得企業です</p>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                     </p>
                 </div>
                 <div class="site__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company-tshien.png" alt="">
+                    <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/company-tshien.png" alt="">
                 </div>
             </div>
         </div>
@@ -99,31 +99,31 @@
             <ul class="media-lists _flex">
                 <li class="media-lists__item">
                     <div class="media-lists__item__img-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company-list01.png" alt="">
+                        <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/company-list01.png" alt="">
                     </div>
                     <p>「ベストベンチャー100」に選ばれました</p>
                 </li>
                 <li class="media-lists__item">
                     <div class="media-lists__item__img-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company-list02.png" alt="">
+                        <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/company-list02.png" alt="">
                     </div>
                     <p>「注目企業50」に選ばれました</p>
                 </li>
                 <li class="media-lists__item">
                     <div class="media-lists__item__img-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company-list03.png" alt="">
+                        <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/company-list03.png" alt="">
                     </div>
                     <p>東京都高齢者職域開拓モデル事業に認定されました</p>
                 </li>
                 <li class="media-lists__item">
                     <div class="media-lists__item__img-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company-list04.png" alt="">
+                        <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/company-list04.png" alt="">
                     </div>
                     <p>テレビ番組「賢者の選択」に紹介されました</p>
                 </li>
                 <li class="media-lists__item">
                     <div class="media-lists__item__img-wrap">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company-list05.png" alt="">
+                        <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/company-list05.png" alt="">
                     </div>
                     <p>経営者通に紹介されました</p>
                 </li>
