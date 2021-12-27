@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <div class="paper__menu">
+        <div class="page__menu">
             <div class="_inner">
                 <a href="#paper__document">会社設立後の届出書類</a>
                 <a href="#paper__method">届出書類の提出方法</a>
@@ -122,8 +122,8 @@
                 </table>
                 <p class="precautions__content">※登記住所により管轄の税務署は異なります。管轄の税務署は<a href="https://www.nta.go.jp/about/organization/access/map.html">こちら</a>よりご確認ください。</p>
                 <div class="paper__document__bottom">
-                    <h3>電子申請キャンペーンでは、こちらの届出書類を<b
-                    r>税理士が電子申請します</h3>
+                    <h3>電子申請キャンペーンでは、こちらの届出書類を<br>
+                    税理士が電子申請します</h3>
                     <p>法人設立届出書、青色申告承認申請書、給与支払事務所等の開設届出書、<br>
                     源泉所得税の納期の特例に関する申請書</p>
                 </div>
@@ -140,16 +140,18 @@
                 <p class="paper__method__top">会社設立後の届出書類の提出方法は、税理士に依頼する以外にも、以下の2つの方法があります。</p>
                 <div class="paper__method__items">
                     <div class="paper__method__item">
-                        <h3><span class="method__number">1</span></h3>
-                        <p>届出書類を取得し、 自分で作成して提出</p>
+                        <h3 class="method__number">1</h3>
+                        <p>届出書類を取得し、<br>
+                        自分で作成して提出</p>
                     </div>
                     <div class="paper__method__item">
-                        <h3><span class="method__number">2</span></h3>
-                        <p>マイナポータル 「法人設立ワンストップサービス」</p>
+                        <h3 class="method__number">2</h3>
+                        <p>マイナポータル<br>
+                        「法人設立ワンストップサービス」</p>
                     </div>
                 </div>
                 <div class="paper__method1">
-                    <h3 class="paper__method1__title"><span class="method__number">1</span>届出書類を取得し、自分で作成して提出</h3>
+                    <h3 class="paper__method__title"><span class="method__number">1</span>届出書類を取得し、自分で作成して提出</h3>
                     <p class="paper__method1__top">国税庁のホームページから、以下の〈申請書様式〉をダウンロードして書類を作成します。そして、〈提出先と書類一覧〉に従って、管轄の諸官庁に提出します。</p>
                     <h4>〈申請書様式〉</h4>
                     <div class="papers__method1__items">
@@ -160,30 +162,30 @@
                                 <li>税務事務所</li>
                                 <li>市役所</li>
                             </ul>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method1.png" alt="">
+                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method1.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
                             <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_14.html">青色申告承認申請書</a></p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method2.png" alt="">
+                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method2.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
                             <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_11.html">給与支払事務所等の開設届出書</a></p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method3.png" alt="">
+                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method3.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
                             <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_14.html">源泉所得税の納期の特例に関する申請書</a></p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method4.png" alt="">
+                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method4.png" alt=""></div>
                         </div>
                     </div>
 
                     <h4>〈提出先と書類一覧〉</h4>
-                    <table>
+                    <table class="paper__method1__table">
                         <tr>
-                            <th></th>
+                            <td></td>
                             <th colspan="3">届出先</th>
                         </tr>
                         <tr>
-                            <th></th>
+                            <td></td>
                             <th>所轄税務署<span class="precautions">※</span></th>
                             <th>所轄税務事務所</th>
                             <th>市区町村役場</th>
@@ -216,40 +218,42 @@
 
                     <div class="paper__method1__caution">
                         <h4>注意事項</h4>
-                        <p>● ㊞は、会社印鑑または代表個人の実印（若しくは認印）になります。</p>
-                        <p>●「事業の目的」「事業種目」は定款「目的」全てを記載しなくても問題はありません。 </p>
-                        <p>● 履歴事項全部証明書は原本を添付してください。 </p>
-                        <p>● 原本が間に合わない場合は取り急ぎコピーを提出し、後日、原本を提出してください。 </p>
-                        <p>● 役所によっては、原本でないと受け付けられないと言われることがあります。コピー可という役所もあるので、原本かコピーかを知りたい場合は直接、管轄の役所へ問合せください。</p>
-                        <p>● 平成29年4月1日から税務署への履歴事項全部証明書の提出は不要となりました。 </p>
-                        <p>● 提出資料は、2部作成してください（1部「会社保管用」。作成した書類のコピーでも可）。「会社保管用」にも役所から押印を受け保管してください。 </p>
-                        <p>● 郵送する際は、返信用封筒を同封してください（ご自身の住所を記載、切手を貼り付け）。「会社保管用」に受付印が押印され、返送されます。</p>
+                        <div class="paper__method1__caution__text">
+                            <p>● ㊞は、会社印鑑または代表個人の実印（若しくは認印）になります。</p>
+                            <p>●「事業の目的」「事業種目」は定款「目的」全てを記載しなくても問題はありません。 </p>
+                            <p>● 履歴事項全部証明書は原本を添付してください。 </p>
+                            <p>● 原本が間に合わない場合は取り急ぎコピーを提出し、後日、原本を提出してください。 </p>
+                            <p>● 役所によっては、原本でないと受け付けられないと言われることがあります。コピー可という役所もあるので、原本かコピーかを知りたい場合は直接、管轄の役所へ問合せください。</p>
+                            <p>● 平成29年4月1日から税務署への履歴事項全部証明書の提出は不要となりました。 </p>
+                            <p>● 提出資料は、2部作成してください（1部「会社保管用」。作成した書類のコピーでも可）。「会社保管用」にも役所から押印を受け保管してください。 </p>
+                            <p>● 郵送する際は、返信用封筒を同封してください（ご自身の住所を記載、切手を貼り付け）。「会社保管用」に受付印が押印され、返送されます。</p>
+                        </div>
                     </div>
                 </div>
 
 
                 <div class="paper__method2">
-                    <h3 class="paper__method1__title"><span class="method__number">1</span>マイナポータル「法人設立ワンストップサービス」</h3>
+                    <h3 class="paper__method__title"><span class="method__number">2</span>マイナポータル「法人設立ワンストップサービス」</h3>
                     <p class="paper__method2__top">「法人設立ワンストップサービス」では、管轄の諸官庁へそれぞれ個別に提出しなければいけない会社設立後の届出書類をマイナポータルという一つのオンラインサービスを利用して、これらの一連の手続を提出まで一度で行うことができるサービスです。内閣府が提供しています。</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method5.png" alt="">
+                    <div class="paper__method2__img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method5.png" alt=""></div>
                     <div class="paper__method2__content">
-                        <div class="left">
-                            <h3>申請可能な手続き</h3>
-                            <p>●国税・地方税に関する設立届</p>
-                            <p>●雇用に関する届出</p>
-                            <p>●定款認証・設立登記</p>
-                            <p>●GビズIDの発行</p>
+                        <div class="left item">
+                            <h4>申請可能な手続き</h3>
+                            <p><span class="gray">●</span>国税・地方税に関する設立届</p>
+                            <p><span class="gray">●</span>雇用に関する届出</p>
+                            <p><span class="gray">●</span>定款認証・設立登記</p>
+                            <p><span class="gray">●</span>GビズIDの発行</p>
                         </div>
-                        <div class="right">
-                            <h3>利用の際に必要なもの</h3>
-                            <p>●法人代表者のマイナンバーカード</p>
-                            <p>●マイナンバーカード対応のスマートフォンまたはパソコン</p>
-                            <p>●ICカードリーダライタ（パソコンをご利用の方のみ）</p>
+                        <div class="right item">
+                            <h4>利用の際に必要なもの</h3>
+                            <p><span class="gray">●</span>法人代表者のマイナンバーカード</p>
+                            <p><span class="gray">●</span>マイナンバーカード対応のスマートフォンまたはパソコン</p>
+                            <p><span class="gray">●</span>ICカードリーダライタ（パソコンをご利用の方のみ）</p>
                         </div>
                     </div>
 
                     <p class="paper__method2__bottom__small">以上のように税理士に依頼せずに会社設立後の届出書類を提出する方法がありますが、やはり<span class="bold">「よく分からない」「面倒」に感じられる</span>かもしれません。</p>
-                    <p class="class="paper__method2__bottom__big">そのような方には、会社設立後の届出書類<br>
+                    <p class="paper__method2__bottom__big">そのような方には、会社設立後の届出書類<br>
                     電子申請キャンペーンのご利用をおススメします。</p> 
                 </div>          
             </div>
