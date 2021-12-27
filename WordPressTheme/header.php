@@ -21,11 +21,11 @@
 			<div class="header-menu">
 				<nav>
 					<ul>
-						<li><a href="">はじめての方へ</a></li>
-						<li><a href="">電子申請キャンペーン</a></li>
-						<li><a href="">お客様の声</a></li>
-						<li><a href="">よくある質問</a></li>
-						<li><a href="">運営会社</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">はじめての方へ</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">電子申請キャンペーン</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/begin_reason' ) ); ?>">お客様の声</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/question' ) ); ?>">よくある質問</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">運営会社</a></li>
 					</ul>
 				</nav>
 			</div>
