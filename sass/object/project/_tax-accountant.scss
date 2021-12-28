@@ -12,6 +12,9 @@
   li{
       list-style:none;
   }
+  .sp-br{
+    display:none;
+  }
   .com-fv{
     ._page-title{
       ._image{
@@ -102,7 +105,7 @@
         border-right-width:20px;
         margin-left: -20px;
         border-top-color:#4578A1;
-        top:100%;
+        top:99%;
         left:50%;
       }
     }
@@ -293,6 +296,159 @@
       max-width:680px;
       text-align:center;
       margin:45px auto;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 767px){
+  .tax-accountant{
+    .sp-br{
+      display:block;
+    }
+    .tax-accountant__about{
+      .tax-accountant__about__text{
+        font-size:0.875rem;
+      }
+      .tax-accountant__about__law{
+        font-size:0.875rem;
+        margin:30px auto 30px;
+        padding:15px 20px;
+        .law__title{
+          font-weight:600;
+          padding-bottom:20px;
+        }
+      }
+      .tax-accountant__about__table{
+        font-size:0.75rem;
+        tr{
+          th{
+            width:26px;
+            padding:0 7px;
+          }
+          td{
+            padding:20px 10px;
+            vertical-align:middle;
+          }
+          &:first-child{
+            td:nth-child(2){
+              width:100px;
+            }
+          }
+        }
+      }
+    }
+  
+    .tax-accountant__current{
+      .white-text{
+        font-size:2rem;
+        padding:50px 0;
+      }
+      .tax-accountant__current__tittle{
+        font-size:1.25rem;
+      }
+      .tax-accountant__current__text{
+        font-size:0.875rem;
+        margin:30px auto 40px;
+        p{
+          padding-bottom:20px;
+        }
+      }
+      .table__title{
+        font-size:1rem;
+      }
+      .tax-accountant__current__wrapper{
+        flex-direction:column;
+        margin:0 auto 100px;
+        .table{
+          width:100%;
+          table{
+            font-size:0.75rem;
+          }
+          .document{
+            font-size:0.6875rem;
+          }
+        }
+        .wrapper__left{
+          border-right:none;
+          .wrapper__left__inner{
+            width:250px;
+            margin:0 auto 80px;
+            .text{
+              padding-top:20px;
+              line-height:1.75;
+              font-size:0.875rem
+            }
+          }
+        }
+        .wrapper__right{
+          .wrapper__right__inner{
+            width:269px;
+            margin:0 auto;
+          }
+        }
+      }
+      .advisor,.acting{
+        table{
+          font-size:0.75rem;
+          margin:0 auto 80px;
+          tr{
+            td{
+              padding:10px;
+            }
+          }
+        }
+      }
+      .advisor{
+        table{
+          margin-top:20px;
+          tr{
+            td:first-child{
+              padding-left:10px;
+            }
+            &:first-child{
+              th:first-child{
+                width:160px;
+              }
+            }
+          }
+        }
+      }
+      .acting{
+        .text__small{
+          max-width:540px;
+          font-size:0.875rem;
+          margin:20px auto;
+        }
+        table{
+          tr{
+            th{
+              line-height:1.7;
+            }
+            td{
+              text-align:right;
+            }
+            .sp-small{
+              font-size:0.6875rem;
+            }
+          }
+        }
+      }
+      .acting__bottom{
+        font-size:0.875rem;
+      }
+      .tax-accountant__current__square{
+        font-size:1rem;
+        line-height:2;
+      }
+      .tax-accountant__current__bottom{
+        font-size:1.5rem;
+        font-weight:600;
+        max-width:680px;
+        text-align:center;
+        margin:45px auto;
+      }
     }
   }
 }
