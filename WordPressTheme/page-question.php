@@ -15,7 +15,7 @@
   <!-- コンテンツ -->
   <div class="question__content">
     <div class="_inner">
-      <p class="question__top">お客様から寄せられることの多い質問について、おこたえします。<br>
+      <p class="question__top">お客様から寄せられることの多い質問について、<br class="sp-br">おこたえします。<br>
      その他、ご不明な点はお気軽にご相談ください。</p>
       <div class="question__items">
         <div class="question__item">
