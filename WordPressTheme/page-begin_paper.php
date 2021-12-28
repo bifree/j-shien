@@ -158,7 +158,7 @@
                         <div class="paper__method1__item">
                             <p>■法人設立届出書</p>
                             <ul>
-                                <li><a hreh="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_2.html">税務署</a></li>
+                                <li><a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_2.html">税務署</a></li>
                                 <li>税務事務所</li>
                                 <li>市役所</li>
                             </ul>

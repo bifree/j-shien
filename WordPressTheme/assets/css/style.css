@@ -1937,10 +1937,10 @@ select {
 	border: 1px solid #707070;
 	font-weight: 600;
 	margin: 0 40px 100px;
-	max-width: 300px;
 	padding: 36px 0;
 	position: relative;
 	text-align: center;
+	width: 300px;
 }
 
 .paper .paper__method .paper__method__items .paper__method__item .method__number {
@@ -2005,6 +2005,8 @@ select {
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul {
 	display: flex;
+	flex-wrap: wrap;
+	line-height: 1.2;
 	padding: 0 0 20px 16px;
 }
 
@@ -2456,6 +2458,10 @@ select {
 	list-style: none;
 }
 
+.tax-accountant .sp-br {
+	display: none;
+}
+
 .tax-accountant .com-fv ._page-title ._image {
 	margin-right: 38px;
 	width: 46px;
@@ -2544,7 +2550,7 @@ select {
 	margin-left: -20px;
 	pointer-events: none;
 	position: absolute;
-	top: 100%;
+	top: 99%;
 	width: 0;
 }
 
@@ -3587,12 +3593,17 @@ select {
 
 .page__menu ._inner a {
 	font-size: 0.8125rem;
+	height: 54px;
 	text-align: center;
 	width: 130px;
 }
 
 .page__menu ._inner a .sp-br {
 	display: block;
+}
+
+.page__menu ._inner .sp-center {
+	padding-top: 20px;
 }
 
 .blue-text {
@@ -3627,7 +3638,7 @@ select {
 .paper .paper__document .paper__document__bottom p {
 	background: #F5F5F5;
 	margin: 20px auto 40px;
-	max-width: 700px;
+	max-width: 343px;
 	padding: 25px 20px;
 }
 
@@ -3640,7 +3651,7 @@ select {
 }
 
 .paper .paper__method .paper__method__items .paper__method__item {
-	margin: 0 40px 50px;
+	margin: 0 auto 50px;
 }
 
 .paper .paper__method .paper__method__title {
@@ -3681,14 +3692,13 @@ select {
 }
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul {
-	flex-direction: column;
 	font-size: 0.75rem;
 	line-height: 1.2;
 	padding: 0 0 5px 16px;
 }
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul li {
-	padding-right: 0px;
+	padding-right: 20px;
 }
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item .paper__method1__item__image {
@@ -3810,6 +3820,160 @@ select {
 	content: "A";
 	font-size: 1.25rem;
 	left: 20px;
+}
+
+.tax-accountant .sp-br {
+	display: block;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__text {
+	font-size: 0.875rem;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__law {
+	font-size: 0.875rem;
+	margin: 30px auto 30px;
+	padding: 15px 20px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__law .law__title {
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table {
+	font-size: 0.75rem;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr th {
+	padding: 0 7px;
+	width: 26px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr td {
+	padding: 20px 10px;
+	vertical-align: middle;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr:first-child td:nth-child(2) {
+	width: 100px;
+}
+
+.tax-accountant .tax-accountant__current .white-text {
+	font-size: 2rem;
+	padding: 50px 0;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__tittle {
+	font-size: 1.25rem;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__text {
+	font-size: 0.875rem;
+	margin: 30px auto 40px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__text p {
+	padding-bottom: 20px;
+}
+
+.tax-accountant .tax-accountant__current .table__title {
+	font-size: 1rem;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper {
+	flex-direction: column;
+	margin: 0 auto 100px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table {
+	width: 100%;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table table {
+	font-size: 0.75rem;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table .document {
+	font-size: 0.6875rem;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left {
+	border-right: none;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left .wrapper__left__inner {
+	margin: 0 auto 80px;
+	width: 250px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left .wrapper__left__inner .text {
+	font-size: 0.875rem;
+	line-height: 1.75;
+	padding-top: 20px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__right .wrapper__right__inner {
+	margin: 0 auto;
+	width: 269px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table,
+.tax-accountant .tax-accountant__current .acting table {
+	font-size: 0.75rem;
+	margin: 0 auto 80px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr td,
+.tax-accountant .tax-accountant__current .acting table tr td {
+	padding: 10px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table {
+	margin-top: 20px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr td:first-child {
+	padding-left: 10px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr:first-child th:first-child {
+	width: 160px;
+}
+
+.tax-accountant .tax-accountant__current .acting .text__small {
+	font-size: 0.875rem;
+	margin: 20px auto;
+	max-width: 540px;
+}
+
+.tax-accountant .tax-accountant__current .acting table tr th {
+	line-height: 1.7;
+}
+
+.tax-accountant .tax-accountant__current .acting table tr td {
+	text-align: right;
+}
+
+.tax-accountant .tax-accountant__current .acting table tr .sp-small {
+	font-size: 0.6875rem;
+}
+
+.tax-accountant .tax-accountant__current .acting__bottom {
+	font-size: 0.875rem;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__square {
+	font-size: 1rem;
+	line-height: 2;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__bottom {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 45px auto;
+	max-width: 680px;
+	text-align: center;
 }
 
 }

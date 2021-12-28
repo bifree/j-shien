@@ -28,7 +28,7 @@
 
   <div class="page__menu">
     <div class="_inner">
-      <a href="#tax-accountant__about">税理士とは</a>
+      <a href="#tax-accountant__about" class="sp-center">税理士とは</a>
       <a href="#tax-accountant__current">税理士業界の現状</a>
     </div>
   </div>
@@ -210,8 +210,8 @@
             <th colspan="2">税理士報酬</th> 
           </tr>
           <tr>
-            <th>税務顧問料(月額)</th>
-            <th>決算料（原則 年1回）</th> 
+            <th>税務顧問料<br class="sp-br">(月額)</th>
+            <th>決算料<br class="sp-br">（原則 年1回）</th> 
           </tr>
           <tr>
             <td>1千万円未満</td>
@@ -250,25 +250,25 @@
         <p class="text__small">記帳代行とは、現金出納帳や預金通帳のコピー、領収書、請求書などの資料から、月次の試算表を作成することをいいます。</p>
         <table>
           <tr>
-            <th>〜200枚</th>
-            <th>201〜300枚</th>
-            <th>301〜400枚</th>
-            <th>401〜500枚</th>
+            <th>〜 200枚</th>
+            <th class="sp-left">201 〜<br class="sp-br"> 300枚</th>
+            <th class="sp-left">301 〜<br class="sp-br"> 400枚</th>
+            <th class="sp-left">401 〜<br class="sp-br"> 500枚</th>
             <th>500枚以上</th>
           </tr>
           <tr>
-            <td>16,500円</td>
-            <td>22,000円</td>
-            <td>27,500円</td>
-            <td>33,000円</td>
-            <td>33,000円以上</td>
+            <td>16,500<span class="sp-small">円</span></td>
+            <td>22,000<span class="sp-small">円</span></td>
+            <td>27,500<span class="sp-small">円</span></td>
+            <td>33,000<span class="sp-small">円</span></td>
+            <td>33,000<span class="sp-small">円以上</span></td>
           </tr>
         </table>
       </div>
       <p class="acting__bottom"><span class="bold">一般的には、企業規模（売上高）を基準にしている所が多いようです。</span><br>
       また月々の顧問料だけではなく、決算時の報酬や年末調整などにおいて、別途料金が発生します。</p>
-      <p class="tax-accountant__current__square">「会社設立後のお助け隊」では、新設法人を応援する税理士が1,000事務所以上<br>登録されており、リーズナブルな料金体系を実現しています。</p>
-      <p class="tax-accountant__current__bottom">ぜひ電子申請キャンペーンにお申込みください</p>
+      <p class="tax-accountant__current__square">「会社設立後のお助け隊」では、新設法人を<br class="sp-br">応援する税理士が1,000事務所以上<br>登録されており、リーズナブルな料金体系を<br class="sp-br">実現しています。</p>
+      <p class="tax-accountant__current__bottom">ぜひ電子申請キャンペーンに<br class="sp-br">お申込みください</p>
     </div>
   </div>
 
