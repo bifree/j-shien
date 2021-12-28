@@ -1803,6 +1803,10 @@ select {
 	display: none;
 }
 
+.fa-home {
+	color: #56AEDD;
+}
+
 .blue-text {
 	color: #035aa6;
 	font-size: 2.625rem;
@@ -1833,6 +1837,10 @@ select {
 
 .paper .sp-br {
 	display: none;
+}
+
+.paper .fa-external-link-alt {
+	margin-left: 10px;
 }
 
 .paper .com-fv ._page-title ._image {
@@ -2011,7 +2019,7 @@ select {
 }
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul li {
-	padding-right: 70px;
+	padding-right: 45px;
 }
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item a {
@@ -3703,7 +3711,7 @@ select {
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item .paper__method1__item__image {
 	margin: 0 auto;
-	width: 100%;
+	width: 90%;
 }
 
 .paper .paper__method .paper__method1 .paper__method1__table tr {

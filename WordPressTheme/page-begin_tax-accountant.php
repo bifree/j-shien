@@ -8,7 +8,7 @@
   <!-- パンクず -->
   <div class="page-info">
     <div class="_inner">
-      <p class="pan-kuzu"><span>ホーム</span> ＞ <span>はじめての方へ</span></p>
+      <p class="pan-kuzu"><span><a href="#"><i class="fas fa-home"></i></a></span> ＞ <span>はじめての方へ</span></p>
       <ul class="page-lists _flex">
         <li class="page-lists__item">
           <a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">会社設立後のお助け隊とは</a>

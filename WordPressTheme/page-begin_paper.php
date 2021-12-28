@@ -8,7 +8,7 @@
             <!-- パンクず -->
         <div class="page-info">
             <div class="_inner">
-                <p class="pan-kuzu"><span>ホーム</span> ＞ <span>はじめての方へ</span></p>
+                <p class="pan-kuzu"><span><a href="#"><i class="fas fa-home"></i></a></span> ＞ <span>はじめての方へ</span></p>
                 <ul class="page-lists _flex">
                     <li class="page-lists__item">
                         <a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">会社設立後のお助け隊とは</a>
@@ -120,7 +120,7 @@
                         <td>雇用保険被保険者資格取得届</td>
                     </tr>
                 </table>
-                <p class="precautions__content">※登記住所により管轄の税務署は異なります。管轄の税務署は<a href="https://www.nta.go.jp/about/organization/access/map.html">こちら</a>よりご確認ください。</p>
+                <p class="precautions__content">※登記住所により管轄の税務署は異なります。管轄の税務署は<a href="https://www.nta.go.jp/about/organization/access/map.html">こちら<i class="fas fa-external-link-alt"></i></a>よりご確認ください。</p>
                 <div class="paper__document__bottom">
                     <h3>電子申請キャンペーンでは、<br class="sp-br">こちらの届出書類を<br>
                     税理士が電子申請します</h3>
@@ -158,22 +158,22 @@
                         <div class="paper__method1__item">
                             <p>■法人設立届出書</p>
                             <ul>
-                                <li><a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_2.html">税務署</a></li>
+                                <li><a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_2.html">税務署<i class="fas fa-external-link-alt"></i></a></li>
                                 <li>税務事務所</li>
                                 <li>市役所</li>
                             </ul>
                             <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method1.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
-                            <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_14.html">青色申告承認申請書</a></p>
+                            <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_14.html">青色申告承認申請書<i class="fas fa-external-link-alt"></i></a></p>
                             <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method2.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
-                            <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_11.html">給与支払事務所等の開設届出書</a></p>
+                            <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_11.html">給与支払事務所等の開設届出書<i class="fas fa-external-link-alt"></i></a></p>
                             <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method3.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
-                            <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_14.html">源泉所得税の納期の特例に関する申請書</a></p>
+                            <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_14.html">源泉所得税の納期の特例に関する申請書<i class="fas fa-external-link-alt"></i></a></p>
                             <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method4.png" alt=""></div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                             履歴事項全部証明書（原本）</td>
                         </tr>
                     </table>
-                    <p class="precautions__content">※登記住所により管轄の税務署は異なります。管轄の税務署は<a href="https://www.nta.go.jp/about/organization/access/map.html">こちら</a>よりご確認ください。</p>
+                    <p class="precautions__content">※登記住所により管轄の税務署は異なります。管轄の税務署は<a href="https://www.nta.go.jp/about/organization/access/map.html">こちら<i class="fas fa-external-link-alt"></i></a>よりご確認ください。</p>
 
                     <div class="paper__method1__caution">
                         <h4>注意事項</h4>

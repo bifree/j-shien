@@ -19,6 +19,10 @@
         }
     }
 }
+.fa-home{
+    color:#56AEDD;
+}
+
 .blue-text {
     font-size:2.625rem;
     text-align: center;
@@ -43,6 +47,9 @@
     }
     .sp-br{
         display:none;
+    }
+    .fa-external-link-alt{
+        margin-left:10px;
     }
 
     
@@ -208,7 +215,7 @@
                         line-height:1.2;
 
                         li{
-                            padding-right:70px;
+                            padding-right:45px;
                         }
                     }
                     a{
@@ -473,7 +480,7 @@
                             }
                         }
                         .paper__method1__item__image{
-                            width:100%;
+                            width:90%;
                             margin:0 auto;
                         }
                     }
