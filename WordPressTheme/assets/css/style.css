@@ -730,8 +730,8 @@ select {
 	font-size: 16px;
 	line-height: 28px;
 	margin: 0 auto 110px;
+	max-width: 740px;
 	padding: 30px 50px;
-	width: 740px;
 }
 
 .caution .second-p {
@@ -1799,9 +1799,13 @@ select {
 	color: #fff;
 }
 
+.page__menu ._inner a .sp-br {
+	display: none;
+}
+
 .blue-text {
 	color: #035aa6;
-	font-size: 42px;
+	font-size: 2.625rem;
 	font-weight: bold;
 	margin: 100px 0 60px;
 	text-align: center;
@@ -1827,6 +1831,10 @@ select {
 	list-style: none;
 }
 
+.paper .sp-br {
+	display: none;
+}
+
 .paper .com-fv ._page-title ._image {
 	margin-right: 38px;
 	width: 46px;
@@ -1848,7 +1856,7 @@ select {
 .paper .paper__document .papper__document__top {
 	line-height: 1.75;
 	margin: 0 auto 60px;
-	width: 650px;
+	max-width: 650px;
 }
 
 .paper .paper__document .papper__document__top:nth-child(2) {
@@ -1909,14 +1917,14 @@ select {
 .paper .paper__document .paper__document__bottom p {
 	background: #F5F5F5;
 	margin: 20px auto 40px;
+	max-width: 700px;
 	padding: 25px 86px;
-	width: 700px;
 }
 
 .paper .paper__method .paper__method__top {
 	line-height: 1.75;
 	margin: 0 auto 70px;
-	width: 600px;
+	max-width: 600px;
 }
 
 .paper .paper__method .paper__method__items {
@@ -1929,10 +1937,10 @@ select {
 	border: 1px solid #707070;
 	font-weight: 600;
 	margin: 0 40px 100px;
+	max-width: 300px;
 	padding: 36px 0;
 	position: relative;
 	text-align: center;
-	width: 300px;
 }
 
 .paper .paper__method .paper__method__items .paper__method__item .method__number {
@@ -1970,7 +1978,7 @@ select {
 .paper .paper__method .paper__method1 .paper__method1__top {
 	line-height: 1.75;
 	margin: 0 auto 100px;
-	width: 600px;
+	max-width: 600px;
 }
 
 .paper .paper__method .paper__method1 h4 {
@@ -2014,7 +2022,7 @@ select {
 
 .paper .paper__method .paper__method1 .paper__method1__table {
 	margin-top: 25px;
-	max-width: 900px;
+	max-width: 930px;
 	table-layout: fixed;
 }
 
@@ -2172,6 +2180,10 @@ select {
 	max-width: 100%;
 }
 
+.question .sp-br {
+	display: none;
+}
+
 .question .com-fv ._page-title ._image {
 	margin-right: 22px;
 	width: 94px;
@@ -2193,6 +2205,7 @@ select {
 	display: block;
 	font-size: 1.125rem;
 	font-weight: 600;
+	line-height: 2;
 	margin-bottom: 40px;
 	padding: 16px 68px 16px 82px;
 	position: relative;
@@ -2201,7 +2214,7 @@ select {
 .question .question__content .question__items .question__item .question__q:before {
 	color: #01588E;
 	content: "Q";
-	font-size: 22px;
+	font-size: 1.375rem;
 	font-weight: 600;
 	left: 30px;
 	position: absolute;
@@ -2212,6 +2225,7 @@ select {
 	content: "＋";
 	font-size: 1.125rem;
 	font-weight: 300;
+	line-height: 1;
 	position: absolute;
 	right: 20px;
 	top: calc(50% - 9px);
@@ -2241,7 +2255,7 @@ select {
 .question .question__content .question__items .question__item .question__check:checked + .question__q + .question__a:before {
 	color: #56AEDD;
 	content: "A";
-	font-size: 22px;
+	font-size: 1.375rem;
 	font-weight: 600;
 	left: 30px;
 	position: absolute;
@@ -2440,6 +2454,306 @@ select {
 
 .tax-accountant li {
 	list-style: none;
+}
+
+.tax-accountant .com-fv ._page-title ._image {
+	margin-right: 38px;
+	width: 46px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__text {
+	margin: 0 auto;
+	max-width: 650px;
+	text-align: 1.75;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__law {
+	border: 1px solid #707070;
+	font-family: "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+	margin: 30px auto 60px;
+	max-width: 670px;
+	padding: 20px 40px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__law .law__title {
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table {
+	font-size: 0.875rem;
+	margin: 30px auto 100px;
+	max-width: 662px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr th {
+	background: #225889;
+	border: 1px solid #707070;
+	color: #fff;
+	line-height: 1.14;
+	padding: 0 18px;
+	vertical-align: middle;
+	width: 52px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr td {
+	background: #F5F5F5;
+	border: 1px solid #707070;
+	padding: 20px 28px;
+	vertical-align: middle;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr td:first-child {
+	font-weight: 600;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr:first-child td:nth-child(2) {
+	font-weight: 600;
+	width: 170px;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr:nth-child(4) th {
+	background: #6BADD9;
+}
+
+.tax-accountant .tax-accountant__about .tax-accountant__about__table tr:nth-child(4) td {
+	background: #fff;
+}
+
+.tax-accountant .tax-accountant__current .white-text {
+	background: #4578A1;
+	color: #fff;
+	font-size: 2.625rem;
+	margin-bottom: 80px;
+	padding: 78px 0;
+	position: relative;
+	text-align: center;
+}
+
+.tax-accountant .tax-accountant__current .white-text:after {
+	border: solid transparent;
+	border-bottom-width: 20px;
+	border-color: rgba(0, 153, 255, 0);
+	border-left-width: 20px;
+	border-right-width: 20px;
+	border-top-color: #4578A1;
+	border-top-width: 20px;
+	content: '';
+	height: 0;
+	left: 50%;
+	margin-left: -20px;
+	pointer-events: none;
+	position: absolute;
+	top: 100%;
+	width: 0;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__tittle {
+	color: #01588E;
+	font-size: 1.5rem;
+	margin: 0 auto;
+	max-width: 680px;
+	padding-left: 7px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__tittle .black {
+	color: #333;
+	font-size: 1.125rem;
+	font-weight: 300;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__text {
+	line-height: 1.75;
+	margin: 35px auto 80px;
+	max-width: 680px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__text p {
+	padding-bottom: 25px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__text p .bold {
+	font-weight: 600;
+}
+
+.tax-accountant .tax-accountant__current .table__title {
+	font-size: 1.125rem;
+	text-align: center;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper {
+	display: flex;
+	margin: 0 auto 120px;
+	max-width: 680px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table {
+	width: 50%;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table table {
+	font-size: 0.875rem;
+	margin: 20px auto 15px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table table tr th {
+	background: #22588A;
+	border: 1px solid #707070;
+	color: #fff;
+	padding: 8px 0;
+	text-align: center;
+	width: 100px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table table tr td {
+	border: 1px solid #707070;
+	padding: 10px 20px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table table tr td:first-child {
+	background: #F5F5F5;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table table tr td:nth-child(2) {
+	text-align: right;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .table .document {
+	font-size: 0.8125rem;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left {
+	border-right: 1px solid #707070;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left .wrapper__left__inner {
+	width: 250px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left .wrapper__left__inner table tr:last-child {
+	font-weight: 600;
+	text-align: center;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left .wrapper__left__inner table tr:last-child td:first-child {
+	background: #6BADD9;
+	color: #fff;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left .wrapper__left__inner .document {
+	padding-left: 25px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__left .wrapper__left__inner .text {
+	line-height: 1.75;
+	padding-top: 40px;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__wrapper .wrapper__right .wrapper__right__inner {
+	margin-left: auto;
+	width: 269px;
+}
+
+.tax-accountant .tax-accountant__current .advisor,
+.tax-accountant .tax-accountant__current .acting {
+	margin: 0 auto;
+	max-width: 680px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table,
+.tax-accountant .tax-accountant__current .acting table {
+	font-size: 0.875rem;
+	margin: 0 auto 80px;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr th,
+.tax-accountant .tax-accountant__current .acting table tr th {
+	background: #22588A;
+	border: 1px solid #707070;
+	color: #fff;
+	padding: 8px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr td,
+.tax-accountant .tax-accountant__current .acting table tr td {
+	border: 1px solid #707070;
+	padding: 10px 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tax-accountant .tax-accountant__current .advisor table {
+	margin-top: 20px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr td:first-child {
+	background: #F5F5F5;
+	padding-left: 46px;
+	text-align: left;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr:first-child th:first-child {
+	border-right: 1px solid #fff;
+	width: 250px;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr:first-child th:nth-child(2) {
+	border-bottom: 1px solid #fff;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr:nth-child(2) th {
+	background: #6BADD9;
+}
+
+.tax-accountant .tax-accountant__current .advisor table tr:nth-child(2) th:first-child {
+	border-right: 1px solid #fff;
+}
+
+.tax-accountant .tax-accountant__current .acting .text__small {
+	font-size: 0.875rem;
+	margin: 30px auto 40px;
+	max-width: 540px;
+}
+
+.tax-accountant .tax-accountant__current .acting table tr th {
+	border-right: 1px solid #fff;
+}
+
+.tax-accountant .tax-accountant__current .acting table tr th:last-child {
+	border-right: 1px solid #707070;
+}
+
+.tax-accountant .tax-accountant__current .acting__bottom {
+	line-height: 1.75;
+	margin: 0 auto 82px;
+	max-width: 705px;
+}
+
+.tax-accountant .tax-accountant__current .acting__bottom .bold {
+	font-weight: 600;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__square {
+	background: #EDF9FF;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 2;
+	margin: 0 auto;
+	max-width: 750px;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.tax-accountant .tax-accountant__current .tax-accountant__current__bottom {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 45px auto;
+	max-width: 680px;
+	text-align: center;
 }
 
 .thanks p {
@@ -3261,6 +3575,241 @@ select {
 
 .voice .voices .voice-lists__item {
 	margin-bottom: 60px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+.page__menu ._inner {
+	flex-wrap: wrap;
+}
+
+.page__menu ._inner a {
+	font-size: 0.8125rem;
+	text-align: center;
+	width: 130px;
+}
+
+.page__menu ._inner a .sp-br {
+	display: block;
+}
+
+.blue-text {
+	font-size: 2rem;
+}
+
+.precautions__content {
+	font-size: 0.875rem;
+}
+
+.paper .sp-br {
+	display: block;
+}
+
+.paper .paper__document .papper__document__top {
+	font-size: 0.875rem;
+	margin: 0 auto 30px;
+}
+
+.paper .paper__document .papper__document__table {
+	font-size: 0.75rem;
+}
+
+.paper .paper__document .papper__document__table tr td {
+	padding: 10px 5px;
+}
+
+.paper .paper__document .paper__document__bottom h3 {
+	font-size: 1.5rem;
+}
+
+.paper .paper__document .paper__document__bottom p {
+	background: #F5F5F5;
+	margin: 20px auto 40px;
+	max-width: 700px;
+	padding: 25px 20px;
+}
+
+.paper .paper__method .paper__method__top {
+	font-size: 0.875rem;
+}
+
+.paper .paper__method .paper__method__items {
+	flex-direction: column;
+}
+
+.paper .paper__method .paper__method__items .paper__method__item {
+	margin: 0 40px 50px;
+}
+
+.paper .paper__method .paper__method__title {
+	font-size: 1.375rem;
+	line-height: 1.75;
+	margin: 50px auto 30px;
+	text-align: center;
+}
+
+.paper .paper__method .paper__method__title .method__number {
+	font-size: 1.375rem;
+	padding: 5px 8px;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__top {
+	font-size: 0.875rem;
+	margin: 0 auto 50px;
+}
+
+.paper .paper__method .paper__method1 h4 {
+	font-size: 1rem;
+}
+
+.paper .paper__method .paper__method1 .papers__method1__items {
+	justify-content: space-between;
+	margin: 0 auto 80px;
+}
+
+.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item {
+	margin-top: 30px;
+	width: 47%;
+}
+
+.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item p {
+	font-size: 0.9375rem;
+	line-height: 1.75;
+	padding-bottom: 20px;
+}
+
+.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul {
+	flex-direction: column;
+	font-size: 0.75rem;
+	line-height: 1.2;
+	padding: 0 0 5px 16px;
+}
+
+.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul li {
+	padding-right: 0px;
+}
+
+.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item .paper__method1__item__image {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__table tr {
+	font-size: 0.75rem;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__table tr:nth-child(2) th {
+	width: calc((100% - 22px) / 3);
+}
+
+.paper .paper__method .paper__method1 .paper__method1__table tr:nth-child(3) th {
+	width: 22px;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__table tr:nth-child(3) td {
+	padding: 20px 10px;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__table tr:nth-child(3) td .bold:nth-child(n + 2) {
+	padding-top: 10px;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__table tr:nth-child(3) td .small {
+	font-size: 0.75rem;
+	padding-top: 10px;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__table tr:nth-child(4) td {
+	padding: 20px 10px;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__caution {
+	margin-bottom: 120px;
+	padding: 30px 15px;
+}
+
+.paper .paper__method .paper__method1 .paper__method1__caution .paper__method1__caution__text {
+	font-size: 0.875rem;
+	margin: 30px auto 0;
+	text-align: left;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__top {
+	font-size: 0.875rem;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__img {
+	margin: 50px auto 80px;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__content {
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__content .left {
+	max-width: 300px;
+	width: 300px;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__content .right {
+	max-width: 300px;
+	width: 300px;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__content .item {
+	height: auto;
+	margin: 0 auto 30px;
+	padding: 30px 20px 20px;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__content .item h4 {
+	padding-bottom: 30px;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__bottom__small {
+	font-size: 0.875rem;
+}
+
+.paper .paper__method .paper__method2 .paper__method2__bottom__big {
+	margin: 40px auto 50px;
+}
+
+.question .sp-br {
+	display: block;
+}
+
+.question .question__content .question__top {
+	font-size: 0.875rem;
+}
+
+.question .question__content .question__items .question__item .question__q {
+	font-size: 1rem;
+	padding: 16px 52px 16px 55px;
+}
+
+.question .question__content .question__items .question__item .question__q:before {
+	content: "Q";
+	font-size: 1.25rem;
+	left: 20px;
+}
+
+.question .question__content .question__items .question__item .question__a {
+	font-size: 0.9375rem;
+	padding: 0 52px 0px 55px;
+}
+
+.question .question__content .question__items .question__item .question__check:checked + .question__q + .question__a {
+	font-size: 0.9375rem;
+	padding: 0 52px 40px 55px;
+}
+
+.question .question__content .question__items .question__item .question__check:checked + .question__q + .question__a:before {
+	content: "A";
+	font-size: 1.25rem;
+	left: 20px;
 }
 
 }

@@ -28,8 +28,8 @@
 
         <div class="page__menu">
             <div class="_inner">
-                <a href="#paper__document">会社設立後の届出書類</a>
-                <a href="#paper__method">届出書類の提出方法</a>
+                <a href="#paper__document">会社設立後<br class="sp-br">の届出書類</a>
+                <a href="#paper__method">届出書類<br class="sp-br">の提出方法</a>
             </div>
         </div>
 
@@ -78,7 +78,7 @@
                     </tr>
                     <tr>
                         <td>減価償却資産の償却方法の届出書</td>
-                        <td>●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●</td>
+                        <td>●●●●●</td>
                     </tr>
                     <tr>
                         <td>健康保険、厚生年金保険新規適用届</td>
@@ -122,9 +122,9 @@
                 </table>
                 <p class="precautions__content">※登記住所により管轄の税務署は異なります。管轄の税務署は<a href="https://www.nta.go.jp/about/organization/access/map.html">こちら</a>よりご確認ください。</p>
                 <div class="paper__document__bottom">
-                    <h3>電子申請キャンペーンでは、こちらの届出書類を<br>
+                    <h3>電子申請キャンペーンでは、<br class="sp-br">こちらの届出書類を<br>
                     税理士が電子申請します</h3>
-                    <p>法人設立届出書、青色申告承認申請書、給与支払事務所等の開設届出書、<br>
+                    <p>法人設立届出書、青色申告承認申請書、<br class="sp-br">給与支払事務所等の開設届出書、<br>
                     源泉所得税の納期の特例に関する申請書</p>
                 </div>
             </div>       
@@ -135,7 +135,7 @@
         <div class="paper__method" id="paper__method">
             <div class="_inner">
                 <h2 class="blue-text">
-                    会社設立後の届出書類の提出方法
+                    会社設立後の届出書類<br class="sp-br">の提出方法
                 </h2>
                 <p class="paper__method__top">会社設立後の届出書類の提出方法は、税理士に依頼する以外にも、以下の2つの方法があります。</p>
                 <div class="paper__method__items">
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="paper__method1">
-                    <h3 class="paper__method__title"><span class="method__number">1</span>届出書類を取得し、自分で作成して提出</h3>
+                    <h3 class="paper__method__title"><span class="method__number">1</span>届出書類を取得し、<br class="sp-br">自分で作成して提出</h3>
                     <p class="paper__method1__top">国税庁のホームページから、以下の〈申請書様式〉をダウンロードして書類を作成します。そして、〈提出先と書類一覧〉に従って、管轄の諸官庁に提出します。</p>
                     <h4>〈申請書様式〉</h4>
                     <div class="papers__method1__items">
@@ -162,19 +162,19 @@
                                 <li>税務事務所</li>
                                 <li>市役所</li>
                             </ul>
-                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method1.png" alt=""></div>
+                            <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method1.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
                             <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/1554_14.html">青色申告承認申請書</a></p>
-                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method2.png" alt=""></div>
+                            <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method2.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
                             <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_11.html">給与支払事務所等の開設届出書</a></p>
-                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method3.png" alt=""></div>
+                            <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method3.png" alt=""></div>
                         </div>
                         <div class="paper__method1__item">
                             <p>■<a href="https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_14.html">源泉所得税の納期の特例に関する申請書</a></p>
-                            <div class="paper__method1__item__image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method4.png" alt=""></div>
+                            <div class="paper__method1__item__image"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method4.png" alt=""></div>
                         </div>
                     </div>
 
@@ -233,9 +233,9 @@
 
 
                 <div class="paper__method2">
-                    <h3 class="paper__method__title"><span class="method__number">2</span>マイナポータル「法人設立ワンストップサービス」</h3>
+                    <h3 class="paper__method__title"><span class="method__number">2</span>マイナポータル「法人設立<br class="sp-br">ワンストップサービス」</h3>
                     <p class="paper__method2__top">「法人設立ワンストップサービス」では、管轄の諸官庁へそれぞれ個別に提出しなければいけない会社設立後の届出書類をマイナポータルという一つのオンラインサービスを利用して、これらの一連の手続を提出まで一度で行うことができるサービスです。内閣府が提供しています。</p>
-                    <div class="paper__method2__img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/paper__method5.png" alt=""></div>
+                    <div class="paper__method2__img"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/paper__method5.png" alt=""></div>
                     <div class="paper__method2__content">
                         <div class="left item">
                             <h4>申請可能な手続き</h3>
@@ -253,8 +253,8 @@
                     </div>
 
                     <p class="paper__method2__bottom__small">以上のように税理士に依頼せずに会社設立後の届出書類を提出する方法がありますが、やはり<span class="bold">「よく分からない」「面倒」に感じられる</span>かもしれません。</p>
-                    <p class="paper__method2__bottom__big">そのような方には、会社設立後の届出書類<br>
-                    電子申請キャンペーンのご利用をおススメします。</p> 
+                    <p class="paper__method2__bottom__big">そのような方には、<br class="sp-br">会社設立後の届出書類<br>
+                    電子申請キャンペーンの<br class="sp-br">ご利用をおススメします。</p> 
                 </div>          
             </div>
         </div>

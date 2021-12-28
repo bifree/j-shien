@@ -1,15 +1,298 @@
 .tax-accountant{
   color:#333;
-    *{
-        box-sizing:border-box;
+  *{
+      box-sizing:border-box;
+  }
+  img{
+      max-width:100%;
     }
-    img{
-        max-width:100%;
+  a{
+      text-decoration:none;
+  }
+  li{
+      list-style:none;
+  }
+  .com-fv{
+    ._page-title{
+      ._image{
+        width:46px;
+        margin-right:38px;
       }
-    a{
-        text-decoration:none;
     }
-    li{
-        list-style:none;
+  }
+
+  .tax-accountant__about{
+    .tax-accountant__about__text{
+      max-width:650px;
+      text-align:1.75;
+      margin:0 auto;
     }
+    .tax-accountant__about__law{
+      max-width:670px;
+      border:1px solid #707070;
+      font-family: "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+      margin:30px auto 60px;
+      padding:20px 40px;
+      .law__title{
+        font-weight:600;
+        padding-bottom:30px;
+      }
+    }
+    .tax-accountant__about__table{
+      max-width:662px;
+      margin:30px auto 100px;
+      font-size:0.875rem;
+      tr{
+        th{
+          color:#fff;
+          background:#225889;
+          width:52px;
+          padding:0 18px;
+          line-height:1.14;
+          border: 1px solid #707070;
+          vertical-align:middle;
+        }
+        td{
+          background:#F5F5F5;
+          border: 1px solid #707070;
+          padding:20px 28px;
+          vertical-align:middle;
+          &:first-child{
+            font-weight:600;
+          }
+        }
+        &:first-child{
+          td:nth-child(2){
+            font-weight:600;
+            width:170px;
+          }
+        }
+        &:nth-child(4){
+          th{
+            background:#6BADD9;
+          }
+          td{
+            background:#fff;
+          }
+        }
+      }
+    }
+  }
+
+  .tax-accountant__current{
+    .white-text{
+      font-size:2.625rem;
+      color:#fff;
+      background:#4578A1;
+      padding:78px 0;
+      text-align:center;
+      position:relative;
+      margin-bottom:80px;
+      &:after{
+        border: solid transparent;
+        content:'';
+        height:0;
+        width:0;
+        pointer-events:none;
+        position:absolute;
+        border-color: rgba(0, 153, 255, 0);
+        border-top-width:20px;
+        border-bottom-width:20px;
+        border-left-width:20px;
+        border-right-width:20px;
+        margin-left: -20px;
+        border-top-color:#4578A1;
+        top:100%;
+        left:50%;
+      }
+    }
+    .tax-accountant__current__tittle{
+      font-size:1.5rem;
+      color:#01588E;
+      max-width:680px;
+      padding-left:7px;
+      margin:0 auto;
+      .black{
+        font-size:1.125rem;
+        color:#333;
+        font-weight:300;
+      }
+    }
+    .tax-accountant__current__text{
+      max-width:680px;
+      margin:35px auto 80px;
+      line-height:1.75;
+      p{
+        padding-bottom:25px;
+        .bold{
+          font-weight:600;
+        }
+      }
+    }
+    .table__title{
+      font-size:1.125rem;
+      text-align:center;
+    }
+    .tax-accountant__current__wrapper{
+      max-width:680px;
+      margin:0 auto 120px;
+      display:flex;
+      .table{
+        width:50%;
+        table{
+          font-size:0.875rem;
+          margin:20px auto 15px;
+          tr{
+            th{
+              color:#fff;
+              background:#22588A;
+              width:100px;
+              padding:8px 0;
+              text-align:center;
+              border: 1px solid #707070;
+            }
+            td{
+              border: 1px solid #707070;
+              padding:10px 20px;
+              &:first-child{
+                background:#F5F5F5;
+              }
+              &:nth-child(2){
+                text-align:right;
+              }
+            }
+          }
+        }
+        .document{
+          font-size:0.8125rem;
+        }
+      }
+      .wrapper__left{
+        border-right: 1px solid #707070;
+        .wrapper__left__inner{
+          width:250px;
+          table{
+            tr:last-child{
+              font-weight:600;
+              text-align:center;
+              td:first-child{
+                color:#fff;
+                background:#6BADD9;
+              }
+            }
+          }
+          .document{
+            padding-left:25px;
+          }
+          .text{
+            padding-top:40px;
+            line-height:1.75;
+          }
+        }
+      }
+      .wrapper__right{
+        .wrapper__right__inner{
+          width:269px;
+          margin-left:auto;
+        }
+      }
+    }
+    .advisor,.acting{
+      max-width:680px;
+      margin:0 auto;
+      table{
+        font-size:0.875rem;
+        table-layout: fixed;
+        width: 100%;
+        margin:0 auto 80px;
+        tr{
+          th{
+            color:#fff;
+            background:#22588A;
+            padding:8px 0;
+            text-align:center;
+            vertical-align:middle;
+            border: 1px solid #707070;
+          }
+          td{
+            padding:10px 20px;
+            text-align:center;
+            vertical-align:middle;
+            border: 1px solid #707070;
+          }
+        }
+      }
+    }
+    .advisor{
+      table{
+        margin-top:20px;
+        tr{
+          td:first-child{
+            background:#F5F5F5;
+            text-align:left;
+            padding-left:46px;
+          }
+          &:first-child{
+            th:first-child{
+              border-right: 1px solid #fff;
+              width:250px;
+            }
+            th:nth-child(2){
+              border-bottom: 1px solid #fff;
+            }
+          }
+          &:nth-child(2){
+            th{
+              background:#6BADD9;
+              &:first-child{
+                border-right: 1px solid #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+    .acting{
+      .text__small{
+        max-width:540px;
+        font-size:0.875rem;
+        margin:30px auto 40px;
+      }
+      table{
+        tr{
+          th{
+            border-right:1px solid #fff;
+            &:last-child{
+              border-right:1px solid #707070;
+            }
+          }
+        }
+      }
+    }
+    .acting__bottom{
+      max-width:705px;
+      margin:0 auto 82px;
+      line-height: 1.75;
+      .bold{
+        font-weight:600;
+      }
+    }
+    .tax-accountant__current__square{
+      max-width:750px;
+      font-size:1.125rem;
+      font-weight:600;
+      line-height:2;
+      padding:25px 0;
+      text-align:center;
+      background:#EDF9FF;
+      margin:0 auto;
+    }
+    .tax-accountant__current__bottom{
+      font-size:1.5rem;
+      font-weight:600;
+      max-width:680px;
+      text-align:center;
+      margin:45px auto;
+    }
+  }
 }
