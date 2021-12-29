@@ -3394,6 +3394,10 @@ select {
 	transform: rotate(180deg);
 }
 
+.d-none {
+	display: none;
+}
+
 @media screen and (max-width: 1080px) {
 
 .l-header .logo {

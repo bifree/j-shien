@@ -65,7 +65,7 @@
                     </div>
                 </li>
             </ul>
-            <ul class="voice-pagination _flex">
+            <ul class="voice-pagination _flex d-none">
                 <li class="voice-pagination-item">
                     <a href="">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/voice-pagination.svg" alt=""> 
