@@ -883,7 +883,6 @@ select {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
-	min-height: 475px;
 	position: relative;
 }
 
