@@ -1,5 +1,8 @@
 .company{
     padding-top: 45px;
+    @media screen and (max-width:767px) {
+        padding-top: 35px;
+    }
     .com-fv{
         ._page-title{
             

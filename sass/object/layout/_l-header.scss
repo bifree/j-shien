@@ -149,8 +149,18 @@
 			align-items: center;
 			justify-content: center;
 			.inner {
+				.mail-inner {
+					display: flex;
+					.bigger {
+						font-size: 20px;
+					}
+					img {
+						margin-left: 12px;
+						display: block;
+					}
+				}
 				p.smaller {
-					margin: 0 auto;
+					margin: 0 auto 7px;
 					width: 130px;
 					font-size: 12px;
 					text-align: center;
@@ -159,9 +169,6 @@
 					color: #FFF;
 					background-color: #000;
 					border-radius: 9px;
-				}
-				.bigger {
-					font-size: 20px;
 				}
 			}
 			background-color: #FADD62;

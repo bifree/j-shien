@@ -637,6 +637,9 @@ header {
             border-left-width: 0px;
             border-right-width: 18px;
             border-bottom-width: 0px;
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
         }
 
         &::after {
@@ -652,6 +655,9 @@ header {
             border-left-width: 0px;
             border-right-width: 18px;
             border-bottom-width: 0px;
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
         }
     }
 
@@ -813,8 +819,16 @@ header {
         margin: 0 auto;
         display: block;
         max-width: none;
-        padding: 0;
+        padding: 20px 0;
+        .result-nd_title {
+            text-align: center;
+            margin: 20px auto;
+        }
         .result-left {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .result-right {
             width: 80%;
             margin: 0 auto;
         }
@@ -833,7 +847,15 @@ header {
 
 .result-content {
     margin-top: 25px;
-
+    @media screen and (max-width:767px) {
+        &.graph {
+            justify-content: center;
+            display: flex;
+            img {
+                display: block;
+            }
+        }
+    }
     .ranking {
         color: #333333;
         display: flex;

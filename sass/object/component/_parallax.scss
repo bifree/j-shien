@@ -2,7 +2,9 @@
     height: 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     background-image: url('https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg');
+    @media screen and (max-width:767px) {
+        background-size: 250%;
+    }
 }

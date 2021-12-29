@@ -85,7 +85,7 @@
 
 		</div>
 		<div class="btn mt-4">
-			<a href="">お客様の声の詳細はこちら</a>
+			<a href="<?php echo esc_url( home_url( '/voice' ) ); ?>">お客様の声の詳細はこちら</a>
 			<i class="fas fa-chevron-right"></i>
 		</div>
 	</div>

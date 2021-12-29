@@ -30,7 +30,7 @@
 				<h2>申請後の控えを受け取るだけで
 					<br>設立後の手続きが完了
 				</h2>
-				<h3>新設法人と税理士をつなぐ<span class="color-yellow">業界唯一</span>のマッチングサービス</h3>
+				<h3>新設法人と税理士をつなぐ<br class="sp-br"><span class="color-yellow">業界唯一</span>のマッチングサービス</h3>
 				<p class="blue-bold">顧問契約強制なし</p>
 				<div class="align_center_660">
 					<p class="top-text">「会社設立後のお助け隊」は累計2万社以上の新設法人の税理士マッチング実績があり、対応する税理士も新設法人専門の税理士です。</p>
@@ -42,7 +42,9 @@
 					<p class="top-text mb-3">会社設立後の届出書類とは税務署や税務事務所、役所に提出する以下の書類をいいます。</p>
 					<p class="bg-gray">法人設立届出書、青色申告承認申請書、給与支払事務所等の開設届出書、源泉所得税の納期の特例に関する申請書</p>
 				</div>
-				<div class="btn mt-30px"><a href="">会社設立後の届出書類の詳細はこちら</a></div>
+				<div class="btn mt-30px"><a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類の詳細はこちら</a>
+				<i class="fas fa-chevron-right"></i>
+				</div>
 			</div>
 		</div>
 
@@ -128,7 +130,7 @@
 					<div class="result-nd_title">
 						<h4>利用後の税理士契約</h4>
 					</div>
-					<div class="result-content">
+					<div class="result-content graph">
 						<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/reason-gr1.png" alt="">
 					</div>
 				</div>
@@ -136,7 +138,7 @@
 					<div class="result-nd_title">
 						<h4>利用した感想</h4>
 					</div>
-					<div class="result-content">
+					<div class="result-content graph">
 						<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/reason-gr2.png" alt="">
 					</div>
 				</div>
@@ -169,7 +171,7 @@
 				</div>
 			</div>
 			<div class="btn">
-				<a href="">選ばれる理由の詳細はこちら</a>
+				<a href="<?php echo esc_url( home_url( '/begin_reason' ) ); ?>">選ばれる理由の詳細はこちら</a>
 				<i class="fas fa-chevron-right"></i>
 			</div>
 		</div>
@@ -182,7 +184,7 @@
 				<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/graph001.png" alt="">
 			</div>
 			<div class="btn">
-				<a href="">会社設立後の届出書類の詳細はこちら</a>
+				<a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類の詳細はこちら</a>
 				<i class="fas fa-chevron-right"></i>
 			</div>
 		</div>

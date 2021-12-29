@@ -1101,6 +1101,14 @@ section.comments {
 	padding-bottom: 0;
 }
 
+.top h3::before {
+	display: none;
+}
+
+.top h3::after {
+	display: none;
+}
+
 .apply-block-inner .block-content_1 {
 	display: block;
 }
@@ -1113,13 +1121,32 @@ section.comments {
 	display: block;
 	margin: 0 auto;
 	max-width: none;
-	padding: 0;
+	padding: 20px 0;
 	width: 80%;
+}
+
+.result .result-nd_title {
+	margin: 20px auto;
+	text-align: center;
 }
 
 .result .result-left {
 	margin: 0 auto;
 	width: 80%;
+}
+
+.result .result-right {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.result-content.graph {
+	display: flex;
+	justify-content: center;
+}
+
+.result-content.graph img {
+	display: block;
 }
 
 .top-customer-voice {

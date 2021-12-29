@@ -51,6 +51,9 @@
             margin-bottom: 30px;
             padding-bottom: 10px;
             border-bottom: 1px solid #707070;
+            @media screen and (max-width:767px) {
+                font-size: 3.5vw;
+            }
         }
     }
 }

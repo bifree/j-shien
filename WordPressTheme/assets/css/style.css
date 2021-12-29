@@ -614,20 +614,29 @@ select {
 	width: 170px;
 }
 
+.l-header .header-contact .apply-form .inner .mail-inner {
+	display: flex;
+}
+
+.l-header .header-contact .apply-form .inner .mail-inner .bigger {
+	font-size: 20px;
+}
+
+.l-header .header-contact .apply-form .inner .mail-inner img {
+	display: block;
+	margin-left: 12px;
+}
+
 .l-header .header-contact .apply-form .inner p.smaller {
 	background-color: #000;
 	border-radius: 9px;
 	color: #FFF;
 	font-size: 12px;
-	margin: 0 auto;
+	margin: 0 auto 7px;
 	padding-bottom: 2px;
 	padding-top: 2px;
 	text-align: center;
 	width: 130px;
-}
-
-.l-header .header-contact .apply-form .inner .bigger {
-	font-size: 20px;
 }
 
 .header-nav {
@@ -879,7 +888,6 @@ select {
 	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: cover;
 	height: 100%;
 	position: relative;
 }
@@ -3659,7 +3667,7 @@ select {
 }
 
 .com-fv ._page-title span img {
-	width: 24px;
+	width: 100%;
 }
 
 .comments .inner .comments-text {
@@ -3992,8 +4000,8 @@ select {
 }
 
 .apply-block {
-	min-height: 435px;
-	padding-bottom: 25px;
+	min-height: none;
+	padding-bottom: 15px;
 	padding-top: 15px;
 }
 
@@ -4029,10 +4037,27 @@ select {
 	border-right: none;
 }
 
+.apply-block .apply-block-inner .free-dial .right {
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.apply-block .apply-block-inner .free-dial .right p.bigger {
+	font-size: 1.6rem;
+}
+
 .caution {
 	margin-bottom: 55px;
 	padding: 10px 20px;
 	width: 90%;
+}
+
+.parallax {
+	background-size: 250%;
+}
+
+.questionnaire h3 {
+	font-size: 1.6rem;
 }
 
 .questionnaire .customer-answer {
@@ -4042,7 +4067,7 @@ select {
 }
 
 .questionnaire .customer-answer .voice {
-	margin-bottom: 30px;
+	margin: 0 auto 40px;
 	padding: 10px;
 	width: 80%;
 }
@@ -4057,6 +4082,10 @@ select {
 
 .suggestion .suggest-middle p {
 	width: 90%;
+}
+
+.suggestion .suggest-middle .check {
+	font-size: 3.5vw;
 }
 
 .top-customer-voice .sp-none {
@@ -4110,6 +4139,10 @@ select {
 .about .about-section .inner .about__campain .inner {
 	box-sizing: border-box;
 	width: 90%;
+}
+
+.company {
+	padding-top: 35px;
 }
 
 .contact .contact__content {
@@ -4855,7 +4888,7 @@ select {
 }
 
 .com-fv ._page-title span img {
-	width: 24px;
+	width: 100%;
 }
 
 .comments .inner .comments-text {

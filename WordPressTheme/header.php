@@ -64,7 +64,10 @@
 				<div class="apply-form">
 					<div class="inner">
 						<p class="smaller">電子申請キャンペーン</p>
-						<p class="bigger">お申込み</p>
+						<div class="mail-inner">
+							<p class="bigger">お申込み</p>
+							<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/92d6bb98023672ab93f0c6767f9c4489.png" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
