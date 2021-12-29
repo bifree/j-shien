@@ -1,8 +1,8 @@
 <div class="apply-block parallax">
 	<div class="apply-block-inner">
 		<div class="block-content_1">
-			<p class="mr-5">設立３カ月以内の法人様限定</p>
-			<p><span class="slash">\</span><span class="bigger">面倒な手続きを税理士にお任せ！</span><span class="slash">/</span></p>
+			<p class="mr-5 sp-center">設立３カ月以内の法人様限定</p>
+			<p class="sp-center"><span class="slash">\</span><span class="bigger">面倒な手続きを税理士にお任せ！</span><span class="slash">/</span></p>
 		</div>
 		<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/offer_btn.png" alt="">
 		<div class="free-dial">

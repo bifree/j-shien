@@ -3335,6 +3335,11 @@ select {
 	display: none;
 }
 
+.top-reason h2 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
 .top-reason .reason-block {
 	display: block;
 	margin: 0 auto;
@@ -3342,6 +3347,7 @@ select {
 }
 
 .top-reason .reason-block .reason-box {
+	margin-bottom: 60px;
 	width: 100%;
 }
 
@@ -3683,7 +3689,7 @@ select {
 
 .top-reason .title {
 	font-size: 16px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .company .com-fv ._page-title img {
@@ -3952,7 +3958,7 @@ select {
 .appeal {
 	background-repeat: no-repeat;
 	background-size: contain;
-	padding-bottom: 60px;
+	padding-bottom: 0;
 	padding-top: 40px;
 }
 
@@ -3989,6 +3995,11 @@ select {
 	min-height: 435px;
 	padding-bottom: 25px;
 	padding-top: 15px;
+}
+
+.apply-block .sp-center {
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .apply-block .apply-block-inner {
@@ -4038,6 +4049,10 @@ select {
 
 .top-graph .inner {
 	width: 100%;
+}
+
+.suggestion .suggest-top {
+	padding: 10px;
 }
 
 .suggestion .suggest-middle p {
@@ -4870,7 +4885,7 @@ select {
 
 .top-reason .title {
 	font-size: 16px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .company .com-fv ._page-title img {

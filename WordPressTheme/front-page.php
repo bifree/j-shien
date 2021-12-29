@@ -8,7 +8,7 @@
 				<div class="block-content_1">
 					<div class="content-left">
 						<p class="color-yellow">新設法人応援</p>
-						<img src="" alt="">
+						<!-- <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/top-img-ef.png" alt=""> -->
 					</div>
 					<div class="content-right">
 						<p>設立３カ月以内の法人様限定｜</p>
@@ -17,7 +17,7 @@
 				</div>
 				<div class="block-content_2">
 					<h2>会社設立後の官公庁への面倒な手続きを</h2>
-					<h1>税理士<small>が</small>無料<small>で</small>電子申請<small>します！</small></h1>
+					<h1>税理士<small>が</small>無料<small>で<br class="sp-br"></small>電子申請<small>します！</small></h1>
 				</div>
 				<div class="block-content_3">
 					<p>新しく会社を設立された方と税理士とのご縁づくり</p>

@@ -466,6 +466,9 @@ header {
     top: 0;
     background-size: cover;
     z-index: -5;
+    @media screen and (max-width:767px) {
+        background-position-x: center;
+    }
 }
 
 .l-header {
@@ -516,8 +519,15 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-
+        @media screen and (max-width:767px) {
+            display: block;
+        }
         .content-left {
+            @media screen and (max-width:767px) {
+                display: block;
+                width: 45%;
+                margin: 0 auto 15px;
+            }
             p {
                 font-size: 25px;
             }
@@ -538,6 +548,10 @@ header {
                 font-size: 18px;
                 color: white;
             }
+            @media screen and (max-width:767px) {
+                width: 80%;
+                margin: 0 auto 15px;
+            }
         }
     }
 
@@ -546,6 +560,9 @@ header {
             font-size: 36px;
             color: white;
             margin-bottom: 40px;
+            @media screen and (max-width:767px) {
+                font-size: 18px;
+            }
         }
 
         h1 {
@@ -555,9 +572,20 @@ header {
             small {
                 font-size: 42px;
             }
+            @media screen and (max-width:767px) {
+                font-size: 48px;
+                line-height: 68px;
+                small {
+                    font-size: 26px;
+                }
+            }
         }
 
         margin: 48px 0 50px;
+        @media screen and (max-width:767px) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
     }
 
     .block-content_3 {
@@ -566,12 +594,25 @@ header {
             font-size: 18px;
             margin-bottom: 10px;
         }
+        @media screen and (max-width:767px) {
+            width: 80%;
+            margin: 0 auto;
+            p {
+                font-size: 14px;
+            }
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 
 .front-top {
     background: white;
     padding: 95px 0;
+    @media screen and (max-width:767px) {
+        padding-bottom: 0;
+    }
 
     .top {
         margin: auto;
@@ -666,7 +707,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-
+        @media screen and (max-width:767px) {
+            display: block;
+        }
         .slash {
             font-size: 24px;
             margin: 0 6px;
@@ -766,10 +809,15 @@ header {
     display: flex;
     justify-content: space-between;
     @media screen and (max-width:767px) {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         display: block;
         max-width: none;
         padding: 0;
+        .result-left {
+            width: 80%;
+            margin: 0 auto;
+        }
     }
 }
 
@@ -952,6 +1000,10 @@ header {
     flex-wrap: wrap;
     @media screen and (max-width: 767px) {
         display: block;
+        .step-item {
+            width: 80%;
+            margin: 0 auto;
+        }
     }
     .step-item {
         display: flex;
@@ -1042,8 +1094,15 @@ section.top-conform {
     @media screen and (max-width:767px) {
         box-sizing: border-box;
         max-width: none;
-        width: 100%;
+        width: 90%;
+        margin: 50px auto 0;
         padding: 10px;
+        h2.conform-title {
+            margin-bottom: 30px;
+        }
+        p.conform-alert {
+            margin-bottom: 30px;
+        }
     }
 
     h2.conform-title {
@@ -1069,7 +1128,13 @@ section.top-conform {
         max-width: 500px;
         margin: auto;
         color: #01588E;
-
+        @media screen and (max-width:767px) {
+            max-width: none;
+            width: 90%;
+            li.conform-lists__item {
+                margin-bottom: 20px;
+            }
+        }
         li.conform-lists__item {
             margin-bottom: 40px;
             position: relative;
@@ -1108,4 +1173,7 @@ section.comments {
 
 .appeal {
     padding-bottom: 0px;
+    @media screen and (max-width:767px) {
+        padding-bottom: 0;
+    }
 }
