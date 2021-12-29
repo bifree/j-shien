@@ -20,6 +20,10 @@
         text-align: center;
         color: #035aa6;
         font-weight: bold;
+        @media screen and (max-width: 767px) {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
     }
     .inner {
         .title-box {
@@ -54,6 +58,9 @@
         .reasons {
             width: 900px;
             margin: 100px auto 0;
+            @media screen and (max-width: 767px) {
+                padding-bottom: 50px;
+            }
             &__wrapper {
                 display: flex;
                 justify-content: space-between;
@@ -66,6 +73,12 @@
                     margin-bottom: 123px;
                     position: relative;
                     box-shadow: 10px 10px 5px #FADD62;
+                    @media screen and (max-width: 767px) {
+                        &:last-child {
+                            margin-bottom: 0;
+                            height: auto;
+                        }
+                    }
                     h4 {
                         margin-top: 60px;
                         font-size: 24px;
@@ -95,12 +108,27 @@
                     border: none !important;
                     box-shadow: none;
                     padding-top: 100px;
+                    margin: 0 auto 50px;
+                    @media screen and (max-width: 767px) {
+                        width: 90%;
+                        padding-top: 0;
+                        img {
+                            width: 100%;
+                            margin: 0 auto;
+                        }
+                    }
                 }
+            }
+            @media screen and (max-width: 767px) {
+                width: 90%;
             }
         }
         .reasons__voice {
             background-color: #56AEDD;
             padding: 50px;
+            @media screen and (max-width: 767px) {
+                padding: 2%;
+            }
             h3 {
                 font-size: 36px;
                 line-height: 54px;
@@ -122,6 +150,11 @@
                 border-radius: 5px;
                 position: relative;
                 margin: 0 auto 60px;
+                @media screen and (max-width: 767px) {
+                    width: 90%;
+                    display: block;
+                    padding: 15px;
+                }
                 &--left {
                     margin-right: 65px;
                     width: 340px;
@@ -131,9 +164,15 @@
                         font-size: 24px;
                         line-height: 42px;
                     }
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                    }
                 }
                 &--right {
                     width: 300px;
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                    }
                 }
                 ::before {
                     content: '';
@@ -157,7 +196,15 @@
                 display: flex;
                 padding-top: 30px;
                 padding-bottom: 10px;
+                @media screen and (max-width: 767px) {
+                    width: 90%;
+                    display: block;
+                }
                 .one {
+                    @media screen and (max-width: 767px) {
+                        width: 90%;
+                        margin: 0 auto 30px;
+                    }
                     h4 {
                         margin-bottom: 35px;
                     }
@@ -197,7 +244,7 @@
                 height: 45px;
                 line-height: 45px;
                 color: #FFF;
-                margin: 50px auto 0;
+                margin: 50px auto 50px;
             }
         }
     }

@@ -2534,6 +2534,7 @@ select {
 .reason .inner .reasons__wrapper .img {
 	border: none !important;
 	box-shadow: none;
+	margin: 0 auto 50px;
 	padding-top: 100px;
 }
 
@@ -2651,7 +2652,7 @@ select {
 	cursor: pointer;
 	height: 45px;
 	line-height: 45px;
-	margin: 50px auto 0;
+	margin: 50px auto 50px;
 	text-align: center;
 	width: 390px;
 }
@@ -4241,6 +4242,62 @@ select {
 	content: "A";
 	font-size: 1.25rem;
 	left: 20px;
+}
+
+.reason .blue-text {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+.reason .inner .reasons {
+	padding-bottom: 50px;
+}
+
+.reason .inner .reasons__wrapper .reason__wrapper--item:last-child {
+	height: auto;
+	margin-bottom: 0;
+}
+
+.reason .inner .reasons__wrapper .img {
+	padding-top: 0;
+	width: 90%;
+}
+
+.reason .inner .reasons__wrapper .img img {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.reason .inner .reasons {
+	width: 90%;
+}
+
+.reason .inner .reasons__voice {
+	padding: 2%;
+}
+
+.reason .inner .reasons__voice--inner {
+	display: block;
+	padding: 15px;
+	width: 90%;
+}
+
+.reason .inner .reasons__voice--inner--left {
+	width: 100%;
+}
+
+.reason .inner .reasons__voice--inner--right {
+	width: 100%;
+}
+
+.reason .inner .reasons__voice--graph {
+	display: block;
+	width: 90%;
+}
+
+.reason .inner .reasons__voice--graph .one {
+	margin: 0 auto 30px;
+	width: 90%;
 }
 
 .tax-accountant .sp-br {
