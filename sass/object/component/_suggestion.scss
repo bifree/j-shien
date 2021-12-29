@@ -39,6 +39,9 @@
             margin-right: auto;
             margin-left: auto;
             width: 640px;
+            @media screen and (max-width:767px) {
+                width: 90%;
+            }
         }
         .check {
             font-size: 20px;

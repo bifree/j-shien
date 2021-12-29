@@ -4,6 +4,22 @@
     padding-bottom: 110px;
     @media screen and (max-width: 1080px) {
         width: 100%;
+        h2 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            text-align: center;
+        }
+        h3 {
+            background-color: #035aa6;
+            color: #FFF;
+            font-size: 24px;
+            line-height: 42px;
+            text-align: center;
+            margin-top: 40px;
+            span.yellow {
+                color: #FADD62;
+            }
+        }
     }
     h2 {
         font-size: 42px;
@@ -33,6 +49,9 @@
         margin-bottom: 40px;
         line-height: 28px;
         margin: 0 auto;
+        @media screen and (max-width:767px) {
+            width: 90%;
+        }
     }
     .price-block {
         margin: 0 auto 40px;
@@ -40,6 +59,9 @@
         box-sizing: border-box;
         border: 1px solid #333;
         padding: 40px 30px 40px 40px;
+        @media screen and (max-width:767px) {
+            width: 90%;
+        }
     }
     .bg-gray {
         width: 650px;
@@ -48,6 +70,9 @@
         background-color: #F5F5F5;
         padding: 20px;
         margin: 0 auto;
+        @media screen and (max-width:767px) {
+            width: 90%;
+        }
     }
     .btn {
         background-color: #6D7E8C;

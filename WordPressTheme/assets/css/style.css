@@ -1058,6 +1058,11 @@ select {
 	padding-top: 100px;
 }
 
+.top-customer-voice .sp-none {
+	display: flex;
+	width: 100%;
+}
+
 .top-customer-voice .title {
 	color: #6D7E8C;
 	font-size: 20px;
@@ -3330,30 +3335,58 @@ select {
 	display: none;
 }
 
-.questionnaire .customer-answer {
-	margin: 0 auto;
-	width: 95%;
-}
-
-.questionnaire .customer-answer .voice {
-	background-color: #FFF;
-	border-radius: 5px;
-	color: #56AEDD;
-	font-size: 1.2rem;
-	font-weight: bold;
-	line-height: 1.8rem;
-	padding-bottom: 48px;
-	padding-top: 48px;
-	width: calc((100% - 20px) / 3);
-}
-
 .top-reason .reason-block {
+	display: block;
 	margin: 0 auto;
 	width: 95%;
+}
+
+.top-reason .reason-block .reason-box {
+	width: 100%;
+}
+
+.top-reason .reason-block .reason-box p {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 42px;
+	text-align: center;
+}
+
+.top-reason .reason-block .reason-box .item-num {
+	left: 40%;
+	position: absolute;
+	top: -47px;
+}
+
+.top-reason .reason-block .reason-box .item-num h3 {
+	background-color: #FFF;
+	color: #01588E;
+	font-size: 50px;
+	line-height: 78px;
+	padding: 10px;
 }
 
 .top {
 	width: 100%;
+}
+
+.top h2 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+
+.top h3 {
+	background-color: #035aa6;
+	color: #FFF;
+	font-size: 24px;
+	line-height: 42px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.top h3 span.yellow {
+	color: #FADD62;
 }
 
 }
@@ -3991,6 +4024,30 @@ select {
 	width: 90%;
 }
 
+.questionnaire .customer-answer {
+	display: block;
+	margin: 0 auto;
+	width: 95%;
+}
+
+.questionnaire .customer-answer .voice {
+	margin-bottom: 30px;
+	padding: 10px;
+	width: 80%;
+}
+
+.top-graph .inner {
+	width: 100%;
+}
+
+.suggestion .suggest-middle p {
+	width: 90%;
+}
+
+.top-customer-voice .sp-none {
+	display: none;
+}
+
 .about .blue-text {
 	font-size: 2rem;
 	line-height: 2.5rem;
@@ -4501,6 +4558,18 @@ select {
 	margin: 45px auto;
 	max-width: 680px;
 	text-align: center;
+}
+
+.top .top-text {
+	width: 90%;
+}
+
+.top .price-block {
+	width: 90%;
+}
+
+.top .bg-gray {
+	width: 90%;
 }
 
 .sp-br {

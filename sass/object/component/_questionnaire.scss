@@ -44,19 +44,14 @@
 			padding-top: 48px;
 			box-sizing: border-box;
 		}
-		@media screen and (max-width: 1080px) {
+		@media screen and (max-width: 767px) {
             width: 95%;
             margin: 0 auto;
+			display: block;
 			.voice {
-				background-color: #FFF;
-				color: #56AEDD;
-				font-size: 1.2rem;
-				line-height: 1.8rem;
-				border-radius: 5px;
-				font-weight: bold;
-				width: calc((100% - 20px) / 3);
-				padding-top: 48px;
-				padding-bottom: 48px;
+				width: 80%;
+				padding: 10px;
+				margin-bottom: 30px;
 			}
         }
 	}
@@ -94,6 +89,9 @@
 		margin: 0 auto;
 		width: 1000px;
 		img {
+			width: 100%;
+		}
+		@media screen and (max-width:767px) {
 			width: 100%;
 		}
 	}

@@ -1,5 +1,12 @@
 .top-customer-voice {
     padding-top: 100px;
+    .sp-none {
+        display: flex;
+        width: 100%;
+        @media screen and (max-width:767px) {
+            display: none;
+        }
+    }
     .title{
         position: relative;
         color: #6D7E8C;

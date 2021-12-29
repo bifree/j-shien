@@ -40,10 +40,6 @@
         margin-right: auto;
         margin-left: auto;
         flex-wrap: wrap;
-        @media screen and (max-width: 1080px) {
-            width: 95%;
-            margin: 0 auto;
-        }
         .reason-box {
             border: 2px solid #01588E;
             width: calc((95% - 30px) / 2);
@@ -70,6 +66,32 @@
                     color: #01588E;
                     background-color: #FFF;
                     line-height: 78px;
+                }
+            }
+        }
+        @media screen and (max-width: 1080px) {
+            width: 95%;
+            margin: 0 auto;
+            display: block;
+            .reason-box {
+                width: 100%;
+                p {
+                    font-size: 24px;
+                    font-weight: bold;
+                    line-height: 42px;
+                    text-align: center;
+                }
+                .item-num {
+                    position: absolute;
+                    top: -47px;
+                    left: 40%;
+                    h3 {
+                        font-size: 50px;
+                        padding: 10px;
+                        color: #01588E;
+                        background-color: #FFF;
+                        line-height: 78px;
+                    }
                 }
             }
         }

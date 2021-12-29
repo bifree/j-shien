@@ -506,7 +506,12 @@ header {
     margin: auto;
     text-align: center;
     padding: 70px 0;
-
+    @media screen and (max-width:767px) {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
     .block-content_1 {
         display: flex;
         justify-content: center;
@@ -737,7 +742,9 @@ header {
     width: 1200px;
     margin: auto;
     position: relative;
-
+    @media screen and (max-width: 767px) {
+        width: 90%;
+    }
     .text-center {
         font-size: 24px;
         display: inline-block;
@@ -758,6 +765,12 @@ header {
     padding: 30px 100px 25px;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width:767px) {
+        width: 100%;
+        display: block;
+        max-width: none;
+        padding: 0;
+    }
 }
 
 .result-nd_title {
@@ -829,7 +842,6 @@ header {
 .top-customer-voice {
     background-color: white;
     padding: 100px 0;
-
     .wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -838,6 +850,18 @@ header {
             flex-grow: 1;
             width: 33%;
             text-align: center;
+        }
+    }
+    @media screen and (max-width:767px) {
+        display: block;
+        .wrapper {
+            display: block;
+            .voice-box {
+                flex-grow: 1;
+                width: 70%;
+                margin: 0 auto;
+                text-align: center;
+            }
         }
     }
 }
@@ -926,7 +950,9 @@ header {
 .top-step {
     display: flex;
     flex-wrap: wrap;
-
+    @media screen and (max-width: 767px) {
+        display: block;
+    }
     .step-item {
         display: flex;
         flex-direction: column;
@@ -939,10 +965,21 @@ header {
                 font-family: Roboto;
                 font-size: 20px;
                 font-weight: bold;
-
+                position: relative;
+                border-bottom: 3px solid #56AEDD;
                 span {
                     font-size: 42px;
                     margin-left: 5px;
+                }
+                &::after{
+                    position: absolute;
+                    content: "";
+                    width: 50px;
+                    height: 3px;
+                    background-color: #56AEDD;
+                    transform: rotate(45deg);
+                    right: -6px;
+                    bottom: 15px;
                 }
             }
 
@@ -1002,6 +1039,12 @@ section.top-conform {
     padding: 50px;
     color: #333333;
     margin-top: 50px;
+    @media screen and (max-width:767px) {
+        box-sizing: border-box;
+        max-width: none;
+        width: 100%;
+        padding: 10px;
+    }
 
     h2.conform-title {
         display: flex;
