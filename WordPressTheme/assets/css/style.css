@@ -895,9 +895,11 @@ select {
 }
 
 .parallax {
+	background-attachment: fixed;
 	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100%;
 	position: relative;
 }
@@ -913,6 +915,16 @@ select {
 	font-size: 2.25rem;
 	margin-bottom: 40px;
 	text-align: center;
+}
+
+.questionnaire h3 .bigger {
+	font-size: 40px;
+}
+
+.questionnaire h3 .slash {
+	font-size: 45px;
+	font-weight: 300;
+	margin: 0 15px;
 }
 
 .questionnaire .text-center {
@@ -954,8 +966,24 @@ select {
 	color: #56AEDD;
 	font-size: 1.5rem;
 	font-weight: bold;
-	padding-top: 48px;
+	padding: 45px 38px;
+	position: relative;
 	width: 300px;
+}
+
+.questionnaire .customer-answer .voice:after {
+	border-bottom: 0 solid #D94948;
+	border-bottom-width: 0px;
+	border-left: 0 solid #f5d97b6e;
+	border-left-width: 0px;
+	border-right: 0 solid #8db43400;
+	border-right-width: 35px;
+	border-top: 0 solid #ffffff;
+	border-top-width: 35px;
+	bottom: -35px;
+	content: "";
+	left: 43%;
+	position: absolute;
 }
 
 .comparing {
@@ -1210,6 +1238,11 @@ select {
 	padding-bottom: 20px;
 	padding-top: 20px;
 	width: 670px;
+}
+
+.yellow-btn a {
+	color: #333;
+	text-decoration: none;
 }
 
 .yellow-btn:hover {
@@ -1661,10 +1694,18 @@ select {
 	font-size: 14px;
 }
 
+.contact {
+	padding-top: 45px;
+}
+
 .contact .contact__content {
 	line-height: 28px;
 	margin: 90px auto 60px;
 	width: 600px;
+}
+
+.contact .com-fv ._page-title ._image img {
+	width: auto;
 }
 
 .contact-form {
@@ -3234,6 +3275,10 @@ select {
 	display: none;
 }
 
+.voice {
+	padding-top: 45px;
+}
+
 .voice .page-info {
 	margin-bottom: 90px;
 }
@@ -4339,6 +4384,10 @@ select {
 	padding-top: 35px;
 }
 
+.contact {
+	padding-top: 35px;
+}
+
 .contact .contact__content {
 	width: 85%;
 }
@@ -4817,6 +4866,18 @@ select {
 
 .sp-br {
 	display: block;
+}
+
+.voice {
+	padding-top: 35px;
+}
+
+}
+
+@media screen and (max-width: 767px) and (max-width: 767px) {
+
+.yellow-btn .inner-top .right {
+	width: 100%;
 }
 
 }
@@ -5358,6 +5419,19 @@ select {
 
 .top-customer-voice .btn a {
 	font-size: 14px;
+}
+
+.yellow-btn {
+	width: 100%;
+}
+
+.apply-block .apply-block-inner .yellow-btn {
+	height: auto;
+	width: 90%;
+}
+
+.apply-block .apply-block-inner .yellow-btn .inner-bottom {
+	flex-direction: column;
 }
 
 .top .btn {

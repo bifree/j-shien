@@ -656,48 +656,6 @@ header {
 	font-family: Roboto;
 }
 
-.questionnaire h3 .bigger {
-	font-size: 40px;
-}
-
-.questionnaire h3 .slash {
-	font-size: 45px;
-	font-weight: 300;
-	margin: 0 15px;
-}
-
-.questionnaire .customer-answer {
-	margin: auto;
-	max-width: 1200px;
-	width: auto;
-}
-
-.questionnaire .customer-answer .voice {
-	min-width: 220px;
-	padding: 45px 38px;
-	position: relative;
-	width: auto;
-}
-
-.questionnaire .customer-answer .voice p {
-	line-height: 42px;
-}
-
-.questionnaire .customer-answer .voice:after {
-	border-bottom: 0 solid #D94948;
-	border-bottom-width: 0px;
-	border-left: 0 solid #f5d97b6e;
-	border-left-width: 0px;
-	border-right: 0 solid #8db43400;
-	border-right-width: 35px;
-	border-top: 0 solid #ffffff;
-	border-top-width: 35px;
-	bottom: -35px;
-	content: "";
-	left: 43%;
-	position: absolute;
-}
-
 .result-title {
 	margin: auto;
 	padding: 70px 0 15px 0;
@@ -716,6 +674,7 @@ header {
 	font-size: 20px;
 	position: absolute;
 	right: 0;
+	top: 70%;
 }
 
 .result {
@@ -1052,6 +1011,7 @@ section.comments {
 }
 
 .top-banner_content {
+	padding-top: 30px;
 	width: 100%;
 }
 
@@ -1072,6 +1032,10 @@ section.comments {
 .top-banner_content .block-content_1 .content-right {
 	margin: 0 auto 15px;
 	width: 80%;
+}
+
+.top-banner_content .block-content_1 .content-right p {
+	font-size: 15px;
 }
 
 .top-banner_content .block-content_2 h2 {

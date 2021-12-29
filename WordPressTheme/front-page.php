@@ -48,8 +48,8 @@
 			</div>
 		</div>
 
-		<div class="suggestion parallax">
-			<div class="suggest-top">
+		<div class="suggestion">
+			<div class="suggest-top parallax">
 				<h4 class="under-line">こんなお悩みがある方にオススメ！</h4>
 				<h3>会社設立後のお困りごとを解決いたします</h3>
 			</div>

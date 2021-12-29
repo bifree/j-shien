@@ -511,6 +511,7 @@ header {
     padding: 70px 0;
     @media screen and (max-width:767px) {
         width: 100%;
+        padding-top: 30px;
         img {
             width: 100%;
         }
@@ -551,6 +552,9 @@ header {
             @media screen and (max-width:767px) {
                 width: 80%;
                 margin: 0 auto 15px;
+                p {
+                    font-size: 15px;
+                }
             }
         }
     }
@@ -739,51 +743,6 @@ header {
     }
 }
 
-.questionnaire {
-    h3 {
-        .bigger {
-            font-size: 40px;
-        }
-
-        .slash {
-            margin: 0 15px;
-            font-weight: 300;
-            font-size: 45px;
-        }
-    }
-
-    .customer-answer {
-        .voice {
-            padding: 45px 38px;
-            min-width: 220px;
-            width: auto;
-            position: relative;
-
-            p {
-                line-height: 42px;
-            }
-
-            &:after {
-                position: absolute;
-                content: "";
-                left: 43%;
-                bottom: -35px;
-                border-top: 0 solid #ffffff;
-                border-left: 0 solid #f5d97b6e;
-                border-bottom: 0 solid #D94948;
-                border-right: 0 solid #8db43400;
-                border-top-width: 35px;
-                border-left-width: 0px;
-                border-right-width: 35px;
-                border-bottom-width: 0px;
-            }
-        }
-
-        width: auto;
-        max-width: 1200px;
-        margin: auto;
-    }
-}
 
 .result-title {
     padding: 70px 0 15px 0;
@@ -807,6 +766,7 @@ header {
         position: absolute;
         right: 0;
         font-size: 20px;
+        top: 70%;
     }
 }
 

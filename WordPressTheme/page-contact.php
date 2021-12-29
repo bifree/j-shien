@@ -2,7 +2,7 @@
 <main class="contact">
     <!-- ページタイトル -->
     <div class="com-fv">
-        <h1 class="_page-title _flex"><span class="_image" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/question__mv.png" alt=""></span>電子申請キャンペーンお申込み</h1>
+        <h1 class="_page-title _flex"><span class="_image" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/manga-file.svg" alt=""></span>電子申請キャンペーンお申込み</h1>
     </div>
 
     <!-- パンクず -->

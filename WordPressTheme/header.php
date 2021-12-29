@@ -60,7 +60,7 @@
 						<p class="smaller">受付時間：10:00〜16:30(平日)</p>
 					</div>
 				</div>
-				<a href="">
+				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
 					<div class="apply-form">
 						<div class="inner">
 							<p class="smaller">電子申請キャンペーン</p>
