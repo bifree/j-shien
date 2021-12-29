@@ -2,7 +2,7 @@
 <main class="about">
     <!-- ページタイトル -->
     <div class="com-fv">
-        <h1 class="_page-title _flex"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/manga-file.svg" alt=""></span>電子申請キャンペーン</h1>
+    <h1 class="_page-title _flex"><span class="_image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/begin__mv.png" alt=""></span>はじめての方へ</h1>
     </div>
 
     <!-- パンクず -->

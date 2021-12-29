@@ -2,7 +2,7 @@
     <main class="reason">
             <!-- ページタイトル -->
         <div class="com-fv">
-            <h1 class="_page-title _flex"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/manga-file.svg" alt=""></span>電子申請キャンペーン</h1>
+        <h1 class="_page-title _flex"><span class="_image"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/begin__mv.png" alt=""></span>はじめての方へ</h1>
         </div>
 
         <!-- パンクず -->
@@ -77,13 +77,13 @@
                 </div>
 
                 <div class="reasons__voice">
-                    <h3>利用して良かったと96.7％の方が回答</h3>
+                    <h3>利用して良かったと<span class="yellow">96.7</span>％の方が回答</h3>
                     <div class="reasons__voice--inner voice">
                         <div class="reasons__voice--inner--left">
                             <p>設立後の手続きを税理士にまかせて、創業時の疑問と手間を解消できた！</p>
                         </div>
                         <div class="reasons__voice--inner--right">
-                            <p>お客様は、電子申請後の届出書類の控えを税理士から受け取るだけで設立後の手続きは完了です。 会社を設立したら何から手を付けるべきか、そのような創業時の疑問も税理士との面談で解消できます。</p>
+                            <p>お客様は、電子申請後の届出書類の控えを税理士から受け取るだけで設立後の手続きは完了です。<br>会社を設立したら何から手を付けるべきか、そのような創業時の疑問も税理士との面談で解消できます。</p>
                         </div>
                     </div>
                     <div class="reasons__voice--inner voice">
@@ -105,18 +105,20 @@
 
                     <div class="reasons__voice--graph">
                         <div class="one">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/reason-gr1.png" alt="">
+                            <h4>利用後の税理士契約</h4>
+                            <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/reason-gr1.png" alt="">
                         </div>
                         <div class="one">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/reason-gr2.png" alt="">
+                            <h4 class="mb-10">利用した感想</h4>
+                            <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/reason-gr2.png" alt="">
                         </div>
                         <div class="one">
                             <h4>相談内容のランキング<span>（複数回答）</span></h4>
-                            <p>設立後の手続について</p>
-                            <p>税理士契約について</p>
-                            <p>経理の進め方（会計ソフト導入）</p>
-                            <p>節税、決算対策等の税務相談</p>
-                            <p>創業融資・助成金等の資金調達</p>
+                            <p><span class="gold num">１</span>設立後の手続について</p>
+                            <p><span class="silver num">２</span>税理士契約について</p>
+                            <p><span class="bronze num">３</span>経理の進め方（会計ソフト導入）</p>
+                            <p><span class="num">４</span>節税、決算対策等の税務相談</p>
+                            <p><span class="num">５</span>創業融資・助成金等の資金調達</p>
                         </div>
                     </div>
                     <div class="btn">

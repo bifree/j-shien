@@ -8,7 +8,7 @@
     <!-- パンクず -->
     <div class="page-info">
         <div class="_inner">
-            <p class="pan-kuzu"><span>ホーム</span> ＞ <span>電子申請キャンペーン</span></p>
+            <p class="pan-kuzu"><span><a href="#"><i class="fas fa-home"></i></a></span> ＞ <span>ご利用の流れ</span></p>
             <ul class="page-lists _flex">
                 <li class="page-lists__item">
                     <a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">マンガで分かる</a>

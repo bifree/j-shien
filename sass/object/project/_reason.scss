@@ -1,4 +1,15 @@
 .reason {
+    .com-fv{
+        ._page-title{
+            ._image{
+                width:46px;
+                margin-right:38px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
     p {
         font-size: 16px;
         line-height: 28px;
@@ -63,7 +74,7 @@
                         margin-bottom: 30px;
                     }
                     p {
-                        width: 80%;
+                        width: 82%;
                         margin: 0 auto;
                         text-align: justify;
                     }
@@ -83,6 +94,7 @@
                 .img {
                     border: none !important;
                     box-shadow: none;
+                    padding-top: 100px;
                 }
             }
         }
@@ -96,6 +108,10 @@
                 font-weight: bold;
                 color: #FFF;
                 margin-bottom: 50px;
+                .yellow {
+                    color: #FADD62;
+                    font-size: 42px;
+                }
             }
             &--inner {
                 background-color: #FFF;
@@ -140,7 +156,37 @@
                 background-color: #FFF;
                 display: flex;
                 padding-top: 30px;
-                padding-bottom: 23px;
+                padding-bottom: 10px;
+                .one {
+                    h4 {
+                        margin-bottom: 35px;
+                    }
+                    .mb-10 {
+                        margin-bottom: 25px;
+                    }
+                    .gold, .silver, .bronze {
+                        color: #FFF;
+                        line-height: 30px;
+                        border-radius: 50%;
+                    }
+                    .num {
+                        text-align: center;
+                        width: 30px;
+                        margin-right: 15px;
+                        height: 30px;
+                        margin-bottom: 15px;
+                        display: inline-block;
+                    }
+                    .gold {
+                        background-color: #D9AA1E;
+                    }
+                    .silver {
+                        background-color: #C7D1D9;
+                    }
+                    .bronze {
+                        background-color: #BF6E26;
+                    }
+                }
             }
             .btn {
                 background-color: #6D7E8C;

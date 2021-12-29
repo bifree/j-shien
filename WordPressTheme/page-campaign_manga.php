@@ -5,13 +5,13 @@
     </div>
     <div class="page-info">
         <div class="_inner">
-            <p class="pan-kuzu"><span>ホーム</span> ＞ <span>電子申請キャンペーン</span></p>
+            <p class="pan-kuzu"><span><a href="#"><i class="fas fa-home"></i></a></span> ＞ <span>マンガで分かる</span></p>
             <ul class="page-lists _flex">
-                <li class="page-lists__item current-page">
-                    <a href="/campaign_manga/">マンガで分かる</a>
+            <li class="page-lists__item current-page">
+                    <a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">マンガで分かる</a>
                 </li>
                 <li class="page-lists__item">
-                    <a href="/campaign_flow/">ご利用の流れ</a>
+                    <a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">ご利用の流れ</a>
                 </li>
             </ul>
         </div>

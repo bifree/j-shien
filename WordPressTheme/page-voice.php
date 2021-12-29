@@ -19,7 +19,7 @@
             <ul class="voice-lists">
                 <li class="voice-lists__item _flex">
                     <div class="voice-lists__item__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/voice01.jpg" alt="お客様のお顔の写真">
+                        <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/voice01.jpg" alt="お客様のお顔の写真">
                     </div>
                     <div class="voice-lists__item__text-box ">
                         <h3 class="voice-lists__item__title _flex">このサービスのおかけで、本業に集中することができました</h3>
@@ -29,7 +29,7 @@
                 </li>
                 <li class="voice-lists__item _flex">
                     <div class="voice-lists__item__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/voice02.jpg" alt="お客様のお顔の写真">
+                        <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/voice02.jpg" alt="お客様のお顔の写真">
                     </div>
                     <div class="voice-lists__item__text-box">
                         <h3 class="voice-lists__item__title _flex">自分で探してみたのですが、税理士から断られることもあり、どうしたものかと…</h3>
