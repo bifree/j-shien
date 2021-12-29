@@ -1508,6 +1508,10 @@ select {
 	padding: 5px 7px;
 }
 
+.contact-form .mw_wp_form form table tbody tr td {
+	line-height: 28px;
+}
+
 .contact-form .mw_wp_form form table tbody tr td p input {
 	background-color: #F4F4F4;
 	border: none;
@@ -3168,7 +3172,7 @@ select {
 @media screen and (max-width: 1080px) {
 
 .l-header .logo {
-	width: 45%;
+	width: 55%;
 }
 
 .l-header .logo a {
@@ -3900,6 +3904,22 @@ select {
 .about .about-section .inner .about__campain .inner {
 	box-sizing: border-box;
 	width: 90%;
+}
+
+.contact .contact__content {
+	width: 85%;
+}
+
+.contact-form {
+	width: 85%;
+}
+
+.contact-form .mw_wp_form form table tbody tr td p input {
+	width: 100%;
+}
+
+.contact-form .mw_wp_form form table tbody tr td textarea {
+	width: 100%;
 }
 
 .page__menu ._inner {

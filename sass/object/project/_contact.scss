@@ -3,12 +3,18 @@
         width: 600px;
         margin: 90px auto 60px;
         line-height: 28px;
+        @media screen and (max-width: 767px) {
+            width: 85%;
+        }
     }
 }
 
 .contact-form {
     width: 540px;
     margin: 0 auto;
+    @media screen and (max-width: 767px) {
+        width: 85%;
+    }
     .mw_wp_form {
         form {
             table {
@@ -34,6 +40,7 @@
                             }
                         }
                         td {
+                            line-height: 28px;
                             p {
                                 input {
                                     background-color: #F4F4F4;
@@ -41,6 +48,9 @@
                                     width: 540px;
                                     border: none;
                                     box-sizing: border-box;
+                                    @media screen and (max-width: 767px) {
+                                        width: 100%;
+                                    }
                                 }
                             }
                             select {
@@ -53,6 +63,9 @@
                                 height: 300px;
                                 resize: none;
                                 box-sizing: border-box;
+                                @media screen and (max-width: 767px) {
+                                    width: 100%;
+                                }
                             }
                             .mwform-radio-field {
                                 label {
