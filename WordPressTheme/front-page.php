@@ -21,7 +21,7 @@
 				</div>
 				<div class="block-content_3">
 					<p>新しく会社を設立された方と税理士とのご縁づくり</p>
-					<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/offer_btn.png" alt="">
+					<?php get_template_part('template/yellow-btn'); ?>
 				</div>
 			</div>
 		</div>

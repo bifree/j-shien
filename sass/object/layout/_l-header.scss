@@ -143,35 +143,41 @@
 				}
 			}
 		}
+		a {
+			text-decoration: none;
+			display: block;
+			background-color: #FADD62;
+			color: #333;
 		.apply-form {
 			width: 170px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			.inner {
-				.mail-inner {
-					display: flex;
-					.bigger {
-						font-size: 20px;
+				.inner {
+					margin-top: 15px;
+					.mail-inner {
+						display: flex;
+						.bigger {
+							font-size: 20px;
+						}
+						img {
+							margin-left: 12px;
+							display: block;
+						}
 					}
-					img {
-						margin-left: 12px;
-						display: block;
+					p.smaller {
+						margin: 0 auto 7px;
+						width: 130px;
+						font-size: 12px;
+						text-align: center;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						color: #FFF;
+						background-color: #000;
+						border-radius: 9px;
 					}
-				}
-				p.smaller {
-					margin: 0 auto 7px;
-					width: 130px;
-					font-size: 12px;
-					text-align: center;
-					padding-top: 2px;
-					padding-bottom: 2px;
-					color: #FFF;
-					background-color: #000;
-					border-radius: 9px;
 				}
 			}
-			background-color: #FADD62;
 		}
 	}
 }

@@ -791,6 +791,9 @@ header {
     width: 1200px;
     margin: auto;
     position: relative;
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+    }
     @media screen and (max-width: 767px) {
         width: 90%;
     }
@@ -1001,6 +1004,10 @@ header {
         line-height: 1.714285em;
         margin-bottom: 35px;
         text-align: center;
+        @media screen and (max-width:767px) {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
     }
 
     .flow-free {

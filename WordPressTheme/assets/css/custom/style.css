@@ -1037,6 +1037,14 @@ section.comments {
 	padding-bottom: 0px;
 }
 
+@media screen and (max-width: 1200px) {
+
+.result-title {
+	width: 100%;
+}
+
+}
+
 @media screen and (max-width: 767px) {
 
 .top-background_parallax {
@@ -1162,6 +1170,11 @@ section.comments {
 	margin: 0 auto;
 	text-align: center;
 	width: 70%;
+}
+
+.top-flow-title-box .flow-title__sub {
+	font-size: 2rem;
+	line-height: 2.5rem;
 }
 
 .top-step {

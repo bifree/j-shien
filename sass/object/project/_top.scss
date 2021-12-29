@@ -71,6 +71,7 @@
         padding: 20px;
         margin: 0 auto;
         @media screen and (max-width:767px) {
+            box-sizing: border-box;
             width: 90%;
         }
     }
@@ -86,6 +87,12 @@
         a {
             text-decoration: none;
             color: #FFF;
+        }
+		@media screen and (max-width:425px) {
+			width: 90%;
+            a {
+				font-size: 14px;
+			}
         }
     }
 }

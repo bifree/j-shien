@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style.css">
 	<link href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<?php wp_head();?>
 	<title>会社設立後のお助け隊｜日本企業支援センター</title>
 </head>
 <body>
@@ -61,15 +60,17 @@
 						<p class="smaller">受付時間：10:00〜16:30(平日)</p>
 					</div>
 				</div>
-				<div class="apply-form">
-					<div class="inner">
-						<p class="smaller">電子申請キャンペーン</p>
-						<div class="mail-inner">
-							<p class="bigger">お申込み</p>
-							<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/92d6bb98023672ab93f0c6767f9c4489.png" alt="">
+				<a href="">
+					<div class="apply-form">
+						<div class="inner">
+							<p class="smaller">電子申請キャンペーン</p>
+							<div class="mail-inner">
+								<p class="bigger">お申込み</p>
+								<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/92d6bb98023672ab93f0c6767f9c4489.png" alt="">
+							</div>
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</header>
