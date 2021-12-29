@@ -3874,6 +3874,41 @@ select {
 	text-decoration: none;
 }
 
+.appeal {
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 40px;
+}
+
+.appeal h1 {
+	color: #01588E;
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.appeal p {
+	font-size: 1rem;
+	line-height: 2rem;
+	margin: 0 auto 25px;
+	text-align: initial;
+	width: 90%;
+}
+
+.appeal p .bold {
+	font-weight: bold;
+}
+
+.appeal p br.sp-none {
+	display: none;
+}
+
+.appeal h2,
+.appeal h4 {
+	text-align: center;
+}
+
 .apply-block {
 	padding-bottom: 25px;
 	padding-top: 15px;
