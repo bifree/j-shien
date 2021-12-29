@@ -880,9 +880,7 @@ select {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: -webkit-fit-content;
-	height: -moz-fit-content;
-	height: fit-content;
+	height: 100%;
 	position: relative;
 }
 
@@ -934,6 +932,7 @@ select {
 .questionnaire .customer-answer .voice {
 	background-color: #FFF;
 	border-radius: 5px;
+	box-sizing: border-box;
 	color: #56AEDD;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -942,7 +941,6 @@ select {
 }
 
 .comparing {
-	background-color: #01588E;
 	color: #FFF;
 	padding-bottom: 70px;
 	padding-top: 90px;
@@ -1000,7 +998,7 @@ select {
 }
 
 .suggestion .suggest-top {
-	background-color: #035aa6;
+	background-position-y: 70%;
 	color: #FFF;
 	padding: 50px;
 	position: relative;

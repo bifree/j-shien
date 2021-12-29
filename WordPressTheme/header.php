@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style.css">
 	<link href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<?php wp_head();?>
@@ -56,7 +57,7 @@
 			<div class="header-contact">
 				<div class="tel">
 					<div class="inner">
-						<p><span>0120-955-761</span></p>
+						<p><i class="fas fa-phone-alt mr-1"></i><span>0120-955-761</span></p>
 						<p class="smaller">受付時間：10:00〜16:30(平日)</p>
 					</div>
 				</div>
