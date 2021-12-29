@@ -700,6 +700,68 @@ select {
 	text-align: center;
 }
 
+.origin-apply-block {
+	background-image: url(https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg);
+	background-position: bottom;
+	color: #FFF;
+	padding-bottom: 60px;
+	padding-top: 45px;
+}
+
+.origin-apply-block .apply-block-inner {
+	margin: 0 auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.origin-apply-block .apply-block-inner p {
+	font-size: 1rem;
+}
+
+.origin-apply-block .apply-block-inner p span.bigger {
+	font-size: 1.25em;
+}
+
+.origin-apply-block .apply-block-inner .free-dial {
+	border-bottom: 1px solid #FFF;
+	display: flex;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .left {
+	align-items: center;
+	border-right: 1px solid #FFF;
+	display: flex;
+	padding-bottom: 16px;
+	padding-right: 16px;
+	position: relative;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .left p.bigger {
+	font-size: 1.125em;
+	line-height: 1.4375em;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .left p.smaller {
+	font-size: 0.8125em;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .left::before {
+	display: none;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .right {
+	padding-bottom: 16px;
+	padding-left: 60px;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .right p.bigger {
+	font-size: 2.25em;
+	margin-bottom: 10px;
+}
+
 .apply-block {
 	color: #FFF;
 	padding-bottom: 60px;
@@ -896,7 +958,7 @@ select {
 
 .parallax {
 	background-attachment: fixed;
-	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg");
+	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg") !important;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -4157,6 +4219,53 @@ select {
 	text-align: center;
 }
 
+.origin-apply-block {
+	min-height: none;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.origin-apply-block .sp-center {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.origin-apply-block .apply-block-inner {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.origin-apply-block .apply-block-inner img {
+	width: 100%;
+}
+
+.origin-apply-block .apply-block-inner h4 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.origin-apply-block .apply-block-inner h3 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.origin-apply-block .apply-block-inner .free-dial {
+	display: block;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .left {
+	border-right: none;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .right {
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.origin-apply-block .apply-block-inner .free-dial .right p.bigger {
+	font-size: 1.6rem;
+}
+
 .apply-block {
 	min-height: none;
 	padding-bottom: 15px;
@@ -4211,7 +4320,8 @@ select {
 }
 
 .parallax {
-	background-size: 250%;
+	background-attachment: none;
+	background-size: auto;
 }
 
 .questionnaire h3 {

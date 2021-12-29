@@ -125,7 +125,7 @@
                         ご利用いただいたお客様の声はこちら
                     </div>
                 </div>
-                <?php get_template_part('template/apply-block');?>
+                <?php get_template_part('template/origin-apply-block');?>
             </div>
         </section>
     </main>

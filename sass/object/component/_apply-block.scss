@@ -1,3 +1,92 @@
+.origin-apply-block {
+	background-image: url(https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg);
+	padding-top: 45px;
+	padding-bottom: 60px;
+	background-position: bottom;
+	color: #FFF;
+	@media screen and (max-width:767px) {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		min-height: none;
+		.sp-center {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+	}
+	.apply-block-inner {
+		width: fit-content;
+		margin: 0 auto;
+		@media screen and (max-width: 767px) {
+			width: 90%;
+			margin: 0 auto;
+			img {
+				width: 100%;
+			}
+			h4 {
+				text-align: center;
+				margin-bottom: 15px;
+			}
+			h3 {
+				font-size: 1.5rem;
+				text-align: center;
+			}
+		}
+		p {
+			font-size: 1rem;
+			span.bigger {
+				font-size: 1.25em;
+			}
+		}
+		.free-dial {
+			border-bottom: 1px solid #FFF;
+			display: flex;
+			margin-bottom: 20px;
+			padding-bottom: 10px;
+			@media screen and (max-width:767px) {
+				display: block;
+				.left {
+					border-right: none;
+				}
+			}
+			.left {
+				border-right: 1px solid #FFF;
+				padding-right: 16px;
+				padding-bottom: 16px;
+				display: flex;
+				position: relative;
+				align-items: center;
+				p.bigger {
+					font-size: 1.125em;
+					line-height: 1.4375em;
+				}
+				p.smaller {
+					font-size: 0.8125em;
+				}
+				&::before {
+					display: none;
+				}
+			}
+			.right {
+				padding-left: 60px;
+				padding-bottom: 16px;
+				p.bigger {
+					font-size: 2.25em;
+					margin-bottom: 10px;
+				}
+			}
+			@media screen and (max-width:767px) {
+				.right {
+					padding-left: 0;
+					padding-bottom: 0;
+					p.bigger {
+						font-size: 1.6rem;
+					}
+				}
+			}
+		}
+	}
+}
+
 .apply-block {
 	padding-top: 45px;
 	padding-bottom: 60px;

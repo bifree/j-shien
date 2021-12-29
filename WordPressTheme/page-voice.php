@@ -88,6 +88,6 @@
             </ul>
         </div>
     </section>
-    <?php get_template_part('template/apply-block');?>
+    
 </main>
 <?php get_footer(); ?>

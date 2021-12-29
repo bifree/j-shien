@@ -130,7 +130,7 @@
             </div>       
         </div>
 
-        <?php get_template_part('template/apply-block');?>
+        <?php get_template_part('template/origin-apply-block');?>
 
         <div class="paper__method" id="paper__method">
             <div class="_inner">
@@ -259,6 +259,6 @@
             </div>
         </div>
         <?php get_template_part('template/bottom-comment');?>
-        <?php get_template_part('template/apply-block');?>
+        <?php get_template_part('template/origin-apply-block');?>
     </main>
 <?php get_footer(); ?>

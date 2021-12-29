@@ -98,7 +98,7 @@
 
   <?php get_template_part('template/appeal');?>
 
-  <?php get_template_part('template/apply-block');?>
+  <?php get_template_part('template/origin-apply-block');?>
 
 </main>
 
