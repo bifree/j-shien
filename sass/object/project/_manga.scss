@@ -6,7 +6,7 @@
 ._inner{
     max-width: 1000px;
     margin: auto;
-    box-sizing: content-box;
+    box-sizing: content-box !important;
     padding: 0 32px;
     @include mobile{
         @media screen and (max-width: $tab){
@@ -75,6 +75,7 @@
     }
     .pan-kuzu{
         font-size: 13px;
+        line-height: 28px;
     }
     .page-lists{
         margin-top: 90px;

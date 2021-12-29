@@ -1,0 +1,54 @@
+.contact {
+    .contact__content {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.contact-form {
+    width: 540px;
+    margin: 0 auto;
+    .mw_wp_form {
+        form {
+            table {
+                tbody {
+                    tr {
+                        display: block;
+                        th {
+                            display: block;
+                            text-align: initial;
+                        }
+                        td {
+                            p {
+                                input {
+                                    background-color: #F4F4F4;
+                                    height: 50px;
+                                    width: 540px;
+                                    border: none;
+                                    box-sizing: border-box;
+                                }
+                            }
+                            textarea {
+                                background-color: #F4F4F4;
+                                width: 540px;
+                                border: none;
+                                box-sizing: border-box;
+                            }
+                        }
+                    }
+                }
+            }
+            .confirm-btn {
+                button {
+                    background-color: #FADD62;
+                    width: fit-content;
+                    margin: 80px auto 120px;
+                    display: block;
+                    border-radius: 3px;
+                    border: 2px solid #333;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
