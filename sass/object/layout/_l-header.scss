@@ -3,6 +3,12 @@
 	height: 80px;
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+	background-color: #FFF;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	box-shadow: 0 3px 6px #00000029;
 	.logo {
 		width: 20%;
 		display: flex;

@@ -1,11 +1,11 @@
 .apply-block {
 	padding-top: 45px;
 	padding-bottom: 60px;
-	background-color: #01588E;
 	color: #FFF;
 	@media screen and (max-width:767px) {
 		padding-top: 15px;
 		padding-bottom: 25px;
+		min-height: 435px;
 	}
 	.apply-block-inner {
 		width: fit-content;

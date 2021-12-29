@@ -1,4 +1,4 @@
-<div class="apply-block">
+<div class="apply-block parallax">
 	<div class="apply-block-inner">
 		<h4>設立３カ月以内の法人様限定</h4><h3>面倒な手続きを税理士にお任せ！</h3>
 		<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/offer_btn.png" alt="">

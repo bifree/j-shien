@@ -10,7 +10,7 @@
             <li class="page-lists__item current-page">
                     <a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">マンガで分かる</a>
                 </li>
-                <li class="page-lists__item">
+                <li class="page-lists__item manga-li">
                     <a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">ご利用の流れ</a>
                 </li>
             </ul>

@@ -533,10 +533,16 @@ select {
 }
 
 .l-header {
+	background-color: #FFF;
+	box-shadow: 0 3px 6px #00000029;
 	display: flex;
 	height: 80px;
 	justify-content: space-between;
+	left: 0;
+	position: fixed;
+	top: 0;
 	width: 100%;
+	z-index: 99;
 }
 
 .l-header .logo {
@@ -676,7 +682,6 @@ select {
 }
 
 .apply-block {
-	background-color: #01588E;
 	color: #FFF;
 	padding-bottom: 60px;
 	padding-top: 45px;
@@ -757,6 +762,31 @@ select {
 .caution a {
 	color: #56AEDD;
 	text-decoration: none;
+}
+
+.com-fv {
+	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	position: relative;
+	width: 100%;
+}
+
+.com-fv ._page-title {
+	align-items: center;
+	color: #fff;
+	font-size: 42px;
+	justify-content: center;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.com-fv ._page-title span {
+	margin-right: 34px;
 }
 
 .comments .inner {
@@ -843,6 +873,18 @@ select {
 
 .page-lists .current-page a::after {
 	display: none;
+}
+
+.parallax {
+	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg-1.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	min-height: 475px;
+	position: relative;
 }
 
 .questionnaire {
@@ -1137,6 +1179,10 @@ select {
 	padding: 10px;
 }
 
+.about {
+	padding-top: 45px;
+}
+
 .about .com-fv ._page-title ._image {
 	margin-right: 38px;
 	width: 46px;
@@ -1322,6 +1368,10 @@ select {
 
 .about .about-section .inner .about__campain .bottom-h {
 	margin: 84px auto 34px;
+}
+
+.company {
+	padding-top: 45px;
 }
 
 .company .com-fv ._page-title img {
@@ -1578,6 +1628,10 @@ select {
 	width: fit-content;
 }
 
+.flow {
+	padding-top: 45px;
+}
+
 .flow .section-flow {
 	padding-bottom: 80px;
 }
@@ -1823,31 +1877,6 @@ select {
 	padding: 0 32px;
 }
 
-.com-fv {
-	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/com-fv-bg.jpg");
-	background-position: center;
-	background-size: cover;
-	height: 200px;
-	position: relative;
-	width: 100%;
-}
-
-.com-fv ._page-title {
-	align-items: center;
-	color: #fff;
-	font-size: 42px;
-	justify-content: center;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-}
-
-.com-fv ._page-title span {
-	margin-right: 34px;
-}
-
 .page-info {
 	margin-top: 18px;
 }
@@ -1914,6 +1943,10 @@ select {
 	display: none;
 }
 
+.manga {
+	padding-top: 45px;
+}
+
 .manga .illust .illust-inner {
 	box-sizing: border-box;
 	margin: 92px auto 60px auto;
@@ -1975,6 +2008,7 @@ select {
 
 .paper {
 	color: #333;
+	padding-top: 45px;
 }
 
 .paper * {
@@ -2342,6 +2376,7 @@ select {
 
 .question {
 	color: #333;
+	padding-top: 45px;
 }
 
 .question img {
@@ -2428,6 +2463,10 @@ select {
 	left: 30px;
 	position: absolute;
 	top: 0px;
+}
+
+.reason {
+	padding-top: 45px;
 }
 
 .reason .com-fv ._page-title ._image {
@@ -2659,6 +2698,7 @@ select {
 
 .tax-accountant {
 	color: #333;
+	padding-top: 45px;
 }
 
 .tax-accountant * {
@@ -3323,6 +3363,22 @@ select {
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
 
+.com-fv {
+	height: 150px;
+}
+
+.com-fv ._page-title {
+	font-size: 32px;
+}
+
+.com-fv ._page-title span {
+	margin-right: 16px;
+}
+
+.com-fv ._page-title span img {
+	width: 32px;
+}
+
 .comments .inner {
 	padding: 0 16px;
 }
@@ -3485,22 +3541,6 @@ select {
 	padding: 0 16px;
 }
 
-.com-fv {
-	height: 150px;
-}
-
-.com-fv ._page-title {
-	font-size: 32px;
-}
-
-.com-fv ._page-title span {
-	margin-right: 16px;
-}
-
-.com-fv ._page-title span img {
-	width: 32px;
-}
-
 .page-info {
 	margin-top: 14px;
 }
@@ -3573,6 +3613,18 @@ select {
 }
 
 @media screen and (max-width: 768px) and (max-width: 599px) {
+
+.com-fv ._page-title {
+	font-size: 24px;
+}
+
+.com-fv ._page-title span {
+	margin-right: 10px;
+}
+
+.com-fv ._page-title span img {
+	width: 24px;
+}
 
 .comments .inner .comments-text {
 	font-size: 16px;
@@ -3768,18 +3820,6 @@ select {
 	padding: 0 26px;
 }
 
-.com-fv ._page-title {
-	font-size: 24px;
-}
-
-.com-fv ._page-title span {
-	margin-right: 10px;
-}
-
-.com-fv ._page-title span img {
-	width: 24px;
-}
-
 .page-info .page-lists {
 	border-bottom: none;
 	display: flex;
@@ -3826,6 +3866,10 @@ select {
 
 .page-info .page-lists .page-lists__item:nth-child(3) {
 	border-right: none !important;
+}
+
+.page-info .page-lists .page-lists__item.manga-li {
+	border-bottom: 1px solid #707070;
 }
 
 }
@@ -3878,6 +3922,7 @@ select {
 .appeal {
 	background-repeat: no-repeat;
 	background-size: contain;
+	padding-bottom: 60px;
 	padding-top: 40px;
 }
 
@@ -3911,6 +3956,7 @@ select {
 }
 
 .apply-block {
+	min-height: 435px;
 	padding-bottom: 25px;
 	padding-top: 15px;
 }
@@ -3940,6 +3986,12 @@ select {
 
 .apply-block .apply-block-inner .free-dial .left {
 	border-right: none;
+}
+
+.caution {
+	margin-bottom: 55px;
+	padding: 10px 20px;
+	width: 90%;
 }
 
 .about .blue-text {
@@ -4462,6 +4514,22 @@ select {
 
 @media screen and (max-width: 599px) and (max-width: 768px) {
 
+.com-fv {
+	height: 150px;
+}
+
+.com-fv ._page-title {
+	font-size: 32px;
+}
+
+.com-fv ._page-title span {
+	margin-right: 16px;
+}
+
+.com-fv ._page-title span img {
+	width: 32px;
+}
+
 .comments .inner {
 	padding: 0 16px;
 }
@@ -4624,22 +4692,6 @@ select {
 	padding: 0 16px;
 }
 
-.com-fv {
-	height: 150px;
-}
-
-.com-fv ._page-title {
-	font-size: 32px;
-}
-
-.com-fv ._page-title span {
-	margin-right: 16px;
-}
-
-.com-fv ._page-title span img {
-	width: 32px;
-}
-
 .page-info {
 	margin-top: 14px;
 }
@@ -4712,6 +4764,18 @@ select {
 }
 
 @media screen and (max-width: 599px) and (max-width: 599px) {
+
+.com-fv ._page-title {
+	font-size: 24px;
+}
+
+.com-fv ._page-title span {
+	margin-right: 10px;
+}
+
+.com-fv ._page-title span img {
+	width: 24px;
+}
 
 .comments .inner .comments-text {
 	font-size: 16px;
@@ -4907,18 +4971,6 @@ select {
 	padding: 0 26px;
 }
 
-.com-fv ._page-title {
-	font-size: 24px;
-}
-
-.com-fv ._page-title span {
-	margin-right: 10px;
-}
-
-.com-fv ._page-title span img {
-	width: 24px;
-}
-
 .page-info .page-lists {
 	border-bottom: none;
 	display: flex;
@@ -4965,6 +5017,10 @@ select {
 
 .page-info .page-lists .page-lists__item:nth-child(3) {
 	border-right: none !important;
+}
+
+.page-info .page-lists .page-lists__item.manga-li {
+	border-bottom: 1px solid #707070;
 }
 
 }
