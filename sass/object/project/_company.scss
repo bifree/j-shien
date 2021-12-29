@@ -182,9 +182,9 @@
                     @include mobile{
                         @media screen and (max-width: $tab){
                             position: inherit;
-                            margin-left: auto;
                             transform: translate(0, 0);
-                            
+                            width: 100%;
+                            text-align: center;
                         }
                         @media screen and (max-width: $sp){
                             
@@ -283,6 +283,9 @@
                     .site__text{
                         font-size: 14px;
                         line-height: 1.75em;
+                        span{
+                            display: inline-block;
+                        }
                         a{
                             color: #56AEDD;
                             text-decoration: none;

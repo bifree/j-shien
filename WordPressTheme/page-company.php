@@ -80,8 +80,8 @@
                     <p class="site__text">
                         税理士総合サイトT-SHIEN
                         <br><a href="https://www.taxaccounting-shien.com/">https://www.taxaccounting-shien.com/</a> 
-                        <br><br> 税理士探しをサポートする日本最大級の税理士総合サイト。
-                        <br> 4万件以上のマッチング実績。税理士登録1000事務所以上。
+                        <br><br> 税理士探しをサポートする<span>日本最大級の税理士総合サイト。</span>
+                        <br> 4万件以上のマッチング実績。<span>税理士登録1000事務所以上。</span>
                         <br> 日本トレンドリサーチによる調査で2冠達成。
                         <br> 自分に合った税理士が見つかるマッチングサイトNo.1/
                         <br> 税理士情報充実度No.●
