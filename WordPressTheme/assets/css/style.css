@@ -624,6 +624,26 @@ select {
 	font-size: 20px;
 }
 
+.header-nav {
+	display: none;
+}
+
+.header-nav.active {
+	display: block;
+	padding-top: 100px;
+	right: 0;
+	transform: translateX(0%);
+}
+
+.header-nav.active nav ul li {
+	margin-bottom: 50px;
+}
+
+.header-nav.active nav ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
 .appeal {
 	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/bg01.png");
 	background-size: cover;
@@ -3823,6 +3843,35 @@ select {
 	border-right: none;
 	padding-left: 0;
 	padding-right: 0;
+}
+
+.header-nav {
+	background-color: #fff;
+	box-sizing: border-box;
+	display: block;
+	height: 100%;
+	position: fixed;
+	right: -100%;
+	top: 0;
+	transform: translateX(100%);
+	transition: all 0.6s;
+	width: 100%;
+	z-index: 5;
+}
+
+.header-nav ul {
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+}
+
+.header-nav ul li {
+	margin-bottom: 50px;
+}
+
+.header-nav ul li a {
+	color: #333;
+	text-decoration: none;
 }
 
 .apply-block {

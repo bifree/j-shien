@@ -85,11 +85,11 @@ $(function () {
 $(function() {
 	$('.navbtn').click(function() {
 		$(this).toggleClass('active');
-  
+
 		if ($(this).hasClass('active')) {
-			$('.header_container__nav').addClass('active');
+			$('.header-nav').addClass('active');
 		} else {
-			$('.header_container__nav').removeClass('active');
+			$('.header-nav').removeClass('active');
 		}
 	});
-  });
+});
