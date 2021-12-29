@@ -1473,7 +1473,8 @@ select {
 }
 
 .contact .contact__content {
-	margin: 0 auto;
+	line-height: 28px;
+	margin: 90px auto 60px;
 	width: 600px;
 }
 
@@ -1486,9 +1487,25 @@ select {
 	display: block;
 }
 
+.contact-form .mw_wp_form form table tbody tr .form__item {
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
 .contact-form .mw_wp_form form table tbody tr th {
 	display: block;
+	margin-top: 50px;
 	text-align: initial;
+}
+
+.contact-form .mw_wp_form form table tbody tr th .required {
+	background-color: #E3560C;
+	border-radius: 3px;
+	color: #FFF;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	padding: 5px 7px;
 }
 
 .contact-form .mw_wp_form form table tbody tr td p input {
@@ -1499,11 +1516,28 @@ select {
 	width: 540px;
 }
 
+.contact-form .mw_wp_form form table tbody tr td select {
+	display: inline-block;
+}
+
 .contact-form .mw_wp_form form table tbody tr td textarea {
 	background-color: #F4F4F4;
 	border: none;
 	box-sizing: border-box;
 	width: 540px;
+}
+
+.contact-form .mw_wp_form form table tbody tr td .mwform-radio-field label span {
+	font-size: 16px;
+}
+
+.contact-form .mw_wp_form form table tbody tr a {
+	color: #56AEDD;
+	text-decoration: none;
+}
+
+.contact-form .mw_wp_form form table tbody tr td.d-flex {
+	display: flex;
 }
 
 .contact-form .mw_wp_form form .confirm-btn button {
