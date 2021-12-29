@@ -9,6 +9,7 @@
             border: 2px solid #6D7E8C;
             border-radius: 20px;
             margin:40px 20px 0;
+            text-decoration: none;
             &:hover{
                 color:#fff;
                 background:#6D7E8C;
@@ -381,7 +382,7 @@
             flex-wrap:wrap;
             a{
                 width:130px;
-                height:54px;
+                height:fit-content;
                 font-size:0.8125rem;
                 text-align:center;
                 .sp-br{

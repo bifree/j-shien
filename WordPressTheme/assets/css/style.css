@@ -512,6 +512,7 @@ select {
 
 .l-footer .footer-menu ul li {
 	border-right: 2px solid #888;
+	margin-bottom: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -702,16 +703,7 @@ select {
 }
 
 .apply-block .apply-block-inner .free-dial .left::before {
-	border-color: transparent #FFF;
-	border-style: solid;
-	border-width: 10px 0 10px 10px;
-	content: "";
-	display: block;
-	margin-top: -10px;
-	position: absolute;
-	right: -10px;
-	top: 50%;
-	z-index: 1;
+	display: none;
 }
 
 .apply-block .apply-block-inner .free-dial .right {
@@ -1167,13 +1159,19 @@ select {
 }
 
 .about .about-section .inner .about-title-box .about-free {
+	-webkit-clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
 	background-color: #333;
+	clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
 	color: #FFF;
 	font-size: 24px;
 	line-height: 42px;
-	margin: 0 auto;
+	margin: 45px auto 0;
 	text-align: center;
-	width: 59%;
+	width: 800px;
+}
+
+.about .about-section .inner .about-title-box .about-free .gold {
+	color: #FADD62;
 }
 
 .about .about-section .inner .about-title-text {
@@ -1195,12 +1193,31 @@ select {
 .about .about-section .inner .about-background {
 	background-color: #F5F5F5;
 	padding-bottom: 122px;
+	padding-top: 50px;
+	position: relative;
+}
+
+.about .about-section .inner .about-background ::before {
+	border-color: #F5F5F5 transparent;
+	border-style: solid;
+	border-width: 20px 20px 0 20px;
+	bottom: -20px;
+	content: '';
+	display: block;
+	left: 50%;
+	margin-left: -10px;
+	position: absolute;
+	z-index: 1;
 }
 
 .about .about-section .inner .about-background h2 {
+	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/ouen-bg.png");
+	background-position-x: center;
+	background-repeat: no-repeat;
 	font-size: 24px;
 	font-weight: bold;
-	line-height: 42px;
+	line-height: 142px;
+	text-align: center;
 }
 
 .about .about-section .inner .about-background-text {
@@ -1215,6 +1232,10 @@ select {
 	margin-left: auto;
 	margin-right: auto;
 	width: 48%;
+}
+
+.about .about-section .inner .about-background .blue-text {
+	margin-top: 0;
 }
 
 .about .about-section .inner .about-suggest {
@@ -1232,14 +1253,34 @@ select {
 	padding-top: 115px;
 }
 
+.about .about-section .inner .about__campain .blue-text {
+	margin-top: 0;
+}
+
 .about .about-section .inner .about__campain .center {
+	margin-bottom: 45px;
 	text-align: center;
+}
+
+.about .about-section .inner .about__campain .center .big {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
 }
 
 .about .about-section .inner .about__campain h3 {
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 42px;
+	text-align: center;
+}
+
+.about .about-section .inner .about__campain h3.title {
+	background-image: url("https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/about-ttl2.png");
+	background-position-x: center;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	line-height: 110px;
 	text-align: center;
 }
 
@@ -1792,6 +1833,7 @@ select {
 	font-weight: 600;
 	margin: 40px 20px 0;
 	padding: 12px 30px;
+	text-decoration: none;
 }
 
 .page__menu ._inner a:hover {
@@ -3564,6 +3606,9 @@ select {
 }
 
 .page-info .page-lists {
+	border-bottom: none;
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 30px;
 }
 
@@ -3593,14 +3638,69 @@ select {
 
 }
 
+@media screen and (max-width: 768px) {
+
+.page-info .page-lists .page-lists__item {
+	border: 1px solid #707070;
+	width: 49%;
+}
+
+.page-info .page-lists .page-lists__item:nth-child(2) {
+	border-bottom: none !important;
+}
+
+.page-info .page-lists .page-lists__item:nth-child(3) {
+	border-right: none !important;
+}
+
+}
+
 @media screen and (max-width: 767px) {
 
+.l-footer .footer-menu {
+	width: 80%;
+}
+
+.l-footer .footer-menu ul {
+	display: block;
+}
+
+.l-footer .footer-menu ul li {
+	border-right: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.apply-block {
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+
 .apply-block .apply-block-inner {
-	width: 100%;
+	margin: 0 auto;
+	width: 90%;
 }
 
 .apply-block .apply-block-inner img {
 	width: 100%;
+}
+
+.apply-block .apply-block-inner h4 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.apply-block .apply-block-inner h3 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.apply-block .apply-block-inner .free-dial {
+	display: block;
+}
+
+.apply-block .apply-block-inner .free-dial .left {
+	border-right: none;
 }
 
 .about .blue-text {
@@ -3630,7 +3730,7 @@ select {
 
 .about .about-section .inner .about-background h2 {
 	font-size: 2rem;
-	line-height: 2.5rem;
+	line-height: 142px;
 }
 
 .about .about-section .inner .about-background-text p {
@@ -3658,7 +3758,9 @@ select {
 
 .page__menu ._inner a {
 	font-size: 0.8125rem;
-	height: 54px;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
 	text-align: center;
 	width: 130px;
 }
@@ -4503,6 +4605,9 @@ select {
 }
 
 .page-info .page-lists {
+	border-bottom: none;
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 30px;
 }
 
@@ -4528,6 +4633,23 @@ select {
 
 .voice .voices .voice-lists__item {
 	margin-bottom: 60px;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+
+.page-info .page-lists .page-lists__item {
+	border: 1px solid #707070;
+	width: 49%;
+}
+
+.page-info .page-lists .page-lists__item:nth-child(2) {
+	border-bottom: none !important;
+}
+
+.page-info .page-lists .page-lists__item:nth-child(3) {
+	border-right: none !important;
 }
 
 }

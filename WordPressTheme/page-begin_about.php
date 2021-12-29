@@ -26,13 +26,21 @@
             </div>
         </div>
 
+    <div class="page__menu">
+        <div class="_inner">
+            <a href="#paper__document">会社設立後の<br class="sp-br">お助け隊とは</a>
+            <a href="#paper__method">会社設立後のお助け隊<br class="sp-br">が生まれた背景</a>
+            <a href="#paper__method">電子申請キャンペーン</a>
+        </div>
+    </div>
+
     <!-- about -->
     <section class="about-section">
         <div class="inner">
             <div class="about-title-box">
                 <h2 class="about-title">ABOUT US</h2>
                 <p class="about-title__sub">「会社設立後のお助け隊」とは</p>
-                <p class="about-free">新設法人と税理士をつなぐ業界唯一のマッチングサービスです</p>
+                <p class="about-free">新設法人と税理士をつなぐ<br class="sp-br"><span class="gold">業界唯一</span>のマッチングサービスです</p>
             </div>
 
             <div class="about-title-text">
@@ -41,7 +49,7 @@
                     また対応する税理士も新設法人専門の税理士で、はじめてでも分かりやすく親身に対応いたします。</p>
                 </div>
                 <div class="lower">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about1.png" alt="">
+                    <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/about1-1.png" alt="">
                 </div>
             </div>
 
@@ -66,14 +74,14 @@
             </div>
 
             <div class="about__campain">
-                <h3>会社設立後の届出書類</h3>
+                <h3 class="title">会社設立後の届出書類</h3>
                 <h2 class="blue-text">電子申請キャンペーン</h2>
-                <p class="center">新設法人と税理士のご縁づくりを目的とした税理士のお試しキャンペーンです</p>
+                <p class="center">新設法人と税理士のご縁づくりを<br class="sp-br">目的とした税理士のお試しキャンペーンです</p>
                 <div class="inner">
-                    ● 会社設立後の届出書類を電子申請（通常20,000円相当） <br>
-                    ● 創業時の経理や税務、資金調達、節税などの相談（通常1時間5,000円相当）
+                    <p>● 会社設立後の届出書類を電子申請（通常20,000円相当）</p>
+                    <p>● 創業時の経理や税務、資金調達、節税などの相談（通常1時間5,000円相当）</p>
                 </div>
-                <p class="center">新設法人を応援する税理士がこれらを無料で提供します。</p>
+                <p class="center">新設法人を応援する税理士がこれらを<span class="big">無料</span>で提供します。</p>
                 <h3 class="bottom-h">ぜひ電子申請キャンペーンをお試しいただき、 <br>顧問税理士をご検討ください</h3>
             </div>
             <?php get_template_part('template/apply-block');?>

@@ -85,6 +85,9 @@
             }
             @media screen and (max-width: $sp){
                 margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                border-bottom: none;
             }
         }
         .page-lists__item{
@@ -92,6 +95,16 @@
             width: 25%;
             border-right: 1px solid #707070 ;
             border-left: 1px solid #707070 ;
+            @include mobile{
+                width: 49%;
+                border: 1px solid #707070;
+                &:nth-child(2) {
+                    border-bottom: none !important;
+                }
+                &:nth-child(3) {
+                    border-right: none !important;
+                }
+            }
             a{
                 display: block;
                 position: relative;

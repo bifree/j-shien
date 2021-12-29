@@ -5,6 +5,9 @@
 	.footer-menu {
 		width: fit-content;
 		margin: 0 auto 30px;
+		@media screen and (max-width: 767px) {
+			width: 80%;
+		}
 		ul {
 			display: flex;
 			justify-content: space-between;
@@ -13,6 +16,7 @@
 				border-right: 2px solid #888;
 				padding-left: 50px;
 				padding-right: 50px;
+				margin-bottom: 15px;
 				a {
 					text-decoration: none;
 					font-size: 13px;
@@ -20,6 +24,14 @@
 				}
 				&:last-child {
 					border-right: none;
+				}
+			}
+			@media screen and (max-width: 767px) {
+				display: block;
+				li {
+					border-right: none;
+					padding-left: 0;
+					padding-right: 0;
 				}
 			}
 		}
