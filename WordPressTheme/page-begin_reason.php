@@ -4,25 +4,28 @@
         <div class="com-fv">
             <h1 class="_page-title _flex"><span><img src="<?php echo get_template_directory_uri(); ?>/assets/img/manga-file.svg" alt=""></span>電子申請キャンペーン</h1>
         </div>
+
+        <!-- パンクず -->
         <div class="page-info">
             <div class="_inner">
-                <p class="pan-kuzu"><span>ホーム</span> ＞ <span>電子申請キャンペーン</span></p>
+                <p class="pan-kuzu"><span><a href="#"><i class="fas fa-home"></i></a></span> ＞ <span>はじめての方へ</span></p>
                 <ul class="page-lists _flex">
                     <li class="page-lists__item">
-                        <a href="/campaign_manga">会社設立後のお助け隊とは</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">会社設立後のお助け隊とは</a>
                     </li>
                     <li class="page-lists__item current-page">
-                        <a href="/campaign_flow current-page">選ばれる理由</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_reason' ) ); ?>">選ばれる理由</a>
                     </li>
                     <li class="page-lists__item">
-                        <a href="/campaign_flow">会社設立後の届出書類</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類</a>
                     </li>
                     <li class="page-lists__item">
-                        <a href="/campaign_flow">税理士とは</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_tax-accountant' ) ); ?>">税理士とは</a>
                     </li>
                 </ul>
             </div>
         </div>
+
         <section class="">
             <div class="inner">
                 <div class="title-box">

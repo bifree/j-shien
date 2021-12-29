@@ -3595,6 +3595,63 @@ select {
 
 @media screen and (max-width: 767px) {
 
+.apply-block .apply-block-inner {
+	width: 100%;
+}
+
+.apply-block .apply-block-inner img {
+	width: 100%;
+}
+
+.about .blue-text {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+.about .about-section .inner .about-title-box .about-title__sub {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+.about .about-section .inner .about-title-box .about-free {
+	font-size: 1.2rem;
+	margin-top: 20px;
+	width: 90%;
+}
+
+.about .about-section .inner .about-title-text {
+	text-align: justify;
+	width: 90%;
+}
+
+.about .about-section .inner .about-title-text .lower img {
+	width: 100%;
+}
+
+.about .about-section .inner .about-background h2 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+.about .about-section .inner .about-background-text p {
+	text-align: justify;
+	width: 90%;
+}
+
+.about .about-section .inner .about-suggest {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.about .about-section .inner .about__campain {
+	padding-top: 60px;
+}
+
+.about .about-section .inner .about__campain .inner {
+	box-sizing: border-box;
+	width: 90%;
+}
+
 .page__menu ._inner {
 	flex-wrap: wrap;
 }

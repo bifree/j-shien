@@ -6,6 +6,12 @@
 	.apply-block-inner {
 		width: fit-content;
 		margin: 0 auto;
+		@media screen and (max-width: 767px) {
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
 		p {
 			font-size: 1rem;
 			span.bigger {

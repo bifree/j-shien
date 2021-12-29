@@ -9,6 +9,10 @@
         text-align: center;
         color: #035aa6;
         font-weight: bold;
+        @media screen and (max-width: 767px) {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
     }
     .about-section {
         .inner {
@@ -37,6 +41,10 @@
                     text-align: center;
                     color: #035aa6;
                     font-weight: bold;
+                    @media screen and (max-width: 767px) {
+                        font-size: 2rem;
+                        line-height: 2.5rem;
+                    }
                 }
                 .about-free {
                     background-color: #333;
@@ -46,6 +54,11 @@
                     width: 59%;
                     margin: 0 auto;
                     text-align: center;
+                    @media screen and (max-width: 767px) {
+                        margin-top: 20px;
+                        width: 90%;
+                        font-size: 1.2rem;
+                    }
                 }
             }
             .about-title-text {
@@ -60,6 +73,15 @@
                     display: flex;
                     justify-content: center;
                 }
+                @media screen and (max-width: 767px) {
+                    width: 90%;
+                    text-align: justify;
+                    .lower {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
             }
             .about-background {
                 background-color: #F5F5F5;
@@ -68,6 +90,10 @@
                     font-size: 24px;
                     line-height: 42px;
                     font-weight: bold;
+                    @media screen and (max-width: 767px) {
+                        font-size: 2rem;
+                        line-height: 2.5rem;
+                    }
                 }
                 &-text {
                     margin-top: 45px;
@@ -79,6 +105,10 @@
                         margin-right: auto;
                         margin-left: auto;
                         margin-bottom: 28px;
+                        @media screen and (max-width: 767px) {
+                            width: 90%;
+                            text-align: justify;
+                        }
                     }
                 }
             }
@@ -91,9 +121,16 @@
                 text-align: center;
                 padding-top: 45px;
                 padding-bottom: 45px;
+                @media screen and (max-width: 767px) {
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                }
             }
             .about__campain {
                 padding-top: 115px;
+                @media screen and (max-width: 767px) {
+                    padding-top: 60px;
+                }
                 .center {
                     text-align: center;
                 }
@@ -108,6 +145,10 @@
                     padding: 40px 30px 40px 40px;
                     margin: 0 auto 20px;
                     width: 650px;
+                    @media screen and (max-width: 767px) {
+                        width: 90%;
+                        box-sizing: border-box;
+                    }
                 }
                 .bottom-h {
                     margin: 84px auto 34px;

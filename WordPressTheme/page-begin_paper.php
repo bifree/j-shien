@@ -20,7 +20,7 @@
                         <a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類</a>
                     </li>
                     <li class="page-lists__item">
-                        <a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">税理士とは</a>
+                        <a href="<?php echo esc_url( home_url( '/begin_tax-accountant' ) ); ?>">税理士とは</a>
                     </li>
                 </ul>
             </div>
