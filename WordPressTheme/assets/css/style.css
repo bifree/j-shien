@@ -1524,6 +1524,8 @@ select {
 	background-color: #F4F4F4;
 	border: none;
 	box-sizing: border-box;
+	height: 300px;
+	resize: none;
 	width: 540px;
 }
 
