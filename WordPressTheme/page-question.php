@@ -8,7 +8,7 @@
   <!-- パンクず -->
    <div class="page-info">
     <div class="_inner">
-      <p class="pan-kuzu"><span>ホーム</span> ＞ <span>よくある質問</span></p>
+      <p class="pan-kuzu"><span><a href="/"><i class="fas fa-home"></i></a></span> ＞ <span>よくある質問</span></p>
     </div>
   </div>
 

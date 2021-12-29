@@ -5,7 +5,7 @@
     </div>
     <div class="page-info">
         <div class="_inner">
-            <p class="pan-kuzu"><span>ホーム</span> ＞ <span>電子申請キャンペーン</span></p>
+            <p class="pan-kuzu"><span><a href="/"><i class="fas fa-home"></i></a></span> ＞ <span>電子申請キャンペーン</span></p>
         </div>
     </div>
     <section class="info">

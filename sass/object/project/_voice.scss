@@ -68,7 +68,8 @@
                     width: calc((100% - 60px) * 28.947368);
                     margin-right: 60px;
                     img{
-                        width: 100%;
+                        width: 100% !important;
+                        height: auto;
                     }
                     @include mobile{
                         @media screen and (max-width: $tab){
@@ -83,6 +84,7 @@
                 }
                 &__text-box{
                     width: calc((100% - 60px) * 71.052632);
+                    line-height: 1.75em;
                     @include mobile{
                         @media screen and (max-width: $tab){
                             width: 100%;

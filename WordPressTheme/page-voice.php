@@ -5,7 +5,7 @@
     </div>
     <div class="page-info">
         <div class="_inner">
-            <p class="pan-kuzu"><span>ホーム</span> ＞ <span>お客様の声</span></p>
+            <p class="pan-kuzu"><span><a href="#"><i class="fas fa-home"></i></a></span> ＞ <span>お客様の声</span></p>
         </div>
     </div>
     <div class="voice-desc">
@@ -17,6 +17,32 @@
     <section class="voices">
         <div class="voice-inner">
             <ul class="voice-lists">
+
+                <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                $the_query = new WP_Query( array(
+                        'post_status' => 'publish',
+                        'paged' => $paged,
+                        'post_type' => 'post',
+                        'posts_per_page' => 5, // 表示件数
+                        'orderby'     => 'date',
+                        'order' => 'DESC'
+                ) );
+                if ($the_query->have_posts()) :
+                    while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+                <li class="voice-lists__item _flex">
+                    <div class="voice-lists__item__img">
+                        <?php the_post_thumbnail('thumbnail'); ?>
+                    </div>
+                    <div class="voice-lists__item__text-box ">
+                        <h3 class="voice-lists__item__title _flex"><?php the_title(); ?></h3>
+                        <p class="voice-lists__item__txt"><?php the_content(); ?></p>
+                        <p class="voice-lists__item__name"><?php the_field('customer-info'); ?></p>
+                    </div>
+                </li>
+
+                <?php endwhile; endif; ?>
+
                 <li class="voice-lists__item _flex">
                     <div class="voice-lists__item__img">
                         <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/voice01.jpg" alt="お客様のお顔の写真">
@@ -27,6 +53,7 @@
                         <p class="voice-lists__item__name">合同会社姫路OEアカデミー　代表社員　佐々木　正博 様</p>
                     </div>
                 </li>
+
                 <li class="voice-lists__item _flex">
                     <div class="voice-lists__item__img">
                         <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/voice02.jpg" alt="お客様のお顔の写真">
