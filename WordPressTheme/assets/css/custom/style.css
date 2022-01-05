@@ -798,6 +798,38 @@ header {
 	text-align: center;
 }
 
+.top-section-flow .btn {
+	background-color: #6D7E8C;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 45px;
+	line-height: 45px;
+	margin: 50px auto 0;
+	position: relative;
+	text-align: center;
+	width: 486px;
+}
+
+.top-section-flow .btn a {
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.top-section-flow .btn .fa-chevron-right {
+	align-items: center;
+	border: 1px solid white;
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	height: 24px;
+	justify-content: center;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 24px;
+}
+
 .top-flow-title-box .flow-title {
 	color: #6D7E8C;
 	font-size: 20px;
@@ -1177,6 +1209,18 @@ section.top-conform ul.conform-lists li.conform-lists__item {
 
 .appeal {
 	padding-bottom: 0;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+.top-section-flow .btn {
+	width: 90%;
+}
+
+.top-section-flow .btn a {
+	font-size: 14px;
 }
 
 }

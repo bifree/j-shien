@@ -4271,6 +4271,11 @@ select {
 	font-size: 1.6rem;
 }
 
+.origin-apply-block .apply-block-inner .free-dial .right p.bigger a {
+	color: #FFF;
+	text-decoration: none;
+}
+
 .apply-block {
 	min-height: none;
 	padding-bottom: 15px;
@@ -4316,6 +4321,11 @@ select {
 
 .apply-block .apply-block-inner .free-dial .right p.bigger {
 	font-size: 1.6rem;
+}
+
+.apply-block .apply-block-inner .free-dial .right p.bigger a {
+	color: #fff;
+	text-decoration: none;
 }
 
 .caution {

@@ -934,6 +934,42 @@ header {
         text-align: center;
         margin-bottom: 70px;
     }
+    .btn {
+        background-color: #6D7E8C;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 45px;
+        line-height: 45px;
+        margin: 50px auto 0;
+        text-align: center;
+        width: 486px;
+		@media screen and (max-width:425px) {
+			width: 90%;
+			a {
+				font-size: 14px;
+			}
+        }
+        a {
+            text-decoration: none;
+            color: #FFF;
+            font-size: 16px;
+        }
+        position: relative;
+    
+        .fa-chevron-right {
+            border-radius: 50%;
+            border: 1px solid white;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            color: white;
+        }
+    }
 }
 
 .top-flow-title-box {
