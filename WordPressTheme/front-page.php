@@ -102,7 +102,7 @@
 					<p>税理士におまかせで<br>設立後の手続きが完了！</p>
 				</div>
 				<div class="reason-box-last">
-					<img src="" alt="">
+					<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2022/01/shake-hands.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -123,7 +123,7 @@
 				</div>
 			</div>
 			<div class="result-title">
-				<p class="text-center">お客様アンケート</p><span class="text-right">（2020年度アンケート調査）</span>
+				<p class="text-center">お客様アンケート</p>
 			</div>
 			<div class="result">
 				<div class="result-left">
