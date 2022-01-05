@@ -24,7 +24,7 @@
 				<nav>
 					<ul>
 						<li><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">はじめての方へ</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">電子申請キャンペーン</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">電子申請キャンペーン</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/voice' ) ); ?>">お客様の声</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/question' ) ); ?>">よくある質問</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">運営会社</a></li>
@@ -37,7 +37,7 @@
 				<nav>
 					<ul>
 						<li><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">はじめての方へ</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">電子申請キャンペーン</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">電子申請キャンペーン</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/voice' ) ); ?>">お客様の声</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/question' ) ); ?>">よくある質問</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">運営会社</a></li>
