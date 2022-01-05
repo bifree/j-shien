@@ -23,7 +23,7 @@
             <br>電子申請キャンペーン
             </h2>
             <figure>
-                <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/manga.png" alt="説明のマンガ">
+                <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2022/01/94bcb9964d138838c2298a9925d1b5ff.png" alt="説明のマンガ">
             </figure>
         </div>
     </section>
