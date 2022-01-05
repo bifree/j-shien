@@ -28,14 +28,14 @@
 
     <div class="page__menu">
         <div class="_inner">
-            <a href="#paper__document">会社設立後の<br class="sp-br">お助け隊とは</a>
-            <a href="#paper__method">会社設立後のお助け隊<br class="sp-br">が生まれた背景</a>
-            <a href="#paper__method">電子申請キャンペーン</a>
+            <a href="#about-us">会社設立後の<br class="sp-br">お助け隊とは</a>
+            <a href="#about-background">会社設立後のお助け隊<br class="sp-br">が生まれた背景</a>
+            <a href="#about__campain">電子申請キャンペーン</a>
         </div>
     </div>
 
     <!-- about -->
-    <section class="about-section">
+    <section class="about-section" id="about-us">
         <div class="inner">
             <div class="about-title-box">
                 <h2 class="about-title">ABOUT US</h2>
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="about-background">
+            <div class="about-background" id="about-background">
                 <h2>新設法人を応援！</h2>
                 <h1 class="blue-text">「会社設立後のお助け隊」が生まれた背景</h1>
 
@@ -73,7 +73,7 @@
                     ご利用をお待ちしております。</h3>
             </div>
 
-            <div class="about__campain">
+            <div class="about__campain" id="about__campain">
                 <h3 class="title">会社設立後の届出書類</h3>
                 <h2 class="blue-text">電子申請キャンペーン</h2>
                 <p class="center">新設法人と税理士のご縁づくりを<br class="sp-br">目的とした税理士のお試しキャンペーンです</p>

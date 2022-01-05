@@ -280,7 +280,7 @@
 					</div>
 				</section>
 				<div class="btn">
-					<a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">電子申請キャンペーンご利用の流れの詳細はこちら</a>
+					<a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">電子申請キャンペーンご利用の流れの詳細はこちら</a>
 				<i class="fas fa-chevron-right"></i>
 			</div>
 			</div>
