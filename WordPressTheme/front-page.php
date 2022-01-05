@@ -7,7 +7,8 @@
 			<div class="top-banner_content">
 				<div class="block-content_1">
 					<div class="content-left">
-						<p class="color-yellow">新設法人応援</p>
+						<p class="color-yellow"><img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2022/01/ouen.png" alt="">
+						</p>
 						<!-- <img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/top-img-ef.png" alt=""> -->
 					</div>
 					<div class="content-right">
