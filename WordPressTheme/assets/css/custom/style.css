@@ -1207,13 +1207,22 @@ section.top-conform ul.conform-lists li.conform-lists__item {
 	margin-bottom: 20px;
 }
 
+section.top-conform ul.conform-lists li.conform-lists__item h3.conform-lists__item__title {
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+section.top-conform ul.conform-lists li.conform-lists__item::before {
+	left: -20px;
+}
+
 .appeal {
 	padding-bottom: 0;
 }
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 525px) {
 
 .top-section-flow .btn {
 	width: 90% !important;
@@ -1221,6 +1230,7 @@ section.top-conform ul.conform-lists li.conform-lists__item {
 
 .top-section-flow .btn a {
 	font-size: 12px;
+	width: 70%;
 	margin-right: 15px;
 }
 

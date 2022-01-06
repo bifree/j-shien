@@ -1178,6 +1178,10 @@ section.top-conform {
                 font-size: 18px;
                 line-height: 32px;
                 color: #333333;
+                @media screen and (max-width:767px) {
+                    font-size: 16px;
+                    line-height: 1.4;
+                }
             }
 
             &::before {
@@ -1188,6 +1192,9 @@ section.top-conform {
                 width: 13px;
                 height: 13px;
                 background: #01588E;
+                @media screen and (max-width:767px) {
+                    left: -20px;
+                }
             }
         }
     }
