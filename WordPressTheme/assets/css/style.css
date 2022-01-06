@@ -491,6 +491,10 @@ select {
 	vertical-align: middle;
 }
 
+* {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
 .l-footer {
 	background-color: #F5F5F5;
 	padding-bottom: 20px;
@@ -1254,6 +1258,14 @@ select {
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
+}
+
+.top-reason .reason-block .reason-box-last {
+	width: 425px;
+}
+
+.top-reason .reason-block .reason-box-last img {
+	width: 100%;
 }
 
 .top-reason .reason-block .reason-box {
@@ -2390,8 +2402,10 @@ select {
 	border-radius: 50%;
 	color: #fff;
 	font-size: 1.4375rem;
+	height: 36px;
+	line-height: 1.4375rem;
 	margin-right: 20px;
-	padding: 6.5px 10px;
+	padding: 6.5px 15px;
 	width: 36px;
 }
 
@@ -2421,17 +2435,6 @@ select {
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item p {
 	font-weight: 600;
 	padding-bottom: 20px;
-}
-
-.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul {
-	display: flex;
-	flex-wrap: wrap;
-	line-height: 1.2;
-	padding: 0 0 20px 16px;
-}
-
-.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul li {
-	padding-right: 45px;
 }
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item a {
@@ -4603,7 +4606,6 @@ select {
 
 .paper .paper__method .paper__method__title .method__number {
 	font-size: 1.375rem;
-	padding: 5px 8px;
 }
 
 .paper .paper__method .paper__method1 .paper__method1__top {
@@ -4629,16 +4631,6 @@ select {
 	font-size: 0.9375rem;
 	line-height: 1.75;
 	padding-bottom: 20px;
-}
-
-.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul {
-	font-size: 0.75rem;
-	line-height: 1.2;
-	padding: 0 0 5px 16px;
-}
-
-.paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item ul li {
-	padding-right: 20px;
 }
 
 .paper .paper__method .paper__method1 .papers__method1__items .paper__method1__item .paper__method1__item__image {

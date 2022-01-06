@@ -7,6 +7,9 @@
 	<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
