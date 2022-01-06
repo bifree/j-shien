@@ -5737,10 +5737,6 @@ li.menu__single:hover ul.menu__second-level {
 	width: 90%;
 }
 
-.apply-block .apply-block-inner .yellow-btn .inner-bottom {
-	flex-direction: column;
-}
-
 .top .btn {
 	width: 90%;
 }

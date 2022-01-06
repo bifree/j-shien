@@ -153,7 +153,6 @@
                 display: flex;
                 justify-content: center;
                 @media screen and (max-width:425px) {
-                    flex-direction: column;
                 }
                 i.fa-chevron-right {
                     align-items: center;
