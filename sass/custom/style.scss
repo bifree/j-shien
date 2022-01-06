@@ -167,6 +167,9 @@
 
 .mr-5 {
     margin-right: 3rem !important;
+    @media screen and (max-width:425px){
+        margin-right: 0!important;
+    }
 }
 
 .mx-5 {
@@ -486,6 +489,9 @@ header {
     }
 
     .header-contact {
+        @media screen and (max-width:1080px) {
+            margin-left: auto;
+        }
         .tel {
             .inner {
                 p {
@@ -500,7 +506,7 @@ header {
 }
 
 .top-banner {
-    height: 570px;
+    height: 585px;
     padding-top: 80px;
 }
 
@@ -603,6 +609,7 @@ header {
             margin: 0 auto;
             p {
                 font-size: 14px;
+                line-height: 1.5;
             }
             img {
                 width: 100%;

@@ -21,7 +21,7 @@
 					<h1>税理士<small>が</small>無料<small>で<br class="sp-br"></small>電子申請<small>します！</small></h1>
 				</div>
 				<div class="block-content_3">
-					<p>新しく会社を設立された方と税理士とのご縁づくり</p>
+					<p>新しく会社を設立された方と<br class="sp-br">税理士とのご縁づくり</p>
 					<?php get_template_part('template/yellow-btn'); ?>
 				</div>
 			</div>
@@ -51,7 +51,7 @@
 
 		<div class="suggestion">
 			<div class="suggest-top parallax">
-				<h4 class="under-line">こんなお悩みがある方にオススメ！</h4>
+				<h4 class="under-line">こんなお悩みがある方に<br class="sp-br">オススメ！</h4>
 				<h3>会社設立後のお困りごとを解決いたします</h3>
 			</div>
 			<div class="suggest-middle">

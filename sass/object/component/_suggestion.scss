@@ -7,6 +7,9 @@
         background-position-y: 70%;
         @media screen and (max-width:767px) {
             padding: 10px;
+            h3 {
+                font-size: 28px;
+            }
         }
         h4.under-line {
             border-bottom: 3px solid #FADD62;

@@ -3482,18 +3482,6 @@ select {
 
 @media screen and (max-width: 1080px) {
 
-.l-header .logo {
-	width: 55%;
-}
-
-.l-header .logo a {
-	width: 90%;
-}
-
-.l-header .logo a img {
-	width: 100%;
-}
-
 .l-header .header-menu {
 	display: none;
 }
@@ -4411,6 +4399,10 @@ select {
 	padding: 10px;
 }
 
+.suggestion .suggest-top h3 {
+	font-size: 28px;
+}
+
 .suggestion .suggest-middle .check-list {
 	width: 90%;
 }
@@ -5069,6 +5061,22 @@ select {
 @media screen and (max-width: 767px) and (max-width: 767px) {
 
 .yellow-btn .inner-top .right {
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 765px) {
+
+.l-header .logo {
+	width: 55%;
+}
+
+.l-header .logo a {
+	width: 90%;
+}
+
+.l-header .logo a img {
 	width: 100%;
 }
 
