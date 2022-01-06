@@ -26,8 +26,31 @@
 			<div class="header-menu">
 				<nav>
 					<ul>
-						<li><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">はじめての方へ</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">電子申請キャンペーン</a></li>
+						<li class="menu__single"><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">
+						はじめての方へ
+						<span>
+						<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324.4 210.9">
+						<polygon points="162.2,210.9 0,48.7 48.7,0 162.2,113.5 275.7,0 324.4,48.7 	"></polygon>
+						</svg>
+						</span>
+						</a>
+						<ul class="menu__second-level">
+							<li><a href="<?php echo esc_url( home_url( '/begin_reason' ) ); ?>">選ばれる理由</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/begin_tax-accountant' ) ); ?>">税理士は</a></li>
+						</ul>
+						</li>
+						<li class="menu__single"><a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">電子申請キャンペーン
+						<span>
+						<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324.4 210.9">
+						<polygon points="162.2,210.9 0,48.7 48.7,0 162.2,113.5 275.7,0 324.4,48.7 	"></polygon>
+						</svg>
+						</span></a>
+						<ul class="menu__second-level">
+							<li><a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">マンガで分かる</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">ご利用の流れ</a></li>
+						</ul>
+						</li>
 						<li><a href="<?php echo esc_url( home_url( '/voice' ) ); ?>">お客様の声</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/question' ) ); ?>">よくある質問</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">運営会社</a></li>

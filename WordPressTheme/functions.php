@@ -183,8 +183,9 @@ add_filter( 'mwform_value_mw-wp-form-121', 'mwform_birthday_year_value_setting',
 function mwform_birthday_year_value_setting( $value, $name ) {
 	if ( $name === 'year' ) {
 		$value = 2022;
+		$current_year = date( 'Y' );
 	}
-	return $value;
+	return $current_year;
 }
 
 add_filter( 'mwform_value_mw-wp-form-121', 'mwform_birthday_month_value_setting', 10, 2 );
