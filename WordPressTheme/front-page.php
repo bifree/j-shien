@@ -110,7 +110,7 @@
 
 		<div class="questionnaire">
 
-			<h3><span class="slash">\</span>利用して良かったと<span class="color-yellow bigger">96.7</span>％の方が回答<span class="slash">/</span></h3>
+			<h3><img src="<?php echo get_template_directory_uri(); ?>/assets/img/answer-title.png" alt=""></h3>
 
 			<div class="customer-answer">
 				<div class="voice">
