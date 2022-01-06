@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="inner-bottom">
-            電子申請キャンペーン お申し込み <i class="fas fa-chevron-right"></i>
+            電子申請キャンペーン お申込み <i class="fas fa-chevron-right"></i>
         </div>
     </a>
 </div>
