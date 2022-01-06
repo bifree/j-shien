@@ -120,14 +120,14 @@
 	}
 	.header-contact {
 		display: flex;
-		@media screen and (max-width: 1080px) {
-			display: none;
-		}
 		.tel {
 			display: flex;
 			align-items: center;
 			text-align: center;
 			margin-right: 20px;
+			@media screen and (max-width: 1080px) {
+				display: none;
+			}
 			.inner {
 				p {
 					span {
@@ -175,6 +175,22 @@
 						color: #FFF;
 						background-color: #000;
 						border-radius: 9px;
+					}
+				}
+				@media screen and (max-width: 1080px) {
+					width: 140px;
+					.inner {
+						.mail-inner {
+							width: fit-content;
+							margin: 0 auto;
+							.bigger {
+								font-size: 16px;
+								line-height: 25px;
+							}
+						}
+						p.smaller {
+							font-size: 8px;
+						}
 					}
 				}
 			}

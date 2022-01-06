@@ -44,10 +44,18 @@
         margin-right: auto;
         margin-left: auto;
         flex-wrap: wrap;
+        padding-bottom: 50px;
         .reason-box-last {
             width: 425px;
             img {
                 width: 100%;
+            }
+            @media screen and (max-width:767px) {
+                width: 85%;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
             }
         }
         .reason-box {

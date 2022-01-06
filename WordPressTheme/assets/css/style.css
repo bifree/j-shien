@@ -781,6 +781,7 @@ select {
 
 .apply-block .apply-block-inner p {
 	font-size: 1rem;
+	line-height: 1.5;
 }
 
 .apply-block .apply-block-inner p span.bigger {
@@ -1153,10 +1154,23 @@ select {
 	padding-top: 65px;
 }
 
+.suggestion .suggest-middle .check-list {
+	display: flex;
+	margin: 0 auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.suggestion .suggest-middle .check-list .check-sin {
+	font-size: 20px;
+	margin-right: 23px;
+}
+
 .suggestion .suggest-middle p {
 	margin-left: auto;
 	margin-right: auto;
-	width: 640px;
+	width: 645px;
 }
 
 .suggestion .suggest-middle .check {
@@ -1257,6 +1271,7 @@ select {
 	justify-content: space-between;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 50px;
 	width: 900px;
 }
 
@@ -3338,6 +3353,10 @@ select {
 	display: none;
 }
 
+.check-sin {
+	color: #56AEDD;
+}
+
 .voice {
 	padding-top: 45px;
 }
@@ -3560,8 +3579,28 @@ select {
 	transform: translateY(-8px) rotate(45deg);
 }
 
-.l-header .header-contact {
+.l-header .header-contact .tel {
 	display: none;
+}
+
+.l-header .header-contact a .apply-form {
+	width: 140px;
+}
+
+.l-header .header-contact a .apply-form .inner .mail-inner {
+	margin: 0 auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.l-header .header-contact a .apply-form .inner .mail-inner .bigger {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.l-header .header-contact a .apply-form .inner p.smaller {
+	font-size: 8px;
 }
 
 .top-reason h2 {
@@ -4335,6 +4374,15 @@ select {
 }
 
 .questionnaire h3 {
+	margin: 0 auto 40px;
+	width: 90%;
+}
+
+.questionnaire h3 img {
+	width: 100%;
+}
+
+.questionnaire h3 {
 	font-size: 1.6rem;
 }
 
@@ -4350,6 +4398,11 @@ select {
 	width: 80%;
 }
 
+.questionnaire .customer-answer .voice p {
+	font-size: 18px;
+	line-height: 1.4;
+}
+
 .top-graph .inner {
 	width: 100%;
 }
@@ -4358,7 +4411,20 @@ select {
 	padding: 10px;
 }
 
+.suggestion .suggest-middle .check-list {
+	width: 90%;
+}
+
+.suggestion .suggest-middle .check-list .check-sin {
+	margin-right: 10px;
+}
+
+.suggestion .suggest-middle .check-list .right {
+	width: 100%;
+}
+
 .suggestion .suggest-middle p {
+	line-height: 1.3;
 	width: 90%;
 }
 
@@ -4373,6 +4439,15 @@ select {
 .top-customer-voice h3 {
 	font-size: 2rem;
 	line-height: 2.5rem;
+}
+
+.top-reason .reason-block .reason-box-last {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.top-reason .reason-block .reason-box-last img {
+	width: 100%;
 }
 
 .yellow-btn {
@@ -4401,7 +4476,7 @@ select {
 	height: 6px;
 	position: absolute;
 	top: calc(50% - 3px);
-	width: 30%;
+	width: 25%;
 }
 
 .yellow-btn .inner-top .left::before {
@@ -4969,7 +5044,11 @@ select {
 }
 
 .top .price-block {
-	width: 90%;
+	width: 90% !important;
+}
+
+.top .price-block p {
+	line-height: 1.5;
 }
 
 .top .bg-gray {

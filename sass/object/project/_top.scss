@@ -60,7 +60,10 @@
         border: 1px solid #333;
         padding: 40px 30px 40px 40px;
         @media screen and (max-width:767px) {
-            width: 90%;
+            width: 90% !important;
+            p {
+                line-height: 1.5;
+            }
         }
     }
     .bg-gray {
@@ -102,4 +105,8 @@
     @media screen and (max-width: 767px) {
         display: block;
     }
+}
+
+.check-sin {
+    color: #56AEDD;
 }

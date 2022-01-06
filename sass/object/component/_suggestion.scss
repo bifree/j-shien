@@ -38,12 +38,31 @@
         padding-top: 65px;
         background-color: #F5F5F5;
         padding-bottom: 65px;
+        .check-list {
+            display: flex;
+            margin: 0 auto;
+            width: fit-content;
+            @media screen and (max-width:767px) {
+                width: 90%;
+                .check-sin {
+                    margin-right: 10px;
+                }
+                .right {
+                    width: 100%;
+                }
+            }
+            .check-sin {
+                margin-right: 23px;
+                font-size: 20px;
+            }
+        }
         p {
             margin-right: auto;
             margin-left: auto;
-            width: 640px;
+            width: 645px;
             @media screen and (max-width:767px) {
                 width: 90%;
+                line-height: 1.3;
             }
         }
         .check {

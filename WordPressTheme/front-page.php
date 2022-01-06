@@ -55,11 +55,26 @@
 				<h3>会社設立後のお困りごとを解決いたします</h3>
 			</div>
 			<div class="suggest-middle">
-				<p class="check">会社を設立したが、何をどうしたらいいのか分からない</p>
-				<p class="check">税務署や役所へ届出書類のことはよくわからないし、面倒</p>
-				<p class="check">本業に集中したいが、売上に直結しない間接業務に手間がかかっている</p>
-				<p class="check">税理士を探しているが、どうやって選べばよいのか分からない</p>
-				<p class="check">税理士に相談したいことがたくさんある</p>
+				<div class="check-list">
+					<div class="left"><span class="check-sin">&#10004;</span></div>
+					<div class="right"><p class="check">会社を設立したが、何をどうしたらいいのか分からない</p></div>
+				</div>
+				<div class="check-list">
+					<div class="left"><span class="check-sin">&#10004;</span></div>
+					<div class="right"><p class="check">税務署や役所へ届出書類のことはよくわからないし、面倒</p></div>
+				</div>
+				<div class="check-list">
+					<div class="left"><span class="check-sin">&#10004;</span></div>
+					<div class="right"><p class="check">本業に集中したいが、売上に直結しない間接業務に手間がかかっている</p></div>
+				</div>
+				<div class="check-list">
+					<div class="left"><span class="check-sin">&#10004;</span></div>
+					<div class="right"><p class="check">税理士を探しているが、どうやって選べばよいのか分からない</p></div>
+				</div>
+				<div class="check-list">
+					<div class="left"><span class="check-sin">&#10004;</span></div>
+					<div class="right"><p class="check">税理士に相談したいことがたくさんある</p></div>
+				</div>
 				<p>「創業融資」「節税対策」「会計ソフト導入」「補助金・助成金」「許認可」.etc</p>
 			</div>
 		</div>

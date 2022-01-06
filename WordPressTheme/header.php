@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
@@ -49,14 +49,6 @@
 			</div>
 			<!-- スマホ用メニュー -->
 			
-			<!-- レスポンシブ用メニューボタン -->
-			<div class="navbtn">
-                <i></i>
-                <i></i>
-                <i></i>
-                <p class="navbtn_txt_menu">MENU</p>
-                <p class="navbtn_txt_close">CLOSE</p>
-            </div>
 			<div class="header-contact">
 				<div class="tel">
 					<div class="inner">
@@ -76,5 +68,13 @@
 					</div>
 				</a>
 			</div>
+			<!-- レスポンシブ用メニューボタン -->
+			<div class="navbtn">
+                <i></i>
+                <i></i>
+                <i></i>
+                <p class="navbtn_txt_menu">MENU</p>
+                <p class="navbtn_txt_close">CLOSE</p>
+            </div>
 		</div>
 	</header>
