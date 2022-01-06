@@ -257,11 +257,11 @@
             <th>500枚以上</th>
           </tr>
           <tr>
-            <td>16,500<span class="sp-small">円</span></td>
-            <td>22,000<span class="sp-small">円</span></td>
-            <td>27,500<span class="sp-small">円</span></td>
-            <td>33,000<span class="sp-small">円</span></td>
-            <td>33,000<span class="sp-small">円以上</span></td>
+            <td>15,000<span class="sp-small">円</span></td>
+            <td>20,000<span class="sp-small">円</span></td>
+            <td>25,000<span class="sp-small">円</span></td>
+            <td>30,000<span class="sp-small">円</span></td>
+            <td>30,000<span class="sp-small">円以上</span></td>
           </tr>
         </table>
       </div>
