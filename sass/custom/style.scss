@@ -519,6 +519,9 @@ header {
     margin: auto;
     text-align: center;
     padding: 70px 0;
+    @media screen and (max-width:1200px) {
+        width: 100%;
+    }
     @media screen and (max-width:767px) {
         width: 100%;
         padding-top: 30px;
@@ -782,12 +785,17 @@ header {
 }
 
 .result {
-    max-width: 1000px;
-    margin: auto;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    padding: 30px 100px 25px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+    padding: 30px 99px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    @media screen and (max-width:1080px) {
+        padding: 30px 0 25px;
+    }
     @media screen and (max-width:767px) {
         width: 80%;
         margin: 0 auto;

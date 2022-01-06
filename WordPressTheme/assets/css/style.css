@@ -3699,6 +3699,35 @@ li.menu__single:hover ul.menu__second-level {
 	font-size: 8px;
 }
 
+.header-nav {
+	background-color: #fff;
+	box-sizing: border-box;
+	display: block;
+	height: 100%;
+	position: fixed;
+	right: -100%;
+	top: 0;
+	transform: translateX(100%);
+	transition: all 0.6s;
+	width: 100%;
+	z-index: 5;
+}
+
+.header-nav ul {
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+}
+
+.header-nav ul li {
+	margin-bottom: 50px;
+}
+
+.header-nav ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -4291,35 +4320,6 @@ li.menu__single:hover ul.menu__second-level {
 	border-right: none;
 	padding-left: 0;
 	padding-right: 0;
-}
-
-.header-nav {
-	background-color: #fff;
-	box-sizing: border-box;
-	display: block;
-	height: 100%;
-	position: fixed;
-	right: -100%;
-	top: 0;
-	transform: translateX(100%);
-	transition: all 0.6s;
-	width: 100%;
-	z-index: 5;
-}
-
-.header-nav ul {
-	left: 50%;
-	position: absolute;
-	transform: translateX(-50%);
-}
-
-.header-nav ul li {
-	margin-bottom: 50px;
-}
-
-.header-nav ul li a {
-	color: #333;
-	text-decoration: none;
 }
 
 .appeal {

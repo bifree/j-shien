@@ -683,11 +683,13 @@ header {
 
 .result {
 	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
 	max-width: 1000px;
-	padding: 30px 100px 25px;
+	padding: 30px 99px 25px;
+	width: 100%;
 }
 
 .result-nd_title h4 {
@@ -1034,6 +1036,10 @@ section.comments {
 
 @media screen and (max-width: 1200px) {
 
+.top-banner_content {
+	width: 100%;
+}
+
 .result-title {
 	width: 100%;
 }
@@ -1044,6 +1050,14 @@ section.comments {
 
 .l-header .header-contact {
 	margin-left: auto;
+}
+
+}
+
+@media screen and (max-width: 1080px) {
+
+.result {
+	padding: 30px 0 25px;
 }
 
 }
