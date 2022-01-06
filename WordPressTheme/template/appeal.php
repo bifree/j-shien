@@ -9,7 +9,7 @@
 </div>
 <div class="caution">
     <p>日本企業支援センターは、Pマーク取得企業です。お客様の個人情報を守ります。</p>
-    <a href="https://www.j-shien.co.jp/privacy.pdf">プライバシーポリシー</a>
+    <a href="https://www.j-shien.co.jp/privacy.pdf">プライバシーポリシー 　></a>
     <p class="second-p">日本企業支援センターは、反社会的勢力との関係を一切持ちません。</p>
-    <a href="https://j-shien.co.jp/antisocial.pdf">反社会的勢力に対する基本方針</a>
+    <a href="https://j-shien.co.jp/antisocial.pdf">反社会的勢力に対する基本方針 　></a>
 </div>
