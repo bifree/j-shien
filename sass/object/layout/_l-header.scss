@@ -290,17 +290,20 @@ ul.menu__second-level {
     background: #FFF;
 	height: 40px;
 	width: 100%;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #ccc;
 }
 
 .l-header .header-menu nav ul li ul.menu__second-level li:nth-child(1){
-	border-top: 1px solid #333;
+	border-top: 1px solid #ccc;
+}
+
+.l-header .header-menu nav ul li ul.menu__second-level li:hover a{
+	opacity: 0.5;
 }
 
 .l-header .header-menu nav ul li ul.menu__second-level li a{
 	line-height: 40px;
 }
-
 
 li.menu__single:hover ul.menu__second-level {
     top: 50px;
