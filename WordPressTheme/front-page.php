@@ -185,7 +185,7 @@
 				<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/graph001.png" alt="">
 			</div>
 			<div class="btn">
-				<a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類の詳細はこちら</a>
+				<a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類の提出方法の詳細はこちら</a>
 				<i class="fas fa-chevron-right"></i>
 			</div>
 		</div>
@@ -252,7 +252,7 @@
 								</div>
 							</div>
 							<div class="step-item__text">
-								<h3 class="step-item__text-title">電子申請の控えを 受け取る</h3>
+								<h3 class="step-item__text-title">電子申請の控えを<br>受け取る</h3>
 							</div>
 						</div>
 					</li>
