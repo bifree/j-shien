@@ -152,3 +152,53 @@ add_filter( 'excerpt_more', 'my_excerpt_more' );
 
 // アイキャッチ画像を有効にする。
 add_theme_support('post-thumbnails');
+
+add_filter( 'mwform_choices_mw-wp-form-121', 'mwform_add_birthday_options', 10, 2 );
+function mwform_add_birthday_options( $children, $atts ) {
+  // 年設定
+	if ( $atts['name'] === 'birthday_year' ) {
+		for ( $i = 1950; $i <= date( 'Y' ); $i++ ) {
+		$children[$i] = $i;
+		}
+	}
+
+	// 月設定
+	if ( $atts['name'] === 'birthday_month' ) {
+		for ( $i = 1; $i <= 12; $i++ ) {
+		$children[$i] = $i;
+		}
+	}
+
+	// 日設定
+	if ( $atts['name'] === 'birthday_day' ) {
+		for ( $i = 1; $i <= 31; $i++ ) {
+		$children[$i] = $i;
+		}
+	}
+
+	return $children;
+}
+
+add_filter( 'mwform_value_mw-wp-form-121', 'mwform_birthday_year_value_setting', 10, 2 );
+function mwform_birthday_year_value_setting( $value, $name ) {
+	if ( $name === 'year' ) {
+		$value = 2022;
+	}
+	return $value;
+}
+
+add_filter( 'mwform_value_mw-wp-form-121', 'mwform_birthday_month_value_setting', 10, 2 );
+function mwform_birthday_month_value_setting( $value, $name ) {
+	if ( $name === 'month' ) {
+		$value = 1;
+	}
+	return $value;
+}
+
+add_filter( 'mwform_value_mw-wp-form-121', 'mwform_birthday_date_value_setting', 10, 2 );
+function mwform_birthday_date_value_setting( $value, $name ) {
+	if ( $name === 'date' ) {
+		$value = 1;
+	}
+	return $value;
+}

@@ -98,7 +98,18 @@ input[type="radio"],
 input[type="checkbox"] {
 	display: none;
 }
-input[type="radio"] + span,
+input[type="radio"] + span {
+	display: inline-block;
+	position: relative;
+	margin-left: 8px;
+	padding: 10px 20px;
+	color: #555;
+	font-size: 1.4rem;
+	text-align: center;
+	line-height: 1;
+	cursor: pointer;
+}
+
 input[type="checkbox"] + span {
 	display: inline-block;
 	position: relative;
@@ -110,11 +121,20 @@ input[type="checkbox"] + span {
 	line-height: 1;
 	cursor: pointer;
 }
-input[type="radio"] + span::before,
+input[type="radio"] + span::before {
+    background: #fff;
+    border: 1px solid #ccc;
+    content: "";
+    height: 16px;
+    left: -8px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
 input[type="checkbox"] + span::before {
 	position: absolute;
 	top: 50%;
-	left: -8px;
 	width: 16px;
 	height: 16px;
 	content: "";
@@ -223,6 +243,7 @@ input[type="checkbox"] + span:hover::after {
 	height: 8px;
 	margin-top: -4px;
 	background: #ccc;
+	display: none;
 }
 
 /* checked */
@@ -234,8 +255,7 @@ input[type="radio"]:checked + span::before,
 input[type="checkbox"]:checked + span::before {
 	border-color: #3498db;
 }
-input[type="radio"]:checked + span::after,
-input[type="checkbox"]:checked + span::after {
+input[type="radio"]:checked + span::after {
 	position: absolute;
 	content: "";
 	top: 50%;
@@ -244,6 +264,21 @@ input[type="checkbox"]:checked + span::after {
 	height: 8px;
 	margin-top: -4px;
 	background: #3498db;
+}
+
+input[type="checkbox"]:checked + span::after {
+    border-right: 3px solid #3498db;
+    border-bottom: 3px solid #3498db;
+    content: '';
+    display: block;
+    height: 9px;
+	left: 25px;
+    margin-top: -7px;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 5px;
 }
 
 /* radio */
