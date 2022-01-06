@@ -47,6 +47,12 @@
 				display: block;
 				.left {
 					border-right: none;
+					.inner {
+						width: 100%;
+						.bigger, .smaller {
+							text-align: center;
+						}
+					}
 				}
 			}
 			.left {
@@ -139,6 +145,12 @@
 				display: block;
 				.left {
 					border-right: none;
+					.inner {
+						width: 100%;
+						.bigger, .smaller {
+							text-align: center;
+						}
+					}
 				}
 			}
 			.left {

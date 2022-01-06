@@ -166,6 +166,7 @@
                     @media screen and (max-width:767px) {
                         width: 20px;
                         height: 20px;
+                        box-sizing: border-box;
                     }
                     &::before {
                         position: absolute;

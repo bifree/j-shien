@@ -29,7 +29,7 @@
 	}
 	.header-menu {
 		width: 41%;
-		@media screen and (max-width: 1080px) {
+		@media screen and (max-width: 1180px) {
 			display: none;
 		}
 		nav {
@@ -50,7 +50,7 @@
 	}
 	.navbtn {
 		display: none;
-		@media screen and (max-width: 1080px) {	
+		@media screen and (max-width: 1180px) {	
 			position: relative;
 			z-index: 10;
 			justify-content: center;
@@ -125,7 +125,7 @@
 			align-items: center;
 			text-align: center;
 			margin-right: 20px;
-			@media screen and (max-width: 1080px) {
+			@media screen and (max-width: 1180px) {
 				display: none;
 			}
 			.inner {
@@ -177,7 +177,7 @@
 						border-radius: 9px;
 					}
 				}
-				@media screen and (max-width: 1080px) {
+				@media screen and (max-width: 1180px) {
 					width: 140px;
 					.inner {
 						.mail-inner {
