@@ -35,6 +35,7 @@
 						</span>
 						</a>
 						<ul class="menu__second-level">
+							<li><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">お助け隊とは</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/begin_reason' ) ); ?>">選ばれる理由</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/begin_tax-accountant' ) ); ?>">税理士は</a></li>
