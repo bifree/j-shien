@@ -15,8 +15,10 @@
     }
     &:hover {
         background-color: #FFF;
-        i {
-            background-color: #FADD62;
+        .inner-bottom {
+            .arrow {
+                right: 15px;
+            }
         }
     }
     .inner-top {
@@ -41,12 +43,45 @@
     .inner-bottom {
         align-items: center;
         display: flex;
-        justify-content: center;
         line-height: 20px;
-        padding-left: 10px;
+        padding-left: 30px;
         font-size: 39px;
         font-weight: bold;
-        margin-top: 16px;
+        padding-top: 16px;
+        position: relative;
+        p.btn-title {
+            font-size: 39px !important;
+            color: #333 !important;
+            line-height: 20px;
+        }
+        .arrow {
+            width: 40px;
+            height: 40px;
+            display: block;
+            border: 2px solid #333;
+            background-color: #FADD62;
+            border-radius: 50%;
+            position: absolute;
+            right: 30px;
+            top: 25%;
+            &::before {
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                left: 10px;
+                top: 50%;
+                border: 3px solid #333;
+                border-bottom: 0;
+                border-left: 0;
+                -webkit-transform: translateY(-50%) rotate(
+            45deg);
+                -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(
+            45deg);
+            }
+        }
         i.fa-chevron-right {
             align-items: center;
             border-radius: 50%;
@@ -113,7 +148,7 @@
             }
         }
         .inner-bottom {
-            font-size: 18px;
+            font-size: 15px;
             margin-top: 0;
             line-height: 20px;
             text-align: center;
@@ -138,6 +173,15 @@
 .apply-block {
     .apply-block-inner {
         .yellow-btn {
+            &:hover {
+                .inner-bottom {
+                    position: relative;
+                    i.fa-chevron-right {
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+            }
             @media screen and (max-width:767px) {
                 width: 80%;
             }
@@ -147,11 +191,10 @@
             }
             box-sizing: border-box;
             .inner-bottom {
-                padding-left: 10px;
+                padding-left: 30px;
                 line-height: 20px;
                 align-items: center;
                 display: flex;
-                justify-content: center;
                 @media screen and (max-width:425px) {
                 }
                 i.fa-chevron-right {

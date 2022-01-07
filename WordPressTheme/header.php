@@ -9,7 +9,9 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@800&display=swap" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
@@ -52,9 +54,9 @@
 							<li><a href="<?php echo esc_url( home_url( '/campaign_flow' ) ); ?>">ご利用の流れ</a></li>
 						</ul>
 						</li>
-						<li><a href="<?php echo esc_url( home_url( '/voice' ) ); ?>">お客様の声</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/question' ) ); ?>">よくある質問</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">運営会社</a></li>
+						<li class="menu__single"><a href="<?php echo esc_url( home_url( '/voice' ) ); ?>">お客様の声</a></li>
+						<li class="menu__single"><a href="<?php echo esc_url( home_url( '/question' ) ); ?>">よくある質問</a></li>
+						<li class="menu__single"><a href="<?php echo esc_url( home_url( '/company' ) ); ?>">運営会社</a></li>
 					</ul>
 				</nav>
 			</div>
