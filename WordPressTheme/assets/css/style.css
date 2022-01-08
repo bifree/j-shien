@@ -5304,7 +5304,7 @@ li.menu__single:hover ul.menu__second-level {
 	width: 80%;
 }
 
-.sp-block img {
+.sp-block a img {
 	width: 100%;
 }
 
@@ -5850,7 +5850,7 @@ li.menu__single:hover ul.menu__second-level {
 	width: 90%;
 }
 
-.sp-block img {
+.sp-block a img {
 	width: 100%;
 }
 

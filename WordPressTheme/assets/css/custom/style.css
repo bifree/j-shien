@@ -1255,6 +1255,20 @@ section.top-conform ul.conform-lists li.conform-lists__item::before {
 	margin-right: 0 !important;
 }
 
+.top-banner_content .block-content_3 {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.top-banner_content .block-content_3 p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.top-banner_content .block-content_3 img {
+	width: 100%;
+}
+
 .top-section-flow .btn {
 	width: 90% !important;
 }

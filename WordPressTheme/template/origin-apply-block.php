@@ -6,7 +6,9 @@
 		</div>
 		<?php get_template_part('template/yellow-btn'); ?>
 		<div class="sp-block">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow-btn.png" alt="">
+			<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow-btn.png" alt="">
+			</a>
 		</div>
 		<div class="free-dial">
 			<div class="left">
