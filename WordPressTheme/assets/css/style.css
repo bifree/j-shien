@@ -1239,6 +1239,10 @@ li.menu__single:hover ul.menu__second-level {
 	text-decoration: none;
 }
 
+.sp-block {
+	display: none;
+}
+
 .suggestion .suggest-top {
 	background-position-y: 70%;
 	color: #FFF;
@@ -2041,7 +2045,7 @@ li.menu__single:hover ul.menu__second-level {
 	display: flex;
 }
 
-.contact-form .mw_wp_form form .confirm-btn button {
+.contact-form .mw_wp_form form .confirm-btn input {
 	background-color: #FADD62;
 	border: 2px solid #333;
 	border-radius: 3px;
@@ -4643,6 +4647,9 @@ li.menu__single:hover ul.menu__second-level {
 }
 
 .yellow-btn {
+	height: auto;
+	padding-bottom: 8px;
+	padding-top: 8px;
 	width: 90%;
 }
 
@@ -4696,24 +4703,33 @@ li.menu__single:hover ul.menu__second-level {
 	font-size: 15px;
 	line-height: 20px;
 	margin-top: 0;
+	padding-top: 0;
 	text-align: center;
 }
 
-.yellow-btn .inner-bottom i.fa-chevron-right {
-	height: 20px;
-	width: 20px;
+.yellow-btn .inner-bottom p.btn-title {
+	font-size: 3.5vw !important;
 }
 
-.yellow-btn .inner-bottom i.fa-chevron-right:hover {
-	background-color: #FADD62;
+.yellow-btn .inner-bottom .arrow {
+	height: 15px;
+	right: px;
+	width: 15px;
 }
 
-.yellow-btn .inner-bottom i.fa-chevron-right ::before {
-	text-align: center;
-	width: 100%;
+.yellow-btn .inner-bottom .arrow::before {
+	border: 2px solid #333;
+	border-bottom: 0;
+	border-left: 0;
+	height: 5px;
+	left: 3px;
+	width: 5px;
 }
 
 .apply-block .apply-block-inner .yellow-btn {
+	height: auto;
+	padding-bottom: 8px;
+	padding-top: 8px;
 	width: 80%;
 }
 
@@ -5262,7 +5278,8 @@ li.menu__single:hover ul.menu__second-level {
 @media screen and (max-width: 767px) and (max-width: 767px) {
 
 .yellow-btn .inner-top .right {
-	width: 100%;
+	line-height: 18px;
+	width: 90%;
 }
 
 }
@@ -5279,6 +5296,20 @@ li.menu__single:hover ul.menu__second-level {
 
 .l-header .logo a img {
 	width: 100%;
+}
+
+.sp-block {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.sp-block img {
+	width: 100%;
+}
+
+.yellow-btn {
+	display: none;
 }
 
 }
@@ -5813,6 +5844,16 @@ li.menu__single:hover ul.menu__second-level {
 	font-size: 14px;
 }
 
+.sp-block {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.sp-block img {
+	width: 100%;
+}
+
 .top-customer-voice .btn {
 	width: 90%;
 }
@@ -5830,7 +5871,7 @@ li.menu__single:hover ul.menu__second-level {
 	width: 90%;
 }
 
-.contact-form .mw_wp_form form .confirm-btn button {
+.contact-form .mw_wp_form form .confirm-btn input {
 	font-size: 14px;
 }
 

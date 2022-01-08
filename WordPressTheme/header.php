@@ -37,10 +37,10 @@
 						</span>
 						</a>
 						<ul class="menu__second-level">
-							<li><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">お助け隊とは</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/begin_about' ) ); ?>">会社設立後のお助け隊とは</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/begin_reason' ) ); ?>">選ばれる理由</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/begin_tax-accountant' ) ); ?>">税理士は</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/begin_tax-accountant' ) ); ?>">税理士とは</a></li>
 						</ul>
 						</li>
 						<li class="menu__single"><a href="<?php echo esc_url( home_url( '/campaign_manga' ) ); ?>">電子申請キャンペーン

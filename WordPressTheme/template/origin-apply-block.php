@@ -5,6 +5,9 @@
 			<p class="sp-center"><span class="slash">\</span><span class="bigger">面倒な手続きを税理士にお任せ！</span><span class="slash">/</span></p>
 		</div>
 		<?php get_template_part('template/yellow-btn'); ?>
+		<div class="sp-block">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow-btn.png" alt="">
+		</div>
 		<div class="free-dial">
 			<div class="left">
 				<div class="inner">

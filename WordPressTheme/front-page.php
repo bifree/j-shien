@@ -23,6 +23,9 @@
 				<div class="block-content_3">
 					<p>新しく会社を設立された方と<br class="sp-br">税理士とのご縁づくり</p>
 					<?php get_template_part('template/yellow-btn'); ?>
+					<div class="sp-block">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/yellow-btn.png" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
