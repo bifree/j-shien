@@ -723,6 +723,13 @@ header {
 	width: 30px;
 }
 
+.ranking .ranking-number-o {
+	color: #333;
+	margin-right: 15px;
+	text-align: center;
+	width: 30px;
+}
+
 .ranking .ranking-number.rank-gold {
 	background-color: #D9AA1E;
 }
@@ -896,7 +903,9 @@ header {
 	font-family: Roboto;
 	font-size: 20px;
 	font-weight: bold;
+	margin: 0 auto;
 	position: relative;
+	width: 185px;
 }
 
 .top-step .step-item .step-item__illust .step-item__illust-step span {

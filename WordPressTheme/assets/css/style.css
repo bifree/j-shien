@@ -793,6 +793,20 @@ ul.menu__second-level {
 	width: 4px;
 }
 
+.l-header .header-menu nav ul li ul.first-level li:nth-child(1) a::before {
+	border: 2px solid #333;
+	border-bottom: 0;
+	border-left: 0;
+	content: "";
+	display: block;
+	height: 4px;
+	left: 7px;
+	position: absolute;
+	top: 25%;
+	transform: translateY(-50%) rotate(45deg);
+	width: 4px;
+}
+
 li.menu__single:hover ul.menu__second-level {
 	margin-top: 10px;
 	opacity: 1;
@@ -1271,7 +1285,7 @@ li.menu__single:hover ul.menu__second-level {
 .suggestion .suggest-top ::before {
 	border-color: #035aa6 transparent;
 	border-style: solid;
-	border-width: 20px 10px 0 10px;
+	border-width: 20px 20px 0 20px;
 	bottom: -20px;
 	content: '';
 	display: block;

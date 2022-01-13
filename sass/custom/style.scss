@@ -868,6 +868,12 @@ header {
         align-items: center;
         color: #fff;
         margin-right: 15px;
+        &-o {
+            color: #333;
+            text-align: center;
+            margin-right: 15px;
+            width: 30px;
+        }
     }
 
     .ranking-number.rank-gold {
@@ -1075,6 +1081,8 @@ header {
             .step-item__illust-step {
                 color: #01588E;
                 font-family: Roboto;
+                width: 185px;
+                margin: 0 auto;
                 font-size: 20px;
                 font-weight: bold;
                 position: relative;

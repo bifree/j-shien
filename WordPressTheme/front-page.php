@@ -181,11 +181,11 @@
 							<p class="ranking-content">経理の進め方<small>（会計ソフト導入）</small></p>
 						</div>
 						<div class="ranking">
-							<div class="ranking-number">4</div>
+							<div class="ranking-number-o">4</div>
 							<p class="ranking-content">節税、決算対策等の税務相談</p>
 						</div>
 						<div class="ranking">
-							<div class="ranking-number">5</div>
+							<div class="ranking-number-o">5</div>
 							<p class="ranking-content">創業融資・助成金等の資金調達</p>
 						</div>
 					</div>
@@ -205,7 +205,7 @@
 				<img src="https://todokede.sakura.ne.jp/ne2/wp-content/uploads/2021/12/graph001.png" alt="">
 			</div>
 			<div class="btn">
-				<a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">会社設立後の届出書類の提出方法の詳細はこちら</a>
+				<a href="<?php echo esc_url( home_url( '/begin_paper' ) ); ?>">届出書類の提出方法の詳細はこちら</a>
 				<i class="fas fa-chevron-right"></i>
 			</div>
 		</div>
